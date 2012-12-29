@@ -1,0 +1,45 @@
+com.google.ads.AdView
+com.google.ads.AdView: AdView(android.content.Context,android.util.AttributeSet)
+com.google.ads.AdView
+com.google.ads.AdView: AdView(android.content.Context,android.util.AttributeSet,int)
+com.google.ads.searchads.SearchAdRequest$BorderType: com.google.ads.searchads.SearchAdRequest$BorderType[] values()
+com.google.ads.searchads.SearchAdRequest$BorderType: com.google.ads.searchads.SearchAdRequest$BorderType valueOf(java.lang.String)
+com.google.ads.AdRequest$ErrorCode: com.google.ads.AdRequest$ErrorCode[] values()
+com.google.ads.AdRequest$ErrorCode: com.google.ads.AdRequest$ErrorCode valueOf(java.lang.String)
+com.google.ads.ab$b: com.google.ads.ab$b[] values()
+com.google.ads.ab$b: com.google.ads.ab$b valueOf(java.lang.String)
+com.google.ads.util.AdUtil$a: com.google.ads.util.AdUtil$a[] values()
+com.google.ads.util.AdUtil$a: com.google.ads.util.AdUtil$a valueOf(java.lang.String)
+com.google.ads.AdRequest$Gender: com.google.ads.AdRequest$Gender[] values()
+com.google.ads.AdRequest$Gender: com.google.ads.AdRequest$Gender valueOf(java.lang.String)
+com.google.ads.AdActivity
+net.oddsoftware.android.feedscribe.ui.NewsActivity
+net.oddsoftware.android.feedscribe.ui.PlayAudioActivity
+net.oddsoftware.android.feedscribe.ui.PodcastsActivity
+net.oddsoftware.android.feedscribe.ui.AddItemActivity
+net.oddsoftware.android.feedscribe.ui.FeedsListActivity
+net.oddsoftware.android.feedscribe.ui.SubscribeActivity
+com.flurry.android.CatalogActivity
+net.oddsoftware.android.feedscribe.ui.PlayVideoActivity
+net.oddsoftware.android.feedscribe.ui.FeedsActivity
+net.oddsoftware.android.feedscribe.ui.DownloadsActivity
+net.oddsoftware.android.feedscribe.ui.FileDialog
+net.oddsoftware.android.feedscribe.ui.LogListActivity
+net.oddsoftware.android.feedscribe.ui.FeedSettingsActivity
+net.oddsoftware.android.feedscribe.ui.NewsPreferencesActivity
+net.oddsoftware.android.utils.WakefulIntentService
+net.oddsoftware.android.feedscribe.service.FeedService
+net.oddsoftware.android.feedscribe.service.ScheduleReceiver
+com.google.android.apps.analytics.AnalyticsReceiver
+com.google.ads.util.AdUtil$UserActivityReceiver
+net.oddsoftware.android.feedscribe.ui.AudioEventReceiver
+com.flurry.android.InstallReceiver
+net.oddsoftware.android.html.HttpCacheProvider
+net.oddsoftware.android.feedscribe.data.PlaylistProvider
+com.google.ads.AdActivity: void onClick(android.view.View)
+net.oddsoftware.android.feedscribe.ui.NewsActivity: void onPrev(android.view.View)
+net.oddsoftware.android.feedscribe.ui.NewsActivity: void onNext(android.view.View)
+net.oddsoftware.android.feedscribe.ui.AddItemActivity: void onReadNowClicked(android.view.View)
+net.oddsoftware.android.feedscribe.ui.AddItemActivity: void onReadLaterClicked(android.view.View)
+net.oddsoftware.android.feedscribe.ui.SubscribeActivity: void onAddClicked(android.view.View)
+com.flurry.android.CatalogActivity: void onClick(android.view.View)

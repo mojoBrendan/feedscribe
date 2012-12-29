@@ -1,0 +1,43 @@
+com.admob.android.ads.AdView
+com.admob.android.ads.AdView: AdView(android.content.Context,android.util.AttributeSet)
+com.admob.android.ads.AdView
+com.admob.android.ads.AdView: AdView(android.content.Context,android.util.AttributeSet,int)
+com.admob.android.ads.q$a: com.admob.android.ads.q$a[] values()
+com.admob.android.ads.q$a: com.admob.android.ads.q$a valueOf(java.lang.String)
+com.admob.android.ads.InterstitialAd$Event: com.admob.android.ads.InterstitialAd$Event[] values()
+com.admob.android.ads.InterstitialAd$Event: com.admob.android.ads.InterstitialAd$Event valueOf(java.lang.String)
+com.admob.android.ads.j$b: com.admob.android.ads.j$b[] values()
+com.admob.android.ads.j$b: com.admob.android.ads.j$b valueOf(java.lang.String)
+com.admob.android.ads.j$a: com.admob.android.ads.j$a[] values()
+com.admob.android.ads.j$a: com.admob.android.ads.j$a valueOf(java.lang.String)
+com.admob.android.ads.a: com.admob.android.ads.a[] values()
+com.admob.android.ads.a: com.admob.android.ads.a valueOf(java.lang.String)
+com.admob.android.ads.AdManager$Gender: com.admob.android.ads.AdManager$Gender[] values()
+com.admob.android.ads.AdManager$Gender: com.admob.android.ads.AdManager$Gender valueOf(java.lang.String)
+com.admob.android.ads.AdMobActivity
+net.oddsoftware.android.feedscribe.ui.NewsActivity
+net.oddsoftware.android.feedscribe.ui.PlayAudioActivity
+net.oddsoftware.android.feedscribe.ui.PodcastsActivity
+net.oddsoftware.android.feedscribe.ui.AddItemActivity
+net.oddsoftware.android.feedscribe.ui.FeedsListActivity
+net.oddsoftware.android.feedscribe.ui.SubscribeActivity
+com.flurry.android.CatalogActivity
+net.oddsoftware.android.feedscribe.ui.PlayVideoActivity
+net.oddsoftware.android.feedscribe.ui.FeedsActivity
+net.oddsoftware.android.feedscribe.ui.DownloadsActivity
+net.oddsoftware.android.feedscribe.ui.FileDialog
+net.oddsoftware.android.feedscribe.ui.FeedSettingsActivity
+net.oddsoftware.android.feedscribe.ui.NewsPreferencesActivity
+net.oddsoftware.android.utils.WakefulIntentService
+net.oddsoftware.android.feedscribe.service.FeedService
+net.oddsoftware.android.feedscribe.service.ScheduleReceiver
+com.google.android.apps.analytics.AnalyticsReceiver
+com.admob.android.ads.analytics.InstallReceiver
+net.oddsoftware.android.html.HttpCacheProvider
+net.oddsoftware.android.feedscribe.data.PlaylistProvider
+net.oddsoftware.android.feedscribe.ui.NewsActivity: void onPrev(android.view.View)
+net.oddsoftware.android.feedscribe.ui.NewsActivity: void onNext(android.view.View)
+net.oddsoftware.android.feedscribe.ui.AddItemActivity: void onReadNowClicked(android.view.View)
+net.oddsoftware.android.feedscribe.ui.AddItemActivity: void onReadLaterClicked(android.view.View)
+net.oddsoftware.android.feedscribe.ui.SubscribeActivity: void onAddClicked(android.view.View)
+com.flurry.android.CatalogActivity: void onClick(android.view.View)

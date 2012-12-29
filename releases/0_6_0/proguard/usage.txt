@@ -1,0 +1,580 @@
+com.admob.android.ads.AdManager:
+    public static final java.lang.String SDK_VERSION_DATE
+    public static final java.lang.String SDK_VERSION
+    public static final java.lang.String LOG
+    public static final java.lang.String TEST_EMULATOR
+    213:219:protected static int getScreenWidth(android.content.Context)
+    487:497:public static void setTestDevices(java.lang.String[])
+    504:504:static java.lang.String[] getTestDevices()
+    553:554:public static void setTestAction(java.lang.String)
+    688:690:public static void setAllowUseOfLocation(boolean)
+    925:926:public static void setPostalCode(java.lang.String)
+    968:969:public static void setBirthday(java.util.GregorianCalendar)
+    980:983:public static void setBirthday(int,int,int)
+    992:992:public static com.admob.android.ads.AdManager$Gender getGender()
+    1024:1025:public static void setGender(com.admob.android.ads.AdManager$Gender)
+    1034:1035:static void setEndpoint(java.lang.String)
+    1043:1043:static java.lang.String getEndpoint()
+com.admob.android.ads.AdView:
+    267:268:public AdView(android.app.Activity)
+    564:595:public void requestFreshAd()
+    888:889:public int getRequestInterval()
+    1153:1156:public int getTextColor()
+    1248:1248:public java.lang.String getKeywords()
+    1256:1257:public void setKeywords(java.lang.String)
+    1264:1264:public java.lang.String getSearchQuery()
+    1272:1273:public void setSearchQuery(java.lang.String)
+    1310:1313:public boolean isGoneWithoutAd()
+    1406:1409:public void setAdListener(com.admob.android.ads.AdListener)
+    1419:1419:public com.admob.android.ads.AdListener getAdListener()
+    1434:1434:public boolean hasAd()
+    1626:1631:public void cleanup()
+com.admob.android.ads.InterstitialAd:
+    public static final java.lang.String ADMOB_INTENT_BOOLEAN
+    private boolean g
+    229:243:public InterstitialAd(com.admob.android.ads.InterstitialAd$Event,com.admob.android.ads.InterstitialAdListener)
+    252:253:public void setListener(com.admob.android.ads.InterstitialAdListener)
+    340:351:public void requestAd(android.content.Context)
+    427:428:public void show(android.app.Activity)
+    450:468:final void a(android.app.Activity)
+    489:489:public boolean isReady()
+    517:517:private static boolean h()
+    538:539:public void setKeywords(java.lang.String)
+    545:546:public void setSearchQuery(java.lang.String)
+    77:77:static void a(com.admob.android.ads.InterstitialAd)
+com.admob.android.ads.InterstitialAd$a:
+    146:150:public InterstitialAd$a(com.admob.android.ads.InterstitialAd,android.content.Context)
+com.admob.android.ads.InterstitialAd$c:
+    110:112:public InterstitialAd$c(com.admob.android.ads.InterstitialAd)
+com.admob.android.ads.InterstitialAd$d
+com.admob.android.ads.InterstitialAd$f
+com.admob.android.ads.SimpleAdListener
+com.admob.android.ads.b:
+    533:546:static void a(java.lang.String)
+    553:553:static java.lang.String a()
+com.admob.android.ads.j:
+    307:307:public final com.admob.android.ads.q a()
+    2869:2873:public static float a(android.content.Context)
+    2880:2880:public static float n()
+com.flurry.android.AdImage:
+    22:22:public final long getId()
+    27:27:public final int getWidth()
+    32:32:public final int getHeight()
+    37:37:public final java.lang.String getMimeType()
+    42:42:public final byte[] getImageData()
+com.flurry.android.AppCircle:
+    10:11:public void launchCanvasOnBannerClicked(boolean)
+    15:15:public boolean isLaunchCanvasOnBannerClicked()
+    20:20:public android.view.View getHook(android.content.Context,java.lang.String,int)
+    25:26:public void openCatalog(android.content.Context)
+    30:31:public void openCatalog(android.content.Context,java.lang.String)
+    35:35:public com.flurry.android.Offer getOffer()
+    40:40:public com.flurry.android.Offer getOffer(java.lang.String)
+    45:46:public void setDefaultNoAdsMessage(java.lang.String)
+    50:51:public void addUserCookie(java.lang.String,java.lang.String)
+    55:56:public void clearUserCookies()
+com.flurry.android.Constants
+com.flurry.android.FlurryAgent:
+    225:225:public static com.flurry.android.AppCircle getAppCircle()
+    235:244:static android.view.View a(android.content.Context,java.lang.String,int)
+    250:253:static void a(android.content.Context,java.lang.String)
+    262:264:static com.flurry.android.Offer a(java.lang.String)
+    269:272:static void a(boolean)
+    276:276:static boolean a()
+    282:283:public static void enableAppCircle()
+    287:290:public static void setDefaultNoAdsMessage(java.lang.String)
+    294:297:public static void addUserCookie(java.lang.String,java.lang.String)
+    301:304:public static void clearUserCookies()
+    352:358:public static void onPageView()
+    364:370:public static void logEvent(java.lang.String)
+    376:382:public static void logEvent(java.lang.String,java.util.Map)
+    388:394:public static void logEvent(java.lang.String,boolean)
+    400:406:public static void logEvent(java.lang.String,java.util.Map,boolean)
+    412:418:public static void endTimedEvent(java.lang.String)
+    434:435:public static void setReportUrl(java.lang.String)
+    439:440:public static void setCanvasUrl(java.lang.String)
+    444:445:public static void setGetAppUrl(java.lang.String)
+    457:460:public static void setReportLocation(boolean)
+    465:468:public static void setLocationCriteria(android.location.Criteria)
+    474:481:public static void setAge(int)
+    489:499:public static void setGender(byte)
+    503:503:public static int getAgentVersion()
+    525:525:public static boolean getForbidPlaintextFallback()
+    530:540:public static void setLogEnabled(boolean)
+    544:547:public static void setContinueSessionMillis(long)
+    552:555:public static void setLogEvents(boolean)
+    560:563:public static void setUserId(java.lang.String)
+    568:576:public static void setCaptureUncaughtExceptions(boolean)
+    879:880:private synchronized void f()
+    960:968:private synchronized void b(java.lang.String)
+com.flurry.android.Offer
+com.flurry.android.m:
+    35:35:public final boolean a(java.lang.String)
+    40:41:public final void a()
+com.flurry.android.n:
+    163:164:final synchronized void a(android.content.Context,java.lang.String)
+    170:186:private synchronized void a(android.content.Context,java.lang.String,java.lang.Long)
+    190:191:final void a(boolean)
+    195:195:final boolean g()
+    292:303:final synchronized com.flurry.android.Offer a(java.lang.String)
+    348:366:final synchronized android.view.View a(android.content.Context,java.lang.String,int)
+    436:437:final synchronized void a(java.lang.String,java.lang.String)
+    441:442:final synchronized void j()
+com.flurry.android.z:
+    23:24:static void a()
+    30:31:static void b()
+    96:98:static int d(java.lang.String,java.lang.String,java.lang.Throwable)
+com.google.android.apps.analytics.AnalyticsParameterEncoder
+com.google.android.apps.analytics.AnalyticsReceiver:
+    private static final java.lang.String INSTALL_ACTION
+com.google.android.apps.analytics.CustomVariable
+com.google.android.apps.analytics.CustomVariableBuffer
+com.google.android.apps.analytics.Dispatcher
+com.google.android.apps.analytics.Dispatcher$Callbacks
+com.google.android.apps.analytics.Event
+com.google.android.apps.analytics.EventStore
+com.google.android.apps.analytics.GoogleAnalyticsTracker
+com.google.android.apps.analytics.GoogleAnalyticsTracker$1
+com.google.android.apps.analytics.GoogleAnalyticsTracker$DispatcherCallbacks
+com.google.android.apps.analytics.GoogleAnalyticsTracker$DispatcherCallbacks$1
+com.google.android.apps.analytics.NetworkDispatcher
+com.google.android.apps.analytics.NetworkDispatcher$1
+com.google.android.apps.analytics.NetworkDispatcher$DispatcherThread
+com.google.android.apps.analytics.NetworkDispatcher$DispatcherThread$AsyncDispatchTask
+com.google.android.apps.analytics.NetworkDispatcher$DispatcherThread$RequesterCallbacks
+com.google.android.apps.analytics.NetworkRequestUtil
+com.google.android.apps.analytics.PersistentEventStore:
+    private static final int MAX_EVENTS
+    private static final java.lang.String STORE_ID
+    private static final java.lang.String EVENT_ID
+    private static final java.lang.String SCREEN_WIDTH
+    private static final java.lang.String SCREEN_HEIGHT
+    private static final java.lang.String VALUE
+    private static final java.lang.String LABEL
+    private static final java.lang.String ACTION
+    private static final java.lang.String CATEGORY
+    private static final java.lang.String VISITS
+    private static final java.lang.String TIMESTAMP_CURRENT
+    private static final java.lang.String TIMESTAMP_PREVIOUS
+    private static final java.lang.String TIMESTAMP_FIRST
+    private static final java.lang.String RANDOM_VAL
+    private static final java.lang.String ACCOUNT_ID
+    private static final java.lang.String USER_ID
+    private static final java.lang.String REFERRER
+    private static final java.lang.String CUSTOMVAR_ID
+    private static final java.lang.String CUSTOMVAR_INDEX
+    private static final java.lang.String CUSTOMVAR_NAME
+    private static final java.lang.String CUSTOMVAR_VALUE
+    private static final java.lang.String CUSTOMVAR_SCOPE
+    private static final java.lang.String CUSTOM_VARIABLE_COLUMN_TYPE
+    private static final java.lang.String DATABASE_NAME
+    private static final int DATABASE_VERSION
+    private int storeId
+    private long timestampFirst
+    private long timestampPrevious
+    private long timestampCurrent
+    private int visits
+    private int numStoredEvents
+    private boolean sessionUpdated
+    private boolean useStoredVisitorVars
+    public void deleteEvent(long)
+    public com.google.android.apps.analytics.Event[] peekEvents()
+    public com.google.android.apps.analytics.Event[] peekEvents(int)
+    com.google.android.apps.analytics.CustomVariableBuffer getCustomVariables(long)
+    public java.lang.String getVisitorCustomVar(int)
+    public void putEvent(com.google.android.apps.analytics.Event)
+    void putCustomVariables(com.google.android.apps.analytics.Event,long)
+    com.google.android.apps.analytics.CustomVariableBuffer getVisitorVarBuffer()
+    public int getNumStoredEvents()
+    public int getStoreId()
+    public void startNewVisit()
+    void storeUpdatedSession()
+    public java.lang.String getReferrer()
+com.google.android.apps.analytics.PersistentEventStore$DataBaseHelper:
+    public PersistentEventStore$DataBaseHelper(android.content.Context,java.lang.String)
+com.google.android.apps.analytics.PipelinedRequester
+com.google.android.apps.analytics.PipelinedRequester$Callbacks
+net.oddsoftware.android.feedscribe.Globals:
+    public static final int VERSION_CODE
+    public static final int PREVIOUS_VERSION_CODE
+    public static final boolean LOGGING
+    public static final java.lang.String LOG_TAG
+    public static final java.lang.String FLURRY_KEY
+net.oddsoftware.android.feedscribe.R
+net.oddsoftware.android.feedscribe.R$anim
+net.oddsoftware.android.feedscribe.R$array
+net.oddsoftware.android.feedscribe.R$attr
+net.oddsoftware.android.feedscribe.R$color
+net.oddsoftware.android.feedscribe.R$drawable
+net.oddsoftware.android.feedscribe.R$id
+net.oddsoftware.android.feedscribe.R$layout
+net.oddsoftware.android.feedscribe.R$menu
+net.oddsoftware.android.feedscribe.R$string
+net.oddsoftware.android.feedscribe.R$style
+net.oddsoftware.android.feedscribe.R$styleable
+net.oddsoftware.android.feedscribe.R$xml
+net.oddsoftware.android.feedscribe.data.Feed:
+    public static final long DEFAULT_ID
+    public static final int TYPE_NEWS
+    public static final int TYPE_PODCAST
+    public static final int TYPE_PHOTO
+    public static final int TYPE_VIDEO
+    public static final java.lang.String SCHEME_LOCAL
+    public static final java.lang.String SCHEME_BOOKMARKS
+net.oddsoftware.android.feedscribe.data.FeedConfig:
+    private static final java.lang.String CONFIG_PREVIOUS_VERSION
+    67:72:public long getKeepHours()
+    162:167:public boolean getTextifyEnabled()
+net.oddsoftware.android.feedscribe.data.FeedDBAdaptor:
+    public static final java.lang.String KEY_FEED_ID
+    public static final java.lang.String KEY_FEED_URL
+    public static final java.lang.String KEY_FEED_LINK
+    public static final java.lang.String KEY_FEED_NAME
+    public static final java.lang.String KEY_FEED_TYPE
+    public static final java.lang.String KEY_FEED_TITLE
+    public static final java.lang.String KEY_FEED_DESCRIPTION
+    public static final java.lang.String KEY_FEED_IMAGE_URL
+    public static final java.lang.String KEY_LAST_HIT
+    public static final java.lang.String KEY_TTL
+    public static final java.lang.String KEY_ETAG
+    public static final java.lang.String KEY_LAST_MODIFIED
+    public static final java.lang.String KEY_LAST_URL
+    public static final java.lang.String KEY_FEED_ITEM_ID
+    public static final java.lang.String KEY_TITLE
+    public static final java.lang.String KEY_LINK
+    public static final java.lang.String KEY_DESCRIPTION
+    public static final java.lang.String KEY_AUTHOR
+    public static final java.lang.String KEY_ENCLOSURE
+    public static final java.lang.String KEY_GUID
+    public static final java.lang.String KEY_PUB_DATE
+    public static final java.lang.String KEY_FLAGS
+    public static final java.lang.String KEY_ORIGINAL_LINK
+    public static final java.lang.String KEY_CLEAN_DESCRIPTION
+    public static final java.lang.String KEY_CLEAN_TITLE
+    public static final java.lang.String KEY_IMAGE_URL
+    public static final java.lang.String KEY_ENCLOSURE_ID
+    public static final java.lang.String KEY_ENCLOSURE_URL
+    public static final java.lang.String KEY_ENCLOSURE_LENGTH
+    public static final java.lang.String KEY_ENCLOSURE_CONTENT_TYPE
+    public static final java.lang.String KEY_ENCLOSURE_FILE_PATH
+    public static final java.lang.String KEY_ENCLOSURE_DOWNLOAD_TIME
+    public static final java.lang.String KEY_ENCLOSURE_DURATION
+    public static final java.lang.String KEY_ENCLOSURE_POSITION
+    public static final java.lang.String KEY_IMAGE_ID
+    public static final java.lang.String KEY_IMAGE_DATA
+    public static final java.lang.String KEY_IMAGE_TIMESTAMP
+    public static final java.lang.String KEY_IMAGE_PERSISTENT
+    public static final java.lang.String KEY_UPDATE_AUTOMATICALLY
+    public static final java.lang.String KEY_DISPLAY_FULL_ARTICLE
+    public static final java.lang.String KEY_CACHE_FULL_ARTICLE
+    public static final java.lang.String KEY_CACHE_IMAGES
+    public static final java.lang.String KEY_TEXTIFY
+    public static final java.lang.String KEY_DOWNLOAD_ID
+    private static final java.lang.String DATABASE_NAME
+    private static final java.lang.String FEEDS_TABLE
+    private static final java.lang.String FEED_STATUS_TABLE
+    private static final java.lang.String FEED_ITEMS_TABLE
+    private static final java.lang.String IMAGES_TABLE
+    private static final java.lang.String ENCLOSURES_TABLE
+    private static final java.lang.String DOWNLOADS_TABLE
+    private static final java.lang.String FEED_SETTINGS_TABLE
+    private static final int DATABASE_VERSION
+    public static final java.lang.String CREATE_FEEDS
+    private static final java.lang.String CREATE_FEED_STATUS
+    private static final java.lang.String CREATE_FEED_ITEMS
+    private static final java.lang.String CREATE_FEED_ITEMS_FEED_ID_INDEX
+    private static final java.lang.String CREATE_FEED_ITEMS_FEED_ID_FLAGS_INDEX
+    private static final java.lang.String CREATE_IMAGES
+    private static final java.lang.String CREATE_ENCLOSURES
+    private static final java.lang.String CREATE_ENCLOSURES_ITEM_ID_INDEX
+    private static final java.lang.String CREATE_DOWNLOADS
+    private static final java.lang.String CREATE_FEED_SETTINGS
+    273:274:public void resetDB()
+    304:305:public synchronized void close()
+    409:445:public synchronized java.util.ArrayList getFeedItems(int,java.lang.String,java.lang.String)
+    552:553:public synchronized void deleteOlderItems(java.util.Date)
+    634:646:public synchronized byte[] getImage(java.lang.String)
+    651:652:public synchronized void deleteOlderImages(long)
+    750:766:public synchronized java.util.ArrayList getFeeds(int)
+    848:860:public synchronized net.oddsoftware.android.feedscribe.data.Enclosure getEnclosure(java.lang.String)
+net.oddsoftware.android.feedscribe.data.FeedDBAdaptor$DatabaseHelper:
+    260:268:public void resetDB(android.database.sqlite.SQLiteDatabase)
+net.oddsoftware.android.feedscribe.data.FeedItem:
+    public static final int FLAG_DELETED
+    public static final int FLAG_STARRED
+    public static final int FLAG_READ
+net.oddsoftware.android.feedscribe.data.FeedManager:
+    public static final int MAX_ETAG_LENGTH
+    120:125:public static synchronized void closeInstance()
+    155:156:public void close()
+    160:174:public java.util.ArrayList getItems(int)
+    179:193:public java.util.ArrayList getShortItems(int)
+    198:214:public java.util.ArrayList getShortItems(int,java.lang.String)
+    232:274:public void deDuplicate(java.util.ArrayList)
+    1299:1302:public void deleteOldItems(long)
+    1306:1309:public void deleteOldImages()
+    1343:1343:public byte[] getImage(java.lang.String)
+    1524:1524:public net.oddsoftware.android.feedscribe.data.FeedDBAdaptor getDBAdaptor()
+    1529:1529:public net.oddsoftware.android.feedscribe.data.Enclosure getEnclosure(java.lang.String)
+    1893:1905:public void addLocalBookmark(java.lang.String)
+    1992:2001:public int importOPML(java.lang.String)
+net.oddsoftware.android.feedscribe.data.PlaylistProvider:
+    public static final java.lang.String PLAYLIST_NAME_NAME
+    public static final java.lang.String PLAYLIST_ID_NAME
+    public static final java.lang.String PLAYLIST_TYPE_NAME
+    public static final java.lang.String PLAYLIST_ORDER_NAME
+    public static final java.lang.String ITEM_ID_NAME
+    public static final java.lang.String ITEM_URI_NAME
+    public static final java.lang.String PLAYLISTS_TABLE_NAME
+    public static final java.lang.String PLAYLIST_ENTRIES_TABLE_NAME
+    public static final int PLAYLIST_TYPE_AUDIO
+    public static final java.lang.String DATABASE_NAME
+    public static final int DATABASE_VERSION
+    private static final int PLAYLISTS
+    private static final int PLAYLIST_ID
+    private static final int PLAYLIST_ENTRIES
+    private static final int PLAYLIST_ENTRY_ID
+    private static final java.lang.String AUTHORITY
+    public static final java.lang.String PLAYLIST_CONTENT_TYPE
+    public static final java.lang.String PLAYLIST_ITEM_CONTENT_TYPE
+    public static final java.lang.String PLAYLIST_ENTRY_CONTENT_TYPE
+    public static final java.lang.String PLAYLIST_ENTRY_ITEM_CONTENT_TYPE
+net.oddsoftware.android.feedscribe.service.FeedService:
+    public static final java.lang.String STATUS_UPDATE
+    public static final int CMD_NONE
+    public static final int CMD_UPDATE_FEEDS
+    public static final int CMD_DOWNLOAD_ADDED
+    public static final int CMD_UPDATE_FEED
+    public static final int CMD_CLEAR_NOTIFICATIONS
+    public static final int STATUS_NONE
+    public static final int STATUS_UPDATING
+    public static final int STATUS_UPDATE_COMPLETE
+    public static final int ERROR_NONE
+    public static final int ERROR_NETWORK
+    private static final int NOTIFICATION_SYNCING
+    private static final int NOTIFICATION_NEW_ITEMS
+    public static final java.lang.String EXTRA_PROGRESS
+    public static final java.lang.String EXTRA_FORCE
+    public static final java.lang.String EXTRA_ERROR
+    public static final java.lang.String EXTRA_CMD
+    public static final java.lang.String EXTRA_FEED_ID
+net.oddsoftware.android.feedscribe.service.ScheduleReceiver:
+    public static final java.lang.String EXTRA_CMD
+    public static final int CMD_SYNC
+net.oddsoftware.android.feedscribe.ui.DownloadsActivity:
+    private static final int MENU_ITEM_CANCEL
+net.oddsoftware.android.feedscribe.ui.FeedSettingsActivity:
+    public static final java.lang.String EXTRA_FEED_ID
+net.oddsoftware.android.feedscribe.ui.FeedsActivity:
+    public static final java.lang.String EXTRA_CMD
+    public static final java.lang.String EXTRA_ITEM_ID
+    public static final int CMD_NEWS_ITEM
+net.oddsoftware.android.feedscribe.ui.FileDialog:
+    private static final java.lang.String ITEM_KEY
+    private static final java.lang.String ITEM_IMAGE
+    public static final java.lang.String START_PATH
+    public static final java.lang.String RESULT_PATH
+net.oddsoftware.android.feedscribe.ui.NewsActivity:
+    private static final java.lang.String KEY_FEED_ID
+    private static final java.lang.String KEY_ITEM_ID
+    private static final java.lang.String KEY_FEEDS_POSITION
+    private static final java.lang.String KEY_ITEMS_POSITION
+    private static final java.lang.String KEY_SUBVIEW
+    private static final java.lang.String KEY_ITEM_URL
+    private static final java.lang.String KEY_PROCESSED_DATA
+net.oddsoftware.android.feedscribe.ui.NewsPreferencesActivity:
+    public static final int DIALOG_CREDITS
+    private static final int REQUEST_IMPORT_OPML
+net.oddsoftware.android.feedscribe.ui.PlayAudioActivity:
+    public static final java.lang.String EXTRA_PATH
+    public static final java.lang.String EXTRA_URL
+    public static final java.lang.String EXTRA_ENCLOSURE_ID
+    public static final java.lang.String EXTRA_ITEM_ID
+    public static final java.lang.String EXTRA_SEEK_TO
+net.oddsoftware.android.feedscribe.ui.PlayVideoActivity:
+    public static final java.lang.String EXTRA_PATH
+    public static final java.lang.String EXTRA_URL
+    public static final java.lang.String EXTRA_SEEK_TO
+    public static final java.lang.String EXTRA_PLAYING
+    public static final java.lang.String EXTRA_ENCLOSURE_ID
+    public static final java.lang.String EXTRA_ITEM_ID
+net.oddsoftware.android.html.CacheItem$CacheItems:
+    public static final java.lang.String CONTENT_TYPE
+    public static final java.lang.String ITEM_ID
+    public static final java.lang.String URL
+    public static final java.lang.String FILENAME
+    public static final java.lang.String ETAG
+    public static final java.lang.String LAST_MODIFIED
+    public static final java.lang.String HIT_TIME
+    public static final java.lang.String LAST_URL
+    public static final java.lang.String EXPIRES_AT
+net.oddsoftware.android.html.HttpCache:
+    public static final int MAX_ETAG_LENGTH
+    protected static final int DEFAULT_EXPIRES
+    protected static final int MAX_CACHE_IDLE_TIME
+    protected static final int MAX_CONTENT_LENGTH
+    protected static final boolean ALWAYS_PREFER_CACHE
+    368:379:private org.apache.http.client.methods.HttpUriRequest createHttpRequest(java.lang.String,long)
+net.oddsoftware.android.html.HttpCacheProvider:
+    public static final java.lang.String AUTHORITY
+    private static final java.lang.String DATABASE_NAME
+    private static final int DATABASE_VERSION
+    private static final java.lang.String CACHE_ITEMS_TABLE_NAME
+    private static final int CACHE_ITEMS
+net.oddsoftware.android.utils.FlushedInputStream
+net.oddsoftware.android.utils.WakefulIntentService:
+    private static final java.lang.String LOCK_NAME_STATIC
+    74:75:public static void sendWakefulWork(android.content.Context,java.lang.Class)
+net.oddsoftware.android.utils.WorkerThread:
+    89:89:public boolean checkRunning()
+org.htmlcleaner.CleanerProperties:
+    public static final java.lang.String BOOL_ATT_SELF
+    public static final java.lang.String BOOL_ATT_EMPTY
+    public static final java.lang.String BOOL_ATT_TRUE
+    83:84:public void setAdvancedXmlEscape(boolean)
+    87:87:public boolean isTransResCharsToNCR()
+    99:100:public void setUseCdataForScriptAndStyle(boolean)
+    107:108:public void setTranslateSpecialEntities(boolean)
+    115:116:public void setTransSpecialEntitiesToNCR(boolean)
+    123:124:public void setRecognizeUnicodeChars(boolean)
+    131:132:public void setOmitUnknownTags(boolean)
+    139:140:public void setTreatUnknownTagsAsContent(boolean)
+    147:148:public void setOmitDeprecatedTags(boolean)
+    155:156:public void setTreatDeprecatedTagsAsContent(boolean)
+    171:172:public void setOmitXmlDeclaration(boolean)
+    183:183:public boolean isOmitHtmlEnvelope()
+    187:188:public void setOmitHtmlEnvelope(boolean)
+    203:204:public void setAllowMultiWordAttributes(boolean)
+    211:212:public void setAllowHtmlInsideAttributes(boolean)
+    219:220:public void setIgnoreQuestAndExclam(boolean)
+    227:228:public void setNamespacesAware(boolean)
+    235:236:public void setHyphenReplacementInComment(java.lang.String)
+    239:239:public java.lang.String getPruneTags()
+    247:247:public java.lang.String getBooleanAttributeValues()
+    251:258:public void setBooleanAttributeValues(java.lang.String)
+org.htmlcleaner.CommandLine
+org.htmlcleaner.CommentNode:
+    61:61:public java.lang.StringBuilder getContent()
+org.htmlcleaner.CompactHtmlSerializer
+org.htmlcleaner.CompactXmlSerializer
+org.htmlcleaner.ConfigFileTagProvider
+org.htmlcleaner.ConfigFileTagProvider$ConfigParser
+org.htmlcleaner.DefaultTagProvider:
+    478:481:public void removeTagInfo(java.lang.String)
+    488:491:public void addTagInfo(org.htmlcleaner.TagInfo)
+org.htmlcleaner.DoctypeToken:
+    75:91:public boolean isValid()
+    111:111:public java.lang.String getName()
+    119:119:public java.lang.String getPart1()
+    123:123:public java.lang.String getPart2()
+    127:127:public java.lang.String getPart3()
+    131:131:public java.lang.String getPart4()
+org.htmlcleaner.DomSerializer
+org.htmlcleaner.HtmlCleaner:
+    255:256:public HtmlCleaner(org.htmlcleaner.ITagInfoProvider)
+    263:264:public HtmlCleaner(org.htmlcleaner.CleanerProperties)
+    287:289:public org.htmlcleaner.TagNode clean(java.io.File,java.lang.String)
+    293:293:public org.htmlcleaner.TagNode clean(java.io.File)
+    297:307:public org.htmlcleaner.TagNode clean(java.net.URL,java.lang.String)
+    320:320:public org.htmlcleaner.TagNode clean(java.net.URL)
+    828:828:public org.htmlcleaner.ITagInfoProvider getTagInfoProvider()
+    835:835:public org.htmlcleaner.CleanerTransformations getTransformations()
+    851:862:public java.lang.String getInnerHtml(org.htmlcleaner.TagNode)
+    873:893:public void setInnerHtml(org.htmlcleaner.TagNode,java.lang.String)
+org.htmlcleaner.HtmlSerializer
+org.htmlcleaner.HtmlTokenizer:
+    private static final int WORKING_BUFFER_SIZE
+    227:227:private boolean isWhitespace()
+    267:267:private char getCurrentChar()
+org.htmlcleaner.PrettyHtmlSerializer
+org.htmlcleaner.PrettyXmlSerializer
+org.htmlcleaner.Serializer:
+    86:87:public void writeToStream(org.htmlcleaner.TagNode,java.io.OutputStream,java.lang.String,boolean)
+    97:98:public void writeToStream(org.htmlcleaner.TagNode,java.io.OutputStream,java.lang.String)
+    109:110:public void writeToStream(org.htmlcleaner.TagNode,java.io.OutputStream,boolean)
+    119:120:public void writeToStream(org.htmlcleaner.TagNode,java.io.OutputStream)
+    132:133:public void writeToFile(org.htmlcleaner.TagNode,java.lang.String,java.lang.String,boolean)
+    143:144:public void writeToFile(org.htmlcleaner.TagNode,java.lang.String,java.lang.String)
+    155:156:public void writeToFile(org.htmlcleaner.TagNode,java.lang.String,boolean)
+    165:166:public void writeToFile(org.htmlcleaner.TagNode,java.lang.String)
+    188:188:public java.lang.String getAsString(org.htmlcleaner.TagNode,java.lang.String)
+    218:219:public void write(org.htmlcleaner.TagNode,java.io.Writer,java.lang.String)
+org.htmlcleaner.SimpleHtmlSerializer
+org.htmlcleaner.SimpleXmlSerializer
+org.htmlcleaner.SpecialEntity:
+    345:345:public java.lang.String getKey()
+    349:349:public int getIntCode()
+    367:367:public java.lang.String getHexNCR()
+    374:374:public java.lang.String getEscapedValue()
+org.htmlcleaner.TagInfo:
+    protected static final int HEAD_AND_BODY
+    protected static final int HEAD
+    protected static final int BODY
+    protected static final int CONTENT_ALL
+    protected static final int CONTENT_NONE
+    protected static final int CONTENT_TEXT
+    227:228:public void setName(java.lang.String)
+    231:231:public int getContentType()
+    236:236:public java.util.Set getMustCloseTags()
+    241:242:public void setMustCloseTags(java.util.Set)
+    246:246:public java.util.Set getHigherTags()
+    251:252:public void setHigherTags(java.util.Set)
+    256:256:public java.util.Set getChildTags()
+    261:262:public void setChildTags(java.util.Set)
+    271:272:public void setPermittedTags(java.util.Set)
+    276:276:public java.util.Set getCopyTags()
+    281:282:public void setCopyTags(java.util.Set)
+    286:286:public java.util.Set getContinueAfterTags()
+    291:292:public void setContinueAfterTags(java.util.Set)
+    299:300:public void setRequiredParent(java.lang.String)
+    303:303:public int getBelongsTo()
+    307:308:public void setBelongsTo(int)
+    315:316:public void setFatalTag(java.lang.String)
+    323:324:public void setDeprecated(boolean)
+    331:332:public void setUnique(boolean)
+    343:344:public void setIgnorePermitted(boolean)
+org.htmlcleaner.TagNode:
+    173:173:public boolean hasAttribute(java.lang.String)
+    184:185:public void addAttribute(java.lang.String,java.lang.String)
+    229:232:public void removeAttribute(java.lang.String)
+    247:247:public boolean hasChildren()
+    252:253:void setChildren(java.util.List)
+    273:279:public org.htmlcleaner.TagNode[] getChildTags()
+    479:479:public org.htmlcleaner.TagNode findElementHavingAttribute(java.lang.String,boolean)
+    484:484:public java.util.List getElementListHavingAttribute(java.lang.String,boolean)
+    488:488:public org.htmlcleaner.TagNode[] getElementsHavingAttribute(java.lang.String,boolean)
+    492:492:public org.htmlcleaner.TagNode findElementByAttValue(java.lang.String,java.lang.String,boolean,boolean)
+    497:497:public java.util.List getElementListByAttValue(java.lang.String,java.lang.String,boolean,boolean)
+    501:501:public org.htmlcleaner.TagNode[] getElementsByAttValue(java.lang.String,java.lang.String,boolean,boolean)
+    558:559:public void removeAllChildren()
+    568:579:public void replaceChild(org.htmlcleaner.HtmlNode,org.htmlcleaner.HtmlNode)
+    586:593:public int getChildIndex(org.htmlcleaner.HtmlNode)
+    603:604:public void insertChild(int,org.htmlcleaner.HtmlNode)
+    612:616:public void insertChildBefore(org.htmlcleaner.HtmlNode,org.htmlcleaner.HtmlNode)
+    624:628:public void insertChildAfter(org.htmlcleaner.HtmlNode,org.htmlcleaner.HtmlNode)
+    737:749:java.lang.String getNamespaceURIOnPath(java.lang.String)
+    125:125:static java.util.Map access$0(org.htmlcleaner.TagNode)
+org.htmlcleaner.TagNode$TagNodeAttExistsCondition
+org.htmlcleaner.TagNode$TagNodeAttValueCondition
+org.htmlcleaner.TagTransformation:
+    87:88:public TagTransformation(java.lang.String)
+    101:105:public void addAttributeTransformation(java.lang.String,java.lang.String)
+    113:114:public void addAttributeTransformation(java.lang.String)
+org.htmlcleaner.Utils:
+    72:83:public static java.lang.String ltrim(java.lang.String)
+    91:102:public static java.lang.String rtrim(java.lang.String)
+    106:117:public static java.lang.String getCharsetFromContentTypeString(java.lang.String)
+    121:136:public static java.lang.String getCharsetFromContent(java.net.URL)
+    140:140:public static boolean isHexadecimalDigit(char)
+    361:372:public static java.lang.String[] tokenize(java.lang.String,java.lang.String)
+    376:403:public static void updateTagTransformations(org.htmlcleaner.CleanerTransformations,java.lang.String,java.lang.String)
+    412:416:public static boolean isFullUrl(java.lang.String)
+    425:452:public static java.lang.String fullUrl(java.lang.String,java.lang.String)
+org.htmlcleaner.XmlSerializer:
+    57:58:public void writeXmlToStream(org.htmlcleaner.TagNode,java.io.OutputStream,java.lang.String)
+    65:66:public void writeXmlToStream(org.htmlcleaner.TagNode,java.io.OutputStream)
+    73:74:public void writeXmlToFile(org.htmlcleaner.TagNode,java.lang.String,java.lang.String)
+    81:82:public void writeXmlToFile(org.htmlcleaner.TagNode,java.lang.String)
+    89:89:public java.lang.String getXmlAsString(org.htmlcleaner.TagNode,java.lang.String)
+    97:97:public java.lang.String getXmlAsString(org.htmlcleaner.TagNode)
+    105:106:public void writeXml(org.htmlcleaner.TagNode,java.io.Writer,java.lang.String)

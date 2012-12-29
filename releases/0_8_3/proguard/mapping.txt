@@ -1,0 +1,2311 @@
+com.flurry.android.AdImage -> com.flurry.android.a:
+    long a -> a
+    int b -> b
+    int c -> c
+    java.lang.String d -> d
+    byte[] e -> e
+    void a(java.io.DataInput) -> a
+com.flurry.android.AppCircle -> com.flurry.android.b:
+com.flurry.android.AppCircleCallback -> com.flurry.android.c:
+com.flurry.android.CallbackEvent -> com.flurry.android.d:
+    int a -> a
+    long b -> b
+    java.lang.String c -> c
+    void setMessage(java.lang.String) -> a
+com.flurry.android.CatalogActivity -> com.flurry.android.CatalogActivity:
+    java.lang.String a -> a
+    android.webkit.WebView b -> b
+    com.flurry.android.w c -> c
+    java.util.List d -> d
+    com.flurry.android.u e -> e
+    com.flurry.android.p f -> f
+    void onCreate(android.os.Bundle) -> onCreate
+    void finish() -> finish
+    void onDestroy() -> onDestroy
+    void onClick(android.view.View) -> onClick
+    void a(com.flurry.android.x) -> a
+    com.flurry.android.p a(com.flurry.android.CatalogActivity) -> a
+    long b(com.flurry.android.CatalogActivity) -> b
+    com.flurry.android.u c(com.flurry.android.CatalogActivity) -> c
+com.flurry.android.FlurryAgent -> com.flurry.android.e:
+    java.lang.String[] b -> b
+    java.lang.String c -> c
+    java.lang.String kInsecureReportUrl -> d
+    java.lang.String kSecureReportUrl -> e
+    java.lang.String d -> f
+    java.lang.String e -> g
+    java.lang.String f -> h
+    java.lang.String g -> i
+    com.flurry.android.FlurryAgent h -> j
+    long i -> k
+    boolean j -> l
+    boolean k -> m
+    boolean l -> n
+    boolean m -> o
+    android.location.Criteria n -> p
+    boolean o -> q
+    com.flurry.android.AppCircle p -> r
+    android.os.Handler q -> s
+    java.io.File r -> t
+    java.io.File s -> u
+    boolean t -> v
+    boolean u -> w
+    long v -> x
+    java.util.Map w -> y
+    java.lang.String x -> z
+    java.lang.String y -> A
+    java.lang.String z -> B
+    boolean A -> C
+    java.util.List B -> D
+    android.location.LocationManager C -> E
+    java.lang.String D -> F
+    boolean E -> G
+    long F -> H
+    java.util.List G -> I
+    long H -> J
+    long I -> K
+    long J -> L
+    java.lang.String K -> M
+    java.lang.String L -> N
+    byte M -> O
+    java.lang.String N -> P
+    byte O -> Q
+    java.lang.Long P -> R
+    int Q -> S
+    android.location.Location R -> T
+    java.util.Map S -> U
+    java.util.List T -> V
+    boolean U -> W
+    int V -> X
+    java.util.List W -> Y
+    int X -> Z
+    com.flurry.android.u Y -> aa
+    java.lang.String a -> a
+    void a(java.lang.Throwable) -> a
+    void setVersionName(java.lang.String) -> a
+    void setLogEnabled$1385ff() -> a
+    void onStartSession(android.content.Context,java.lang.String) -> a
+    void onEndSession(android.content.Context) -> a
+    void onEvent(java.lang.String) -> b
+    void onEvent(java.lang.String,java.util.Map) -> a
+    boolean isCaptureUncaughtExceptions() -> b
+    com.flurry.android.u b() -> c
+    void b(android.content.Context,java.lang.String) -> b
+    void a(android.content.Context,boolean) -> a
+    void i() -> h
+    double a(double) -> a
+    void a(java.lang.Runnable) -> a
+    void a$42701bee(java.lang.String,java.util.Map) -> b
+    void a(java.lang.String,java.lang.String,java.lang.String) -> a
+    byte[] b(boolean) -> a
+    java.lang.String k() -> i
+    boolean a(byte[]) -> a
+    boolean a(byte[],java.lang.String) -> a
+    void a(java.io.DataInputStream) -> a
+    void c(boolean) -> b
+    void a(android.content.Context) -> b
+    void b(java.io.DataInputStream) -> b
+    void l() -> j
+    boolean a(java.io.File) -> a
+    void c(android.content.Context,java.lang.String) -> c
+    java.lang.String b(android.content.Context) -> c
+    java.lang.String c(android.content.Context) -> d
+    android.location.Location d(android.content.Context) -> e
+    void m() -> k
+    java.lang.String e() -> d
+    void onLocationChanged(android.location.Location) -> onLocationChanged
+    void onProviderDisabled(java.lang.String) -> onProviderDisabled
+    void onProviderEnabled(java.lang.String) -> onProviderEnabled
+    void onStatusChanged(java.lang.String,int,android.os.Bundle) -> onStatusChanged
+    org.apache.http.client.HttpClient a(org.apache.http.params.HttpParams) -> a
+    com.flurry.android.FlurryAgent f() -> e
+    boolean a(com.flurry.android.FlurryAgent) -> a
+    void a(com.flurry.android.FlurryAgent,android.content.Context) -> a
+    void a(com.flurry.android.FlurryAgent,android.content.Context,boolean) -> a
+    void b(com.flurry.android.FlurryAgent) -> b
+    void c(com.flurry.android.FlurryAgent) -> c
+    void b$220cd6b8(com.flurry.android.FlurryAgent) -> d
+    long g() -> f
+    android.os.Handler d(com.flurry.android.FlurryAgent) -> e
+    boolean h() -> g
+    com.flurry.android.u e(com.flurry.android.FlurryAgent) -> f
+com.flurry.android.FlurryAgent$FlurryDefaultExceptionHandler -> com.flurry.android.f:
+    java.lang.Thread$UncaughtExceptionHandler a -> a
+    void uncaughtException(java.lang.Thread,java.lang.Throwable) -> uncaughtException
+com.flurry.android.InstallReceiver -> com.flurry.android.InstallReceiver:
+    android.os.Handler a -> a
+    java.io.File b -> b
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+    java.util.Map a(java.lang.String) -> a
+    void a(java.util.Map) -> a
+    java.io.File a(com.flurry.android.InstallReceiver) -> a
+com.flurry.android.a -> com.flurry.android.g:
+    java.lang.String a -> a
+    long b -> b
+    long c -> c
+    long d -> d
+    java.lang.String e -> e
+    java.lang.String f -> f
+    android.os.Handler g -> g
+com.flurry.android.aa -> com.flurry.android.h:
+    long a -> a
+    java.lang.String b -> b
+    java.lang.String c -> c
+    java.lang.String d -> d
+com.flurry.android.ab -> com.flurry.android.i:
+    android.text.SpannedString a -> a
+    android.text.SpannedString b -> b
+    android.text.SpannedString a(com.flurry.android.ab) -> a
+    android.text.SpannedString b(com.flurry.android.ab) -> b
+com.flurry.android.ac -> com.flurry.android.j:
+    android.widget.TextView a -> a
+    com.flurry.android.ab b -> b
+    void onFocusChange(android.view.View,boolean) -> onFocusChange
+com.flurry.android.ad -> com.flurry.android.k:
+    int a -> a
+    com.flurry.android.u b -> b
+    void run() -> run
+com.flurry.android.ae -> com.flurry.android.l:
+    java.lang.String a -> a
+    com.flurry.android.u b -> b
+    void run() -> run
+com.flurry.android.af -> com.flurry.android.m:
+    java.util.LinkedHashMap a -> a
+    int b -> b
+    java.lang.Object a(java.lang.Object) -> a
+    void a(java.lang.Object,java.lang.Object) -> a
+    int a() -> a
+    java.util.List b() -> b
+    java.util.Set c() -> c
+    int a(com.flurry.android.af) -> a
+com.flurry.android.ag -> com.flurry.android.n:
+    java.util.List a -> a
+    android.os.Handler b -> b
+    android.os.Handler c -> c
+    int d -> d
+    java.lang.Runnable e -> e
+    void a() -> a
+    void b() -> b
+    void a(com.flurry.android.ag) -> a
+com.flurry.android.ah -> com.flurry.android.o:
+    boolean a -> a
+    int b -> b
+    void a() -> a
+    boolean a(java.lang.String) -> a
+    int a(java.lang.String,java.lang.String,java.lang.Throwable) -> a
+    int a(java.lang.String,java.lang.String) -> a
+    int b(java.lang.String,java.lang.String,java.lang.Throwable) -> b
+    int b(java.lang.String,java.lang.String) -> b
+    int c(java.lang.String,java.lang.String,java.lang.Throwable) -> c
+    int c(java.lang.String,java.lang.String) -> c
+    int d(java.lang.String,java.lang.String) -> d
+com.flurry.android.ai -> com.flurry.android.p:
+    javax.net.ssl.SSLContext a -> a
+    java.net.Socket createSocket(java.net.Socket,java.lang.String,int,boolean) -> createSocket
+    java.net.Socket createSocket() -> createSocket
+com.flurry.android.aj -> com.flurry.android.q:
+com.flurry.android.ak -> com.flurry.android.r:
+    java.lang.String a -> a
+    android.content.Context b -> b
+    com.flurry.android.p c -> c
+    com.flurry.android.u d -> d
+    void run() -> run
+com.flurry.android.al -> com.flurry.android.s:
+    java.lang.String a -> a
+    java.lang.String b -> b
+    int c -> c
+com.flurry.android.b -> com.flurry.android.t:
+    boolean c -> c
+    android.content.Context a -> a
+    com.flurry.android.FlurryAgent b -> b
+    void run() -> run
+com.flurry.android.c -> com.flurry.android.u:
+    byte a -> a
+    java.lang.String b -> b
+    long c -> c
+    long r -> r
+    java.lang.String d -> d
+    int e -> e
+    int f -> f
+    java.lang.String g -> g
+    int h -> h
+    int i -> i
+    java.lang.String j -> j
+    int k -> k
+    int l -> l
+    java.lang.String s -> s
+    int t -> t
+    int u -> u
+    java.lang.String v -> v
+    int w -> w
+    int x -> x
+    java.lang.String y -> y
+    int z -> z
+    int A -> A
+    int B -> B
+    int C -> C
+    int m -> m
+    int n -> n
+    int o -> o
+    int p -> p
+    int D -> D
+    int E -> E
+    int F -> F
+    int G -> G
+    int H -> H
+    int I -> I
+    int J -> J
+    int K -> K
+    int q -> q
+    int L -> L
+    int M -> M
+    int N -> N
+    int O -> O
+    int P -> P
+    int Q -> Q
+    int R -> R
+    int S -> S
+    int T -> T
+    int U -> U
+    int V -> V
+    int W -> W
+    int X -> X
+    int Y -> Y
+    int Z -> Z
+    int aa -> aa
+    int ab -> ab
+    int ac -> ac
+    int ad -> ad
+    int ae -> ae
+    int af -> af
+    boolean ag -> ag
+    void c(java.io.DataInput) -> c
+    void a(java.io.DataInput) -> a
+    void b(java.io.DataInput) -> b
+    void a(java.io.DataOutput) -> a
+com.flurry.android.d -> com.flurry.android.v:
+    android.content.Context a -> a
+    boolean b -> b
+    com.flurry.android.FlurryAgent c -> c
+    void run() -> run
+com.flurry.android.e -> com.flurry.android.w:
+    java.lang.String a -> a
+    byte b -> b
+    byte c -> c
+    com.flurry.android.c d -> d
+    java.lang.String toString() -> toString
+com.flurry.android.f -> com.flurry.android.x:
+    byte a -> a
+    long b -> b
+    java.lang.String toString() -> toString
+com.flurry.android.g -> com.flurry.android.y:
+    int a -> a
+com.flurry.android.h -> com.flurry.android.z:
+    com.flurry.android.af a -> a
+    boolean removeEldestEntry(java.util.Map$Entry) -> removeEldestEntry
+com.flurry.android.i -> com.flurry.android.aa:
+    java.lang.String a -> a
+    java.util.Map b -> b
+    long c -> c
+    boolean d -> d
+    long e -> e
+    byte[] f -> f
+    byte[] b() -> a
+com.flurry.android.j -> com.flurry.android.ab:
+    java.util.List a -> a
+    void run() -> run
+com.flurry.android.k -> com.flurry.android.ac:
+    com.flurry.android.ag a -> a
+    void run() -> run
+com.flurry.android.l -> com.flurry.android.ad:
+    com.flurry.android.b a -> a
+    void run() -> run
+com.flurry.android.m -> com.flurry.android.ae:
+    java.lang.String a -> a
+    com.flurry.android.ak b -> b
+    void run() -> run
+com.flurry.android.n -> com.flurry.android.af:
+    void checkClientTrusted(java.security.cert.X509Certificate[],java.lang.String) -> checkClientTrusted
+    void checkServerTrusted(java.security.cert.X509Certificate[],java.lang.String) -> checkServerTrusted
+    java.security.cert.X509Certificate[] getAcceptedIssuers() -> getAcceptedIssuers
+com.flurry.android.o -> com.flurry.android.ag:
+    com.flurry.android.u a -> a
+    android.content.Context b -> b
+    java.lang.String c -> c
+    int d -> d
+    boolean e -> e
+    boolean f -> f
+    void a() -> a
+    android.widget.RelativeLayout$LayoutParams b() -> b
+    com.flurry.android.y c() -> c
+com.flurry.android.p -> com.flurry.android.ah:
+    java.lang.String a -> a
+    byte e -> e
+    com.flurry.android.v b -> b
+    long c -> c
+    java.util.List d -> d
+    void a(com.flurry.android.f) -> a
+    long a() -> a
+    void a(java.io.DataOutput) -> a
+    java.lang.String toString() -> toString
+com.flurry.android.q -> com.flurry.android.ai:
+    com.flurry.android.CatalogActivity a -> a
+    boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String) -> shouldOverrideUrlLoading
+    void onReceivedError(android.webkit.WebView,int,java.lang.String,java.lang.String) -> onReceivedError
+    void onPageFinished(android.webkit.WebView,java.lang.String) -> onPageFinished
+com.flurry.android.r -> com.flurry.android.aj:
+    java.lang.String a(java.lang.String,int) -> a
+    java.lang.String a(java.lang.String) -> a
+    void a(java.io.Closeable) -> a
+    void a(android.content.Context,android.widget.ImageView,int,int) -> a
+    int a(android.content.Context,int) -> a
+com.flurry.android.s -> com.flurry.android.ak:
+com.flurry.android.t -> com.flurry.android.al:
+    java.util.Map a -> a
+    com.flurry.android.InstallReceiver b -> b
+    void run() -> run
+com.flurry.android.u -> com.flurry.android.am:
+    java.lang.String c -> c
+    java.lang.String d -> d
+    java.lang.String e -> e
+    java.lang.String f -> f
+    java.lang.String a -> a
+    int g -> g
+    java.lang.String b -> b
+    java.lang.String h -> h
+    java.lang.String i -> i
+    java.lang.String j -> j
+    long k -> k
+    long l -> l
+    long m -> m
+    com.flurry.android.z n -> n
+    boolean o -> o
+    boolean p -> p
+    java.lang.String q -> q
+    java.util.Map r -> r
+    android.os.Handler s -> s
+    boolean t -> t
+    java.util.Map u -> u
+    com.flurry.android.ag v -> v
+    java.util.List w -> w
+    java.util.Map x -> x
+    com.flurry.android.AppCircleCallback y -> y
+    long z -> z
+    void a(android.content.Context,com.flurry.android.a) -> a
+    void a() -> a
+    boolean b() -> b
+    void a(java.lang.String) -> a
+    void c() -> c
+    void d() -> d
+    void a(java.util.Map,java.util.Map,java.util.Map,java.util.Map,java.util.Map,java.util.Map) -> a
+    long e() -> e
+    java.util.Set f() -> f
+    com.flurry.android.AdImage a(long) -> a
+    com.flurry.android.AdImage o() -> l
+    java.util.List g() -> g
+    com.flurry.android.p b(long) -> b
+    void h() -> h
+    java.lang.String j() -> i
+    void a(android.content.Context,com.flurry.android.p,java.lang.String) -> a
+    java.lang.String d(java.lang.String) -> b
+    void e(java.lang.String) -> c
+    java.util.List a(android.content.Context,java.util.List,java.lang.Long,int,boolean) -> a
+    long k() -> j
+    void onClick(android.view.View) -> onClick
+    java.lang.String a$3d9c4baa(com.flurry.android.p) -> a
+    java.lang.String a(byte[]) -> a
+    java.lang.String toString() -> toString
+    com.flurry.android.AdImage m() -> k
+    void a(java.lang.Runnable) -> a
+    void a(int) -> a
+    boolean q() -> m
+    java.lang.String a(com.flurry.android.u,java.lang.String) -> a
+    void a(com.flurry.android.u,android.content.Context,java.lang.String) -> a
+    void b(com.flurry.android.u,java.lang.String) -> b
+    com.flurry.android.AppCircleCallback a(com.flurry.android.u) -> a
+com.flurry.android.v -> com.flurry.android.an:
+    long a -> a
+    long b -> b
+    java.lang.String c -> c
+    java.lang.String d -> d
+    long e -> e
+    java.lang.Long f -> f
+    byte[] g -> g
+    com.flurry.android.AdImage h -> h
+    void a(java.io.DataInput) -> a
+    void b(java.io.DataInput) -> b
+    java.lang.String toString() -> toString
+    java.lang.String a(byte[]) -> a
+com.flurry.android.w -> com.flurry.android.ao:
+    android.view.View a -> a
+    java.util.List b -> b
+    boolean c -> c
+    com.flurry.android.CatalogActivity d -> d
+    java.util.List a(android.content.Context) -> a
+    void a() -> a
+    void a(java.util.List) -> a
+    void a(java.util.List,boolean) -> a
+    java.util.List b() -> b
+com.flurry.android.x -> com.flurry.android.ap:
+    com.flurry.android.p a -> a
+    java.lang.String b -> b
+    java.util.List c -> c
+com.flurry.android.y -> com.flurry.android.aq:
+    com.flurry.android.u a -> a
+    com.flurry.android.p b -> b
+    java.lang.String c -> c
+    int d -> d
+    void a(android.content.Context,com.flurry.android.e,com.flurry.android.v,boolean) -> a
+    void a(java.lang.String) -> a
+    java.lang.String b(java.lang.String) -> b
+    com.flurry.android.p a() -> a
+com.flurry.android.z -> com.flurry.android.ar:
+    android.content.Context a -> a
+    com.flurry.android.u b -> b
+    com.flurry.android.a c -> c
+    long d -> d
+    com.flurry.android.af e -> e
+    com.flurry.android.af f -> f
+    java.util.Map g -> g
+    java.util.Map h -> h
+    java.util.Map i -> i
+    java.util.Map j -> j
+    boolean k -> k
+    void a(android.content.Context,com.flurry.android.u,com.flurry.android.a) -> a
+    com.flurry.android.v[] a(java.lang.String) -> a
+    com.flurry.android.al a(long) -> b
+    java.util.Set a() -> a
+    com.flurry.android.AdImage b(long) -> a
+    com.flurry.android.AdImage a$3dba2ef4() -> b
+    com.flurry.android.e b(java.lang.String) -> b
+    boolean b() -> c
+    com.flurry.android.c a(byte) -> a
+    void a(java.util.Map,java.util.Map,java.util.Map,java.util.Map,java.util.Map,java.util.Map) -> a
+    long c() -> d
+    void d() -> e
+    void a(java.io.File) -> a
+    void f() -> g
+    void e() -> f
+    void a(java.io.DataInputStream) -> a
+    void a(java.io.DataOutputStream) -> a
+    java.lang.String g() -> h
+    void a(int) -> a
+    java.lang.String toString() -> toString
+com.google.ads.Ad -> com.google.ads.a:
+com.google.ads.AdActivity -> com.google.ads.AdActivity:
+    java.lang.Object a -> a
+    com.google.ads.AdActivity b -> b
+    com.google.ads.d c -> c
+    com.google.ads.AdActivity d -> d
+    com.google.ads.AdActivity e -> e
+    com.google.ads.h f -> f
+    boolean g -> g
+    long h -> h
+    android.widget.RelativeLayout i -> i
+    com.google.ads.AdActivity j -> j
+    boolean k -> k
+    com.google.ads.g l -> l
+    void a(java.lang.String) -> a
+    void a(java.lang.String,java.lang.Throwable) -> a
+    com.google.ads.g getAdVideoView() -> a
+    com.google.ads.h getOpeningAdWebView() -> b
+    boolean isShowing() -> c
+    void launchAdActivity(com.google.ads.d,com.google.ads.e) -> a
+    void a(com.google.ads.d) -> a
+    void moveAdVideoView(int,int,int,int) -> a
+    void newAdVideoView(int,int,int,int) -> b
+    android.widget.RelativeLayout$LayoutParams a(int,int,int,int) -> c
+    void onClick(android.view.View) -> onClick
+    void onCreate(android.os.Bundle) -> onCreate
+    void a(com.google.ads.h,boolean,int) -> a
+    void onDestroy() -> onDestroy
+    void onPause() -> onPause
+    void a() -> d
+    void onWindowFocusChanged(boolean) -> onWindowFocusChanged
+    void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+com.google.ads.AdListener -> com.google.ads.b:
+com.google.ads.AdRequest -> com.google.ads.c:
+    com.google.ads.AdRequest$Gender a -> b
+    java.lang.String b -> c
+    java.util.Set c -> d
+    boolean d -> e
+    java.util.Map e -> f
+    android.location.Location f -> g
+    boolean g -> h
+    boolean h -> i
+    java.lang.String TEST_EMULATOR -> a
+    java.util.Set i -> j
+    void addKeyword(java.lang.String) -> a
+    void addExtra(java.lang.String,java.lang.Object) -> a
+    java.util.Map getRequestMap(android.content.Context) -> a
+    void addTestDevice(java.lang.String) -> b
+com.google.ads.AdRequest$ErrorCode -> com.google.ads.d:
+    com.google.ads.AdRequest$ErrorCode INVALID_REQUEST -> a
+    com.google.ads.AdRequest$ErrorCode NO_FILL -> b
+    com.google.ads.AdRequest$ErrorCode NETWORK_ERROR -> c
+    com.google.ads.AdRequest$ErrorCode INTERNAL_ERROR -> d
+    java.lang.String a -> e
+    com.google.ads.AdRequest$ErrorCode[] b -> f
+    com.google.ads.AdRequest$ErrorCode[] values() -> values
+    com.google.ads.AdRequest$ErrorCode valueOf(java.lang.String) -> valueOf
+    java.lang.String toString() -> toString
+com.google.ads.AdRequest$Gender -> com.google.ads.e:
+    com.google.ads.AdRequest$Gender UNKNOWN -> a
+    com.google.ads.AdRequest$Gender MALE -> b
+    com.google.ads.AdRequest$Gender FEMALE -> c
+    com.google.ads.AdRequest$Gender[] a -> d
+    com.google.ads.AdRequest$Gender[] values() -> values
+    com.google.ads.AdRequest$Gender valueOf(java.lang.String) -> valueOf
+com.google.ads.AdSize -> com.google.ads.f:
+    com.google.ads.AdSize BANNER -> a
+    com.google.ads.AdSize IAB_MRECT -> b
+    com.google.ads.AdSize IAB_BANNER -> c
+    com.google.ads.AdSize IAB_LEADERBOARD -> d
+    int a -> e
+    int b -> f
+    java.lang.String c -> g
+    int getWidth() -> a
+    int getHeight() -> b
+    java.lang.String toString() -> toString
+com.google.ads.AdView -> com.google.ads.AdView:
+    com.google.ads.d a -> a
+    void a(android.content.Context,java.lang.String,int,com.google.ads.AdSize,android.util.AttributeSet) -> a
+    void a(android.content.Context,java.lang.String,com.google.ads.AdSize,android.util.AttributeSet) -> a
+    void a(android.content.Context,android.util.AttributeSet) -> a
+    void a(android.app.Activity,com.google.ads.AdSize,java.lang.String) -> a
+com.google.ads.InterstitialAd -> com.google.ads.g:
+com.google.ads.a -> com.google.ads.h:
+    java.util.Map a -> a
+    java.util.Map b -> b
+    void a(com.google.ads.d,java.util.Map,android.net.Uri,android.webkit.WebView) -> a
+    boolean a(android.net.Uri) -> a
+    boolean b(android.net.Uri) -> b
+    boolean c(android.net.Uri) -> c
+    void a(android.webkit.WebView,java.lang.String,java.lang.String) -> a
+    void a(android.webkit.WebView,java.lang.String) -> a
+    void a(android.webkit.WebView,java.util.Map) -> a
+    void a(android.webkit.WebView) -> a
+    void b(android.webkit.WebView) -> b
+com.google.ads.aa -> com.google.ads.i:
+    boolean a(android.content.Context) -> a
+    boolean a(android.content.Intent,android.content.Context) -> a
+com.google.ads.ab -> com.google.ads.j:
+    void a(com.google.ads.d,java.util.HashMap,android.webkit.WebView) -> a
+com.google.ads.ab$a -> com.google.ads.k:
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.google.ads.ab$b -> com.google.ads.l:
+    com.google.ads.ab$b a -> a
+    com.google.ads.ab$b b -> b
+    java.lang.String c -> c
+    com.google.ads.ab$b[] d -> d
+    com.google.ads.ab$b[] values() -> values
+    com.google.ads.ab$b valueOf(java.lang.String) -> valueOf
+com.google.ads.ab$c -> com.google.ads.m:
+    com.google.ads.d a -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.google.ads.b -> com.google.ads.n:
+    com.google.ads.c a -> a
+    com.google.ads.d b -> b
+    boolean c -> c
+    boolean d -> d
+    java.lang.String e -> e
+    void a() -> a
+    void a(java.net.HttpURLConnection) -> a
+    void b(java.net.HttpURLConnection) -> b
+    void a(boolean) -> a
+    void a(java.lang.String) -> a
+    void run() -> run
+com.google.ads.c -> com.google.ads.o:
+    java.lang.String a -> a
+    java.lang.String b -> b
+    com.google.ads.b c -> c
+    com.google.ads.d d -> d
+    com.google.ads.AdRequest e -> e
+    android.webkit.WebView f -> f
+    java.lang.String g -> g
+    java.util.LinkedList h -> h
+    boolean i -> i
+    com.google.ads.AdRequest$ErrorCode j -> j
+    boolean k -> k
+    int l -> l
+    java.lang.Thread m -> m
+    boolean n -> n
+    void a(java.lang.String) -> a
+    void a(com.google.ads.AdRequest) -> a
+    void run() -> run
+    java.lang.String a(com.google.ads.AdRequest,android.app.Activity) -> a
+    void a(com.google.ads.AdRequest$ErrorCode,boolean) -> a
+    void a(java.lang.String,java.lang.String) -> a
+    void b(java.lang.String) -> b
+    void a(com.google.ads.AdRequest$ErrorCode) -> a
+    void b() -> a
+    void a(int) -> a
+    void a(boolean) -> a
+com.google.ads.c$a -> com.google.ads.p:
+    com.google.ads.d b -> b
+    android.webkit.WebView c -> c
+    com.google.ads.b d -> d
+    com.google.ads.AdRequest$ErrorCode e -> e
+    boolean f -> f
+    com.google.ads.c a -> a
+    void run() -> run
+com.google.ads.c$b -> com.google.ads.q:
+    com.google.ads.c a -> a
+com.google.ads.c$c -> com.google.ads.r:
+    java.lang.String b -> b
+    java.lang.String c -> c
+    android.webkit.WebView d -> d
+    com.google.ads.c a -> a
+    void run() -> run
+com.google.ads.c$d -> com.google.ads.s:
+    com.google.ads.c a -> a
+com.google.ads.c$e -> com.google.ads.t:
+    com.google.ads.d b -> b
+    java.util.LinkedList c -> c
+    int d -> d
+    com.google.ads.c a -> a
+    void run() -> run
+com.google.ads.d -> com.google.ads.u:
+    java.lang.Object a -> a
+    java.lang.ref.WeakReference b -> b
+    com.google.ads.Ad c -> c
+    com.google.ads.AdListener d -> d
+    com.google.ads.c e -> e
+    com.google.ads.AdRequest f -> f
+    com.google.ads.AdSize g -> g
+    com.google.ads.f h -> h
+    java.lang.String i -> i
+    com.google.ads.h j -> j
+    com.google.ads.i k -> k
+    android.os.Handler l -> l
+    long m -> m
+    boolean n -> n
+    boolean o -> o
+    android.content.SharedPreferences p -> p
+    long q -> q
+    com.google.ads.x r -> r
+    boolean s -> s
+    java.util.LinkedList t -> t
+    java.util.LinkedList u -> u
+    int v -> v
+    void a(java.lang.String) -> a
+    void a(java.util.LinkedList) -> a
+    void a() -> a
+    void c() -> b
+    void d() -> c
+    android.app.Activity e() -> d
+    com.google.ads.Ad f() -> e
+    com.google.ads.c g() -> f
+    java.lang.String h() -> g
+    com.google.ads.h i() -> h
+    com.google.ads.i j() -> i
+    com.google.ads.AdSize k() -> j
+    com.google.ads.f l() -> k
+    void a(int) -> a
+    int m() -> l
+    long n() -> m
+    boolean A() -> v
+    boolean p() -> n
+    void a(com.google.ads.AdRequest) -> a
+    void a(com.google.ads.AdRequest$ErrorCode) -> a
+    void q() -> o
+    void r() -> p
+    void s() -> q
+    void t() -> r
+    void u() -> s
+    void v() -> w
+    boolean w() -> t
+    void B() -> x
+    void a(java.lang.Runnable) -> a
+    void x() -> u
+    void a(long) -> a
+    void a(float) -> a
+    void b(long) -> b
+com.google.ads.e -> com.google.ads.v:
+    java.lang.String a -> a
+    java.util.HashMap b -> b
+    android.os.Bundle a() -> a
+    java.lang.String b() -> b
+    java.util.HashMap c() -> c
+com.google.ads.f -> com.google.ads.w:
+    java.util.LinkedList b -> b
+    long c -> c
+    long d -> d
+    java.util.LinkedList e -> e
+    long f -> f
+    java.lang.String g -> g
+    boolean h -> h
+    boolean i -> i
+    java.lang.String a -> a
+    void a() -> a
+    void b() -> b
+    void c() -> c
+    void d() -> d
+    long e() -> e
+    java.lang.String f() -> f
+    java.lang.String g() -> g
+    long h() -> h
+    long i() -> i
+    java.lang.String j() -> j
+    void a(java.lang.String) -> a
+    boolean k() -> k
+    void l() -> l
+    boolean m() -> m
+    void n() -> n
+    void o() -> o
+    java.lang.String p() -> p
+    void b(java.lang.String) -> b
+com.google.ads.g -> com.google.ads.x:
+    java.lang.ref.WeakReference b -> b
+    com.google.ads.h c -> c
+    android.widget.MediaController a -> a
+    long d -> d
+    android.widget.VideoView e -> e
+    java.lang.String f -> f
+    void a() -> a
+    void a(boolean) -> a
+    void a(java.lang.String) -> a
+    void onCompletion(android.media.MediaPlayer) -> onCompletion
+    boolean onError(android.media.MediaPlayer,int,int) -> onError
+    void onPrepared(android.media.MediaPlayer) -> onPrepared
+    void b() -> b
+    void c() -> c
+    void a(int) -> a
+    void a(android.view.MotionEvent) -> a
+    void d() -> d
+    void e() -> e
+com.google.ads.g$a -> com.google.ads.y:
+    java.lang.ref.WeakReference a -> a
+    android.os.Handler b -> b
+    void run() -> run
+    void a() -> a
+com.google.ads.h -> com.google.ads.z:
+    java.lang.ref.WeakReference a -> a
+    com.google.ads.AdSize b -> b
+    void a() -> a
+    com.google.ads.AdActivity b() -> b
+    void a(com.google.ads.AdActivity) -> a
+    void loadDataWithBaseURL(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) -> loadDataWithBaseURL
+    void loadUrl(java.lang.String) -> loadUrl
+    void stopLoading() -> stopLoading
+    void destroy() -> destroy
+    void onMeasure(int,int) -> onMeasure
+com.google.ads.i -> com.google.ads.aa:
+    com.google.ads.d a -> a
+    java.util.Map b -> b
+    boolean c -> c
+    boolean d -> d
+    boolean e -> e
+    boolean f -> f
+    boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String) -> shouldOverrideUrlLoading
+    void onPageFinished(android.webkit.WebView,java.lang.String) -> onPageFinished
+    void a() -> a
+    void b() -> b
+    void c() -> c
+com.google.ads.j -> com.google.ads.ab:
+    void a(com.google.ads.d,java.util.HashMap,android.webkit.WebView) -> a
+com.google.ads.k -> com.google.ads.ac:
+    void a(com.google.ads.d,java.util.HashMap,android.webkit.WebView) -> a
+com.google.ads.l -> com.google.ads.ad:
+    void a(com.google.ads.d,java.util.HashMap,android.webkit.WebView) -> a
+com.google.ads.m -> com.google.ads.ae:
+    void a(com.google.ads.d,java.util.HashMap,android.webkit.WebView) -> a
+com.google.ads.n -> com.google.ads.af:
+    void a(com.google.ads.d,java.util.HashMap,android.webkit.WebView) -> a
+com.google.ads.o -> com.google.ads.ag:
+    void a(com.google.ads.d,java.util.HashMap,android.webkit.WebView) -> a
+com.google.ads.p -> com.google.ads.ah:
+    void a(com.google.ads.d,java.util.HashMap,android.webkit.WebView) -> a
+com.google.ads.q -> com.google.ads.ai:
+    void a(com.google.ads.d,java.util.HashMap,android.webkit.WebView) -> a
+com.google.ads.s -> com.google.ads.aj:
+    void a(com.google.ads.d,java.util.HashMap,android.webkit.WebView) -> a
+com.google.ads.searchads.SearchAdRequest -> com.google.ads.a.a:
+    java.lang.String a -> b
+    int b -> c
+    android.util.Pair c -> d
+    int d -> e
+    int e -> f
+    int f -> g
+    java.lang.String g -> h
+    int h -> i
+    int i -> j
+    com.google.ads.searchads.SearchAdRequest$BorderType j -> k
+    int k -> l
+    java.util.Map getRequestMap(android.content.Context) -> a
+    java.lang.String a(int) -> a
+com.google.ads.searchads.SearchAdRequest$BorderType -> com.google.ads.a.b:
+    com.google.ads.searchads.SearchAdRequest$BorderType NONE -> a
+    com.google.ads.searchads.SearchAdRequest$BorderType DASHED -> b
+    com.google.ads.searchads.SearchAdRequest$BorderType DOTTED -> c
+    com.google.ads.searchads.SearchAdRequest$BorderType SOLID -> d
+    java.lang.String a -> e
+    com.google.ads.searchads.SearchAdRequest$BorderType[] b -> f
+    com.google.ads.searchads.SearchAdRequest$BorderType[] values() -> values
+    com.google.ads.searchads.SearchAdRequest$BorderType valueOf(java.lang.String) -> valueOf
+    java.lang.String toString() -> toString
+com.google.ads.t -> com.google.ads.ak:
+    void a(com.google.ads.d,java.util.HashMap,android.webkit.WebView) -> a
+com.google.ads.u -> com.google.ads.al:
+    void a(com.google.ads.d,java.util.HashMap,android.webkit.WebView) -> a
+com.google.ads.util.AdUtil -> com.google.ads.util.AdUtil:
+    int a -> a
+    java.lang.Boolean b -> b
+    java.lang.String c -> c
+    java.lang.String d -> d
+    java.lang.String e -> e
+    android.media.AudioManager f -> f
+    boolean g -> g
+    boolean h -> h
+    java.lang.String i -> i
+    java.lang.String a(android.content.Context) -> a
+    int a() -> a
+    int b() -> b
+    int a(android.content.Context,android.util.DisplayMetrics) -> a
+    int b(android.content.Context,android.util.DisplayMetrics) -> b
+    boolean b(android.content.Context) -> b
+    boolean a(int,int,java.lang.String) -> a
+    boolean c(android.content.Context) -> c
+    boolean c() -> c
+    boolean a(android.net.Uri) -> a
+    java.lang.String a(java.lang.String) -> a
+    java.lang.String d(android.content.Context) -> d
+    java.lang.String e(android.content.Context) -> e
+    java.lang.String f(android.content.Context) -> f
+    com.google.ads.util.AdUtil$a g(android.content.Context) -> g
+    android.util.DisplayMetrics a(android.app.Activity) -> a
+    java.lang.String a(android.location.Location) -> a
+    java.lang.String b(java.lang.String) -> b
+    java.util.HashMap b(android.net.Uri) -> b
+    boolean d() -> d
+    void a(boolean) -> a
+    void h(android.content.Context) -> h
+    java.lang.String i(android.content.Context) -> i
+    void a(android.webkit.WebView) -> a
+    void a(java.net.HttpURLConnection,android.content.Context) -> a
+    java.lang.String a(java.util.Map) -> a
+    org.json.JSONObject b(java.util.Map) -> b
+    org.json.JSONArray a(java.util.Set) -> a
+com.google.ads.util.AdUtil$UserActivityReceiver -> com.google.ads.util.AdUtil$UserActivityReceiver:
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.google.ads.util.AdUtil$a -> com.google.ads.util.a:
+    com.google.ads.util.AdUtil$a a -> a
+    com.google.ads.util.AdUtil$a b -> b
+    com.google.ads.util.AdUtil$a c -> c
+    com.google.ads.util.AdUtil$a d -> d
+    com.google.ads.util.AdUtil$a e -> e
+    com.google.ads.util.AdUtil$a f -> f
+    com.google.ads.util.AdUtil$a[] g -> g
+    com.google.ads.util.AdUtil$a[] values() -> values
+    com.google.ads.util.AdUtil$a valueOf(java.lang.String) -> valueOf
+com.google.ads.util.a -> com.google.ads.util.b:
+    void a(java.lang.String) -> a
+    void b(java.lang.String) -> b
+    void a(java.lang.String,java.lang.Throwable) -> a
+    void c(java.lang.String) -> c
+    void d(java.lang.String) -> d
+    void e(java.lang.String) -> e
+    void a(java.lang.Throwable) -> a
+    void b(java.lang.String,java.lang.Throwable) -> b
+    boolean a(java.lang.String,int) -> a
+com.google.ads.util.b -> com.google.ads.util.c:
+    boolean a -> a
+    java.lang.String a(byte[]) -> a
+com.google.ads.util.b$a -> com.google.ads.util.d:
+    byte[] a -> a
+    int b -> b
+com.google.ads.util.b$b -> com.google.ads.util.e:
+    byte[] h -> h
+    byte[] i -> i
+    byte[] j -> j
+    int c -> c
+    int k -> k
+    boolean d -> d
+    boolean e -> e
+    boolean f -> f
+    byte[] l -> l
+    boolean g -> g
+    boolean a(byte[],int) -> a
+com.google.ads.util.c -> com.google.ads.util.f:
+    int a(android.content.Context,android.util.DisplayMetrics) -> a
+    int b(android.content.Context,android.util.DisplayMetrics) -> b
+    int a(android.content.Context,float,int) -> a
+com.google.ads.v -> com.google.ads.am:
+    int a(java.util.HashMap,java.lang.String,int,android.util.DisplayMetrics) -> a
+    void a(com.google.ads.d,java.util.HashMap,android.webkit.WebView) -> a
+com.google.ads.w -> com.google.ads.an:
+    android.content.Context a -> a
+    java.lang.String b -> b
+    void run() -> run
+com.google.ads.x -> com.google.ads.ao:
+    java.lang.ref.WeakReference a -> a
+    void run() -> run
+com.google.ads.y -> com.google.ads.ap:
+    android.net.Uri a -> a
+    android.net.Uri b -> b
+    java.lang.String[] c -> c
+    java.lang.String[] d -> d
+com.google.ads.z -> com.google.ads.aq:
+    void a(android.webkit.WebView,boolean) -> a
+com.google.ads.z$a -> com.google.ads.ar:
+    java.lang.ref.WeakReference a -> a
+    void run() -> run
+com.google.ads.z$b -> com.google.ads.as:
+    java.lang.ref.WeakReference a -> a
+    android.webkit.WebView b -> b
+    java.lang.String c -> c
+    void run() -> run
+com.google.ads.z$c -> com.google.ads.at:
+    boolean a -> a
+    android.webkit.WebView b -> b
+    void run() -> run
+net.oddsoftware.android.feedscribe.AudioPlayer -> net.oddsoftware.android.feedscribe.a:
+    net.oddsoftware.android.feedscribe.AudioPlayer mInstance -> b
+    android.media.MediaPlayer mMediaPlayer -> c
+    boolean mPaused -> d
+    boolean mStarted -> e
+    android.content.Context mContext -> f
+    long mItemId -> g
+    long mEnclosureId -> h
+    java.lang.String mCurrentPath -> i
+    net.oddsoftware.android.feedscribe.AudioPlayer$NoisyAudioStreamReceiver mNoisyAudioStreamReceiver -> a
+    android.content.IntentFilter intentFilter -> j
+    net.oddsoftware.android.feedscribe.AudioPlayer getInstance(android.content.Context) -> a
+    android.media.MediaPlayer getMediaPlayer() -> k
+    void savePosition() -> a
+    boolean isPaused() -> b
+    int getCurrentPosition() -> c
+    void seekTo(int) -> a
+    int getDuration() -> d
+    void seekBy(int) -> b
+    void pause() -> e
+    void resume() -> f
+    boolean playPath(java.lang.String) -> a
+    boolean playUrl(java.lang.String) -> b
+    boolean playThing(java.lang.String,boolean) -> a
+    void setItem(long,long) -> a
+    long getItemId() -> g
+    boolean isPlaying() -> h
+    boolean hasStarted() -> i
+    void playbackStarted() -> l
+    java.lang.String getCurrentPath() -> j
+    void playbackStopped() -> m
+    void access$0(net.oddsoftware.android.feedscribe.AudioPlayer) -> a
+net.oddsoftware.android.feedscribe.AudioPlayer$1 -> net.oddsoftware.android.feedscribe.b:
+    net.oddsoftware.android.feedscribe.AudioPlayer this$0 -> a
+    void onCompletion(android.media.MediaPlayer) -> onCompletion
+net.oddsoftware.android.feedscribe.AudioPlayer$NoisyAudioStreamReceiver -> net.oddsoftware.android.feedscribe.c:
+    net.oddsoftware.android.feedscribe.AudioPlayer this$0 -> a
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+net.oddsoftware.android.feedscribe.Globals -> net.oddsoftware.android.feedscribe.d:
+    net.oddsoftware.android.utils.Logger LOG -> a
+    boolean TRACKING -> b
+net.oddsoftware.android.feedscribe.data.Download -> net.oddsoftware.android.feedscribe.data.a:
+    long mId -> a
+    long mEnclosureId -> b
+    java.lang.String mName -> c
+    long mSize -> d
+    long mDownloaded -> e
+    boolean mInProgress -> f
+    boolean mSuccess -> g
+    boolean mEnqueued -> h
+    boolean mPaused -> i
+    boolean mCancelled -> j
+net.oddsoftware.android.feedscribe.data.Downloader -> net.oddsoftware.android.feedscribe.data.b:
+    android.content.Context mContext -> g
+    java.util.concurrent.ExecutorService mThreadPool -> a
+    java.lang.Thread mAwakeChecker -> b
+    long mAwakeInterval -> c
+    int mDownloadCount -> d
+    net.oddsoftware.android.feedscribe.data.FeedManager mFeedManager -> e
+    android.os.PowerManager$WakeLock mWakeLock -> f
+    net.oddsoftware.android.feedscribe.data.Downloader mInstance -> h
+    net.oddsoftware.android.feedscribe.data.Downloader getInstance(android.content.Context) -> a
+    void processDownloads() -> a
+    android.content.Context access$0(net.oddsoftware.android.feedscribe.data.Downloader) -> a
+    org.apache.http.client.HttpClient access$1$7ba3f44f() -> b
+    org.apache.http.client.methods.HttpUriRequest access$2$11d2340b(java.lang.String,long) -> a
+    void access$3(net.oddsoftware.android.feedscribe.data.Downloader) -> b
+net.oddsoftware.android.feedscribe.data.Downloader$1 -> net.oddsoftware.android.feedscribe.data.c:
+    net.oddsoftware.android.feedscribe.data.Downloader this$0 -> a
+    void run() -> run
+net.oddsoftware.android.feedscribe.data.Downloader$DownloadThread -> net.oddsoftware.android.feedscribe.data.d:
+    net.oddsoftware.android.feedscribe.data.Download mDownload -> a
+    net.oddsoftware.android.feedscribe.data.Enclosure mEnclosure -> b
+    net.oddsoftware.android.feedscribe.data.Downloader this$0 -> c
+    void run() -> run
+net.oddsoftware.android.feedscribe.data.Enclosure -> net.oddsoftware.android.feedscribe.data.e:
+    long mId -> a
+    long mItemId -> b
+    java.lang.String mURL -> c
+    long mLength -> d
+    java.lang.String mContentType -> e
+    java.lang.String mDownloadPath -> f
+    long mDownloadTime -> g
+    long mDuration -> h
+    long mPosition -> i
+net.oddsoftware.android.feedscribe.data.Feed -> net.oddsoftware.android.feedscribe.data.f:
+    long mId -> a
+    int mType -> b
+    java.lang.String mName -> c
+    java.lang.String mURL -> d
+    java.lang.String mLink -> e
+    java.lang.String mDescription -> f
+    java.lang.String mImageURL -> g
+    int compareTo(java.lang.Object) -> compareTo
+net.oddsoftware.android.feedscribe.data.FeedConfig -> net.oddsoftware.android.feedscribe.data.g:
+    net.oddsoftware.android.feedscribe.data.FeedConfig mInstance -> a
+    android.content.SharedPreferences mSharedPreferences -> b
+    net.oddsoftware.android.feedscribe.data.FeedConfig getInstance(android.content.Context) -> a
+    int getPreviousPackageVersion(int) -> a
+    boolean getTracking() -> a
+    boolean syncTimeExpired() -> b
+    long getSyncInterval() -> c
+    long getInexactSyncInterval() -> d
+    boolean getNotificationsEnabled() -> e
+    void setPreviousPackageVersion(int) -> b
+    boolean getShowZoomControls() -> f
+    void syncComplete() -> g
+    void clearNewItemCount() -> h
+    void addNewItemCount(int) -> c
+    int getNewItemCount() -> i
+net.oddsoftware.android.feedscribe.data.FeedDBAdaptor -> net.oddsoftware.android.feedscribe.data.h:
+    net.oddsoftware.android.feedscribe.data.FeedDBAdaptor$DatabaseHelper mDbHelper -> b
+    android.database.sqlite.SQLiteDatabase mDb -> a
+    java.lang.String[] FEED_ITEM_QUERY -> c
+    java.lang.String[] SHORT_FEED_ITEM_QUERY -> d
+    java.lang.String[] FEED_QUERY -> e
+    java.lang.String[] ENCLOSURE_QUERY -> f
+    android.content.Context mCtx -> g
+    net.oddsoftware.android.feedscribe.data.FeedDBAdaptor open() -> a
+    boolean updateFeedStatus(net.oddsoftware.android.feedscribe.data.FeedStatus) -> a
+    boolean updateFeedImageURL(net.oddsoftware.android.feedscribe.data.Feed) -> a
+    net.oddsoftware.android.feedscribe.data.FeedStatus getFeedStatus(long) -> a
+    net.oddsoftware.android.feedscribe.data.FeedItem getFeedItem(long) -> b
+    boolean updateFeedItem(net.oddsoftware.android.feedscribe.data.FeedItem) -> a
+    boolean updateFeedItemFlags(net.oddsoftware.android.feedscribe.data.FeedItem) -> b
+    boolean deleteFeedItem(long) -> c
+    java.util.ArrayList getShortFeedItems$39683822(long,boolean) -> a
+    void updateImageTime(java.lang.String,long) -> a
+    void insertImage$e4f3fd6(java.lang.String,long,byte[]) -> a
+    boolean hasImage(java.lang.String) -> a
+    byte[] getImage(java.lang.String) -> b
+    void deleteOlderImages(long) -> d
+    boolean addFeed(net.oddsoftware.android.feedscribe.data.Feed) -> b
+    boolean setFeedName(long,java.lang.String) -> a
+    net.oddsoftware.android.feedscribe.data.Feed getFeed(long) -> e
+    net.oddsoftware.android.feedscribe.data.Feed getFeedByItemId(long) -> f
+    java.util.ArrayList getFeeds() -> b
+    net.oddsoftware.android.feedscribe.data.Feed getFeedByURL(java.lang.String) -> c
+    net.oddsoftware.android.feedscribe.data.Feed parseFeed$4a6e5e43(android.database.Cursor) -> a
+    boolean updateEnclosure(net.oddsoftware.android.feedscribe.data.Enclosure) -> a
+    net.oddsoftware.android.feedscribe.data.Enclosure getEnclosure(long) -> g
+    net.oddsoftware.android.feedscribe.data.Enclosure getEnclosureFromItemId(long) -> h
+    net.oddsoftware.android.feedscribe.data.Enclosure parseEnclosure$6b5ba657(android.database.Cursor) -> b
+    java.util.HashMap getFeedEnclosureInfo(java.lang.String) -> d
+    java.util.HashMap getFeedsWithoutEnclosuresInfo() -> c
+    java.util.ArrayList getFeedItemEnclosureInfo(long,java.lang.String) -> b
+    void deleteFeed(long) -> i
+    void deleteEnclosure(long) -> j
+    long addDownload(long) -> k
+    java.util.ArrayList getAllDownloads() -> d
+    void deleteDownload(long) -> l
+    void deleteDownloadByEnclosure(long) -> m
+    net.oddsoftware.android.feedscribe.data.FeedSettings getFeedSettings(long) -> n
+    void updateFeedSettings(net.oddsoftware.android.feedscribe.data.FeedSettings) -> a
+    android.content.Context getContext() -> e
+    void setFeedItemsRead(long) -> o
+net.oddsoftware.android.feedscribe.data.FeedDBAdaptor$DatabaseHelper -> net.oddsoftware.android.feedscribe.data.i:
+    void onCreate(android.database.sqlite.SQLiteDatabase) -> onCreate
+    void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int) -> onUpgrade
+net.oddsoftware.android.feedscribe.data.FeedEnclosureInfo -> net.oddsoftware.android.feedscribe.data.j:
+    long mFeedId -> a
+    int mDownloadedCount -> b
+    int mNewCount -> c
+    int mItemCount -> d
+    int mUnplayedDownloadCount -> e
+net.oddsoftware.android.feedscribe.data.FeedItem -> net.oddsoftware.android.feedscribe.data.k:
+    long mId -> a
+    long mFeedId -> b
+    java.lang.String mTitle -> c
+    java.lang.String mLink -> d
+    java.lang.String mDescription -> e
+    java.lang.String mAuthor -> f
+    java.lang.String mEnclosureURL -> g
+    java.lang.String mGUID -> h
+    java.util.Date mPubDate -> i
+    long mFlags -> j
+    java.lang.String mOriginalLink -> k
+    java.lang.String mCleanDescription -> l
+    java.lang.String mCleanTitle -> m
+    java.lang.String mImageURL -> n
+    net.oddsoftware.android.feedscribe.data.Enclosure mEnclosure -> o
+    long mPosition -> p
+    int compareTo(java.lang.Object) -> compareTo
+net.oddsoftware.android.feedscribe.data.FeedItemEnclosureInfo -> net.oddsoftware.android.feedscribe.data.l:
+    long mFeedId -> a
+    long mItemId -> b
+    long mEnclosureId -> c
+    java.lang.String mCleanTitle -> d
+    java.lang.String mCleanDescription -> e
+    long mDuration -> f
+    long mSeekPosition -> g
+    int mItemFlags -> h
+    boolean mDownloaded -> i
+net.oddsoftware.android.feedscribe.data.FeedManager -> net.oddsoftware.android.feedscribe.data.m:
+    net.oddsoftware.android.feedscribe.data.FeedManager mInstance -> e
+    net.oddsoftware.android.feedscribe.data.FeedDBAdaptor mDB -> f
+    int mPackageVersion -> a
+    int mPreviousPackageVersion -> b
+    java.lang.String USER_AGENT -> c
+    net.oddsoftware.android.feedscribe.data.FeedUpdateListener mFeedUpdateListener -> g
+    java.util.ArrayList mDownloads -> h
+    net.oddsoftware.android.feedscribe.data.FeedConfig mFeedConfig -> i
+    net.oddsoftware.android.utils.Logger mLog -> j
+    java.text.SimpleDateFormat[] rfc822DateFormats -> d
+    net.oddsoftware.android.feedscribe.data.FeedManager getInstance(android.content.Context) -> a
+    java.util.ArrayList getShortItems(long) -> a
+    net.oddsoftware.android.feedscribe.data.FeedItem getItemById(long) -> b
+    boolean updateItem(net.oddsoftware.android.feedscribe.data.FeedItem) -> a
+    boolean updateItemFlags(net.oddsoftware.android.feedscribe.data.FeedItem) -> b
+    boolean updateItems(long,boolean,int) -> a
+    void updateFeedImage(net.oddsoftware.android.feedscribe.data.Feed) -> b
+    net.oddsoftware.android.feedscribe.data.ShortFeedItem findDuplicate(net.oddsoftware.android.feedscribe.data.FeedItem,java.util.ArrayList) -> a
+    net.oddsoftware.android.feedscribe.data.FeedItem findDuplicate(net.oddsoftware.android.feedscribe.data.ShortFeedItem,java.util.ArrayList) -> a
+    void downloadImage$505cbf4b(java.lang.String) -> d
+    void downloadFeed(net.oddsoftware.android.feedscribe.data.Feed,net.oddsoftware.android.feedscribe.data.FeedStatus,java.util.ArrayList,java.util.ArrayList) -> a
+    java.util.Date parseRFC822Date(java.lang.String) -> a
+    java.util.Date parseRFC3339Date(java.lang.String) -> e
+    boolean parseFeed(java.io.InputStream,net.oddsoftware.android.feedscribe.data.Feed,net.oddsoftware.android.feedscribe.data.FeedStatus,java.util.ArrayList,java.util.ArrayList) -> a
+    void parseAsAtom(org.w3c.dom.Document,net.oddsoftware.android.feedscribe.data.Feed,net.oddsoftware.android.feedscribe.data.FeedStatus,java.util.ArrayList,java.util.ArrayList) -> a
+    java.lang.String extractValue(org.w3c.dom.Element,java.lang.String) -> a
+    java.lang.String extractAttribute(org.w3c.dom.Element,java.lang.String,java.lang.String) -> a
+    void deSpace(java.lang.StringBuilder) -> a
+    java.lang.String cleanDescription(java.lang.String) -> f
+    java.lang.String removeTitleFromDescription(java.lang.String,java.lang.String) -> a
+    void setFeedUpdateListener(net.oddsoftware.android.feedscribe.data.FeedUpdateListener) -> a
+    boolean isFirstRun() -> a
+    void clearFirstRun() -> b
+    byte[] getImage(java.lang.String) -> b
+    net.oddsoftware.android.feedscribe.data.Feed getFeed(long) -> c
+    net.oddsoftware.android.feedscribe.data.Feed getFeedByItemId(long) -> d
+    void htmlUnescapeInto(java.lang.StringBuilder,java.lang.StringBuilder) -> a
+    boolean addFeed$1c7b5e37(java.net.URL,java.lang.String) -> a
+    boolean createFile(net.oddsoftware.android.feedscribe.data.Enclosure) -> a
+    net.oddsoftware.android.feedscribe.data.Enclosure getEnclosure(long) -> e
+    boolean updateEnclosure(net.oddsoftware.android.feedscribe.data.Enclosure) -> b
+    java.util.HashMap getFeedEnclosureInfo(java.lang.String) -> c
+    java.util.HashMap getFeedsWithoutEnclosuresInfo() -> c
+    java.util.ArrayList getFeeds() -> d
+    java.util.ArrayList getFeedItemEnclosureInfo(long,java.lang.String) -> a
+    java.util.ArrayList getDownloads() -> e
+    boolean isDownloading(net.oddsoftware.android.feedscribe.data.Enclosure) -> c
+    void addDownload(net.oddsoftware.android.feedscribe.data.FeedItem,net.oddsoftware.android.feedscribe.data.Enclosure) -> a
+    void loadDownloads() -> i
+    void downloadComplete(net.oddsoftware.android.feedscribe.data.Download) -> a
+    boolean deleteDownload(net.oddsoftware.android.feedscribe.data.Download,net.oddsoftware.android.feedscribe.data.Enclosure) -> a
+    void deleteFeed$25315bf7(net.oddsoftware.android.feedscribe.data.Feed) -> a
+    boolean deleteFeedItem(net.oddsoftware.android.feedscribe.data.FeedItem) -> c
+    void deleteDownloadedEnclosure(net.oddsoftware.android.feedscribe.data.Enclosure) -> d
+    void deleteFeedItemsRead(long) -> f
+    void setFeedItemsRead(long) -> g
+    void verifyEnclosure(net.oddsoftware.android.feedscribe.data.Enclosure) -> e
+    net.oddsoftware.android.feedscribe.data.FeedConfig getFeedConfig() -> f
+    net.oddsoftware.android.feedscribe.data.Feed getLocalFeed() -> g
+    net.oddsoftware.android.feedscribe.data.FeedSettings getFeedSettings(long) -> h
+    void updateFeedSettings(net.oddsoftware.android.feedscribe.data.FeedSettings) -> a
+    java.lang.String exportOPML() -> h
+    int importOPML(java.io.Reader) -> a
+    int importOPML(org.xmlpull.v1.XmlPullParser) -> a
+    boolean setFeedName(long,java.lang.String) -> b
+net.oddsoftware.android.feedscribe.data.FeedManager$1 -> net.oddsoftware.android.feedscribe.data.n:
+    net.oddsoftware.android.feedscribe.data.FeedManager this$0 -> a
+    java.lang.StringBuilder val$description -> b
+    boolean visit$5d10ae56(org.htmlcleaner.HtmlNode) -> a
+net.oddsoftware.android.feedscribe.data.FeedSettings -> net.oddsoftware.android.feedscribe.data.o:
+    long mFeedId -> a
+    boolean mUpdateAutomatically -> b
+    boolean mDisplayFullArticle -> c
+    boolean mCacheFullArticle -> d
+    boolean mCacheImages -> e
+    boolean mTextify -> f
+net.oddsoftware.android.feedscribe.data.FeedStatus -> net.oddsoftware.android.feedscribe.data.p:
+    long mFeedId -> a
+    java.util.Date mLastHit -> b
+    int mTTL -> c
+    java.lang.String mETag -> d
+    java.util.Date mLastModified -> e
+    java.lang.String mLastURL -> f
+net.oddsoftware.android.feedscribe.data.FeedUpdateListener -> net.oddsoftware.android.feedscribe.data.q:
+    void feedUpdateProgress(int,int) -> a
+net.oddsoftware.android.feedscribe.data.PlaylistProvider -> net.oddsoftware.android.feedscribe.data.PlaylistProvider:
+    android.content.UriMatcher sUriMatcher -> c
+    java.util.HashMap sPlaylistsProjectionMap -> d
+    java.util.HashMap sPlaylistEntriesProjectionMap -> e
+    android.net.Uri PLAYLISTS_CONTENT_URI -> a
+    android.net.Uri PLAYLIST_ENTRIES_CONTENT_URI -> b
+    net.oddsoftware.android.feedscribe.data.PlaylistProvider$DatabaseHelper mOpenHelper -> f
+    boolean onCreate() -> onCreate
+    android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String) -> query
+    java.lang.String getType(android.net.Uri) -> getType
+    android.net.Uri insert(android.net.Uri,android.content.ContentValues) -> insert
+    int delete(android.net.Uri,java.lang.String,java.lang.String[]) -> delete
+    int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[]) -> update
+net.oddsoftware.android.feedscribe.data.PlaylistProvider$DatabaseHelper -> net.oddsoftware.android.feedscribe.data.r:
+    void onCreate(android.database.sqlite.SQLiteDatabase) -> onCreate
+    void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int) -> onUpgrade
+net.oddsoftware.android.feedscribe.data.ShortFeedItem -> net.oddsoftware.android.feedscribe.data.s:
+    long mId -> a
+    java.lang.String mLink -> b
+    long mPubDate -> c
+    long mFeedId -> d
+    java.lang.String mTitle -> e
+    java.lang.String mEnclosureURL -> f
+    java.lang.String mGUID -> g
+    long mFlags -> h
+    int compareTo(java.lang.Object) -> compareTo
+net.oddsoftware.android.feedscribe.service.FeedService -> net.oddsoftware.android.feedscribe.service.FeedService:
+    android.app.NotificationManager mNotificationManager -> b
+    boolean mNotificationsEnabled -> c
+    void doWakefulWork(android.content.Intent) -> a
+    void doUpdateFeeds(long,boolean) -> a
+    void broadcastStatus(int,int,int) -> a
+    void feedUpdateProgress(int,int) -> a
+    void downloadAdded(android.content.Context) -> a
+    void updateFeeds(android.content.Context,boolean) -> a
+    void updateFeed(android.content.Context,long) -> a
+    void clearNotifications(android.content.Context) -> b
+net.oddsoftware.android.feedscribe.service.ScheduleReceiver -> net.oddsoftware.android.feedscribe.service.ScheduleReceiver:
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+    void scheduleSync(android.content.Context) -> a
+    void doSync(android.content.Context) -> b
+net.oddsoftware.android.feedscribe.ui.AddItemActivity -> net.oddsoftware.android.feedscribe.ui.AddItemActivity:
+    void onCreate(android.os.Bundle) -> onCreate
+    void onDestroy() -> onDestroy
+    void onReadNowClicked(android.view.View) -> onReadNowClicked
+    void onReadLaterClicked(android.view.View) -> onReadLaterClicked
+    long addItem() -> a
+    void onStart() -> onStart
+    void onStop() -> onStop
+net.oddsoftware.android.feedscribe.ui.DownloadsActivity -> net.oddsoftware.android.feedscribe.ui.DownloadsActivity:
+    net.oddsoftware.android.feedscribe.ui.DownloadsListAdapter mDownloadsListAdapter -> a
+    android.os.Handler mHandler -> b
+    java.lang.Runnable mUpdateTask -> c
+    void onCreate(android.os.Bundle) -> onCreate
+    void onResume() -> onResume
+    void onPause() -> onPause
+    void onStart() -> onStart
+    void onStop() -> onStop
+    boolean onContextItemSelected(android.view.MenuItem) -> onContextItemSelected
+    void onCreateContextMenu(android.view.ContextMenu,android.view.View,android.view.ContextMenu$ContextMenuInfo) -> onCreateContextMenu
+    net.oddsoftware.android.feedscribe.ui.DownloadsListAdapter access$0(net.oddsoftware.android.feedscribe.ui.DownloadsActivity) -> a
+    android.os.Handler access$1(net.oddsoftware.android.feedscribe.ui.DownloadsActivity) -> b
+    java.lang.Runnable access$2(net.oddsoftware.android.feedscribe.ui.DownloadsActivity) -> c
+net.oddsoftware.android.feedscribe.ui.DownloadsActivity$1 -> net.oddsoftware.android.feedscribe.ui.a:
+    net.oddsoftware.android.feedscribe.ui.DownloadsActivity this$0 -> a
+    void run() -> run
+net.oddsoftware.android.feedscribe.ui.DownloadsListAdapter -> net.oddsoftware.android.feedscribe.ui.b:
+    java.util.ArrayList mDownloads -> a
+    android.content.Context mContext -> b
+    void update() -> a
+    int getCount() -> getCount
+    java.lang.Object getItem(int) -> getItem
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    int getItemViewType(int) -> getItemViewType
+    int getViewTypeCount() -> getViewTypeCount
+    boolean hasStableIds() -> hasStableIds
+net.oddsoftware.android.feedscribe.ui.DownloadsListAdapter$ViewHolder -> net.oddsoftware.android.feedscribe.ui.c:
+    android.widget.TextView mNameTextView -> a
+    android.widget.TextView mDurationTextView -> b
+    android.widget.ProgressBar mProgressBar -> c
+    net.oddsoftware.android.feedscribe.ui.DownloadsListAdapter this$0 -> d
+net.oddsoftware.android.feedscribe.ui.FeedSettingsActivity -> net.oddsoftware.android.feedscribe.ui.FeedSettingsActivity:
+    net.oddsoftware.android.feedscribe.data.FeedSettings mFeedSettings -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void onStart() -> onStart
+    void onStop() -> onStop
+    void onPause() -> onPause
+    void onSharedPreferenceChanged(android.content.SharedPreferences,java.lang.String) -> onSharedPreferenceChanged
+net.oddsoftware.android.feedscribe.ui.FeedsActivity -> net.oddsoftware.android.feedscribe.ui.FeedsActivity:
+    int DIALOG_INFO -> a
+    int DIALOG_FIRSTRUN -> b
+    void onCreate(android.os.Bundle) -> onCreate
+    void processIntent(android.content.Intent) -> a
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onPrepareOptionsMenu(android.view.Menu) -> onPrepareOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    void onResume() -> onResume
+    void onStart() -> onStart
+    void onStop() -> onStop
+    android.app.Dialog onCreateDialog(int) -> onCreateDialog
+    void onNewIntent(android.content.Intent) -> onNewIntent
+    int access$0(net.oddsoftware.android.feedscribe.ui.FeedsActivity) -> a
+net.oddsoftware.android.feedscribe.ui.FeedsActivity$1 -> net.oddsoftware.android.feedscribe.ui.d:
+    net.oddsoftware.android.feedscribe.ui.FeedsActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+net.oddsoftware.android.feedscribe.ui.FeedsActivity$2 -> net.oddsoftware.android.feedscribe.ui.e:
+    net.oddsoftware.android.feedscribe.ui.FeedsActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+net.oddsoftware.android.feedscribe.ui.FeedsActivity$3 -> net.oddsoftware.android.feedscribe.ui.f:
+    net.oddsoftware.android.feedscribe.ui.FeedsActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+net.oddsoftware.android.feedscribe.ui.FeedsListActivity -> net.oddsoftware.android.feedscribe.ui.FeedsListActivity:
+net.oddsoftware.android.feedscribe.ui.FileDialog -> net.oddsoftware.android.feedscribe.ui.FileDialog:
+    java.util.List item -> a
+    java.util.List path -> b
+    java.lang.String root -> c
+    android.widget.TextView myPath -> d
+    android.widget.EditText mFileName -> e
+    java.util.ArrayList mList -> f
+    android.widget.Button selectButton -> g
+    android.widget.Button newButton -> h
+    android.widget.Button cancelButton -> i
+    android.widget.Button createButton -> j
+    android.widget.LinearLayout layoutSelect -> k
+    android.widget.LinearLayout layoutCreate -> l
+    android.view.inputmethod.InputMethodManager inputManager -> m
+    java.lang.String parentPath -> n
+    java.lang.String currentPath -> o
+    java.io.File selectedFile -> p
+    java.util.HashMap lastPositions -> q
+    void onCreate(android.os.Bundle) -> onCreate
+    void getDir(java.lang.String) -> a
+    void addItem(java.lang.String,int) -> a
+    void onListItemClick(android.widget.ListView,android.view.View,int,long) -> onListItemClick
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    void unselect() -> a
+    java.io.File access$0(net.oddsoftware.android.feedscribe.ui.FileDialog) -> a
+    android.widget.LinearLayout access$1(net.oddsoftware.android.feedscribe.ui.FileDialog) -> b
+    android.widget.LinearLayout access$2(net.oddsoftware.android.feedscribe.ui.FileDialog) -> c
+    android.widget.EditText access$3(net.oddsoftware.android.feedscribe.ui.FileDialog) -> d
+    android.view.inputmethod.InputMethodManager access$4(net.oddsoftware.android.feedscribe.ui.FileDialog) -> e
+    void access$5(net.oddsoftware.android.feedscribe.ui.FileDialog) -> f
+    java.lang.String access$6(net.oddsoftware.android.feedscribe.ui.FileDialog) -> g
+net.oddsoftware.android.feedscribe.ui.FileDialog$1 -> net.oddsoftware.android.feedscribe.ui.g:
+    net.oddsoftware.android.feedscribe.ui.FileDialog this$0 -> a
+    void onClick(android.view.View) -> onClick
+net.oddsoftware.android.feedscribe.ui.FileDialog$2 -> net.oddsoftware.android.feedscribe.ui.h:
+    net.oddsoftware.android.feedscribe.ui.FileDialog this$0 -> a
+    void onClick(android.view.View) -> onClick
+net.oddsoftware.android.feedscribe.ui.FileDialog$3 -> net.oddsoftware.android.feedscribe.ui.i:
+    net.oddsoftware.android.feedscribe.ui.FileDialog this$0 -> a
+    void onClick(android.view.View) -> onClick
+net.oddsoftware.android.feedscribe.ui.FileDialog$4 -> net.oddsoftware.android.feedscribe.ui.j:
+    net.oddsoftware.android.feedscribe.ui.FileDialog this$0 -> a
+    void onClick(android.view.View) -> onClick
+net.oddsoftware.android.feedscribe.ui.FileDialog$5 -> net.oddsoftware.android.feedscribe.ui.k:
+    net.oddsoftware.android.feedscribe.ui.FileDialog this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+net.oddsoftware.android.feedscribe.ui.LogListActivity -> net.oddsoftware.android.feedscribe.ui.LogListActivity:
+    android.widget.ArrayAdapter mListAdapter -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void onResume() -> onResume
+net.oddsoftware.android.feedscribe.ui.MyViewFlipper -> net.oddsoftware.android.feedscribe.ui.l:
+    void onDetachedFromWindow() -> onDetachedFromWindow
+net.oddsoftware.android.feedscribe.ui.NewsActivity -> net.oddsoftware.android.feedscribe.ui.NewsActivity:
+    net.oddsoftware.android.feedscribe.ui.MyViewFlipper mViewFlipper -> a
+    android.widget.ListView mNewsFeedsListView -> b
+    net.oddsoftware.android.feedscribe.ui.NewsFeedsListAdapter mNewsFeedsListAdapter -> c
+    android.widget.ListView mNewsItemsListView -> d
+    net.oddsoftware.android.feedscribe.ui.NewsItemsListAdapter mNewsItemsListAdapter -> e
+    android.view.View mNewsView -> f
+    boolean mLoading -> h
+    long mItemId -> i
+    java.lang.String mItemDescription -> j
+    java.lang.String mItemTitle -> k
+    java.lang.String mItemURL -> l
+    long mItemFlags -> m
+    java.lang.String mProcessedData -> n
+    net.oddsoftware.android.utils.WorkerThread mWorkerThread -> o
+    android.os.Handler mHandler -> p
+    int MENU_ITEM_DELETE_FEED -> q
+    int MENU_ITEM_FEED_SETTINGS -> r
+    int MENU_ITEM_RENAME_FEED -> s
+    net.oddsoftware.android.html.HttpCache mHttpCache -> t
+    boolean mForceRefresh -> g
+    net.oddsoftware.android.feedscribe.ui.NewsActivity$StatusReceiver mStatusReceiver -> u
+    long mSelectedFeedId -> v
+    android.webkit.WebView mWebView -> w
+    int mScrollPercent -> x
+    void onCreate(android.os.Bundle) -> onCreate
+    void onStart() -> onStart
+    void onStop() -> onStop
+    void setPageLoadProgress(int) -> a
+    void onPause() -> onPause
+    void onResume() -> onResume
+    void onSaveInstanceState(android.os.Bundle) -> onSaveInstanceState
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    void showNext() -> a
+    void showPrevious() -> b
+    void showNewsItem(long,int) -> a
+    void onPrev(android.view.View) -> onPrev
+    void onNext(android.view.View) -> onNext
+    void launchNewsItem(long) -> a
+    void updateTitle() -> c
+    boolean onPrepareOptionsMenu(android.view.Menu) -> onPrepareOptionsMenu
+    void onDestroy() -> onDestroy
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    android.app.Dialog onCreateDialog(int) -> onCreateDialog
+    void onPrepareDialog(int,android.app.Dialog) -> onPrepareDialog
+    void onCreateContextMenu(android.view.ContextMenu,android.view.View,android.view.ContextMenu$ContextMenuInfo) -> onCreateContextMenu
+    boolean onContextItemSelected(android.view.MenuItem) -> onContextItemSelected
+    void access$0(net.oddsoftware.android.feedscribe.ui.NewsActivity,int) -> a
+    void access$1(net.oddsoftware.android.feedscribe.ui.NewsActivity,int) -> b
+    android.webkit.WebView access$2(net.oddsoftware.android.feedscribe.ui.NewsActivity) -> a
+    int access$3(net.oddsoftware.android.feedscribe.ui.NewsActivity) -> b
+    java.lang.String access$4(net.oddsoftware.android.feedscribe.ui.NewsActivity) -> c
+    net.oddsoftware.android.html.HttpCache access$5(net.oddsoftware.android.feedscribe.ui.NewsActivity) -> d
+    java.lang.String access$6(net.oddsoftware.android.feedscribe.ui.NewsActivity) -> e
+    java.lang.String access$7(net.oddsoftware.android.feedscribe.ui.NewsActivity) -> f
+    long access$8(net.oddsoftware.android.feedscribe.ui.NewsActivity) -> g
+    void access$9(net.oddsoftware.android.feedscribe.ui.NewsActivity,java.lang.String) -> a
+    void access$10(net.oddsoftware.android.feedscribe.ui.NewsActivity,java.lang.String) -> b
+    void access$11(net.oddsoftware.android.feedscribe.ui.NewsActivity) -> h
+    void access$12$732d0d4f(net.oddsoftware.android.feedscribe.ui.NewsActivity) -> i
+    void access$13(net.oddsoftware.android.feedscribe.ui.NewsActivity) -> j
+    void access$14(net.oddsoftware.android.feedscribe.ui.NewsActivity,java.lang.String) -> c
+net.oddsoftware.android.feedscribe.ui.NewsActivity$1 -> net.oddsoftware.android.feedscribe.ui.m:
+    net.oddsoftware.android.feedscribe.ui.NewsActivity this$0 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+net.oddsoftware.android.feedscribe.ui.NewsActivity$2 -> net.oddsoftware.android.feedscribe.ui.n:
+    net.oddsoftware.android.feedscribe.ui.NewsActivity this$0 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+net.oddsoftware.android.feedscribe.ui.NewsActivity$3 -> net.oddsoftware.android.feedscribe.ui.o:
+    net.oddsoftware.android.feedscribe.ui.NewsActivity this$0 -> a
+    void onProgressChanged(android.webkit.WebView,int) -> onProgressChanged
+net.oddsoftware.android.feedscribe.ui.NewsActivity$4 -> net.oddsoftware.android.feedscribe.ui.p:
+    net.oddsoftware.android.feedscribe.ui.NewsActivity this$0 -> a
+    void run() -> run
+net.oddsoftware.android.feedscribe.ui.NewsActivity$5 -> net.oddsoftware.android.feedscribe.ui.q:
+    java.lang.String processedData -> a
+    java.lang.String processedTitle -> b
+    java.lang.String finalUrl -> c
+    net.oddsoftware.android.feedscribe.ui.NewsActivity this$0 -> d
+    boolean val$displayFullArticle -> e
+    boolean val$textifyEnabled -> f
+    net.oddsoftware.android.feedscribe.data.FeedItem val$item -> g
+    net.oddsoftware.android.feedscribe.data.Feed val$feed -> h
+    long val$itemId -> i
+    void doInBackground() -> a
+    void onPostExecute() -> b
+net.oddsoftware.android.feedscribe.ui.NewsActivity$6 -> net.oddsoftware.android.feedscribe.ui.r:
+    net.oddsoftware.android.feedscribe.ui.NewsActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+net.oddsoftware.android.feedscribe.ui.NewsActivity$7 -> net.oddsoftware.android.feedscribe.ui.s:
+    net.oddsoftware.android.feedscribe.ui.NewsActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+net.oddsoftware.android.feedscribe.ui.NewsActivity$8 -> net.oddsoftware.android.feedscribe.ui.t:
+    net.oddsoftware.android.feedscribe.ui.NewsActivity this$0 -> a
+    android.view.View val$textEntryView -> b
+    void onClick(android.content.DialogInterface,int) -> onClick
+net.oddsoftware.android.feedscribe.ui.NewsActivity$9 -> net.oddsoftware.android.feedscribe.ui.u:
+    net.oddsoftware.android.feedscribe.ui.NewsActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+net.oddsoftware.android.feedscribe.ui.NewsActivity$StatusReceiver -> net.oddsoftware.android.feedscribe.ui.v:
+    net.oddsoftware.android.feedscribe.ui.NewsActivity this$0 -> a
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+net.oddsoftware.android.feedscribe.ui.NewsFeedsListAdapter -> net.oddsoftware.android.feedscribe.ui.w:
+    net.oddsoftware.android.feedscribe.data.FeedManager mFeedManager -> a
+    java.util.HashMap mFeedInfo -> b
+    java.util.ArrayList mFeeds -> c
+    android.content.Context mContext -> d
+    java.util.HashMap mImageMap -> e
+    void update() -> a
+    int getCount() -> getCount
+    java.lang.Object getItem(int) -> getItem
+    int getItemViewType(int) -> getItemViewType
+    boolean hasStableIds() -> hasStableIds
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    int getPosition(long) -> a
+    long getFeedId(int) -> a
+    java.lang.String getFeedName(int) -> b
+    java.lang.String getFeedNameById(long) -> b
+net.oddsoftware.android.feedscribe.ui.NewsFeedsListAdapter$ViewHolder -> net.oddsoftware.android.feedscribe.ui.x:
+    android.widget.TextView mNameTextView -> a
+    android.widget.TextView mItemCountTextView -> b
+    android.widget.TextView mNoteTextView -> c
+    android.widget.ImageView mImageView -> d
+net.oddsoftware.android.feedscribe.ui.NewsItemsListAdapter -> net.oddsoftware.android.feedscribe.ui.y:
+    net.oddsoftware.android.feedscribe.data.FeedManager mFeedManager -> a
+    android.content.Context mContext -> b
+    java.util.ArrayList mShortFeedItems -> c
+    long mFeedId -> d
+    void setFeedId(long) -> a
+    void update() -> a
+    int getCount() -> getCount
+    java.lang.Object getItem(int) -> getItem
+    int getItemViewType(int) -> getItemViewType
+    boolean hasStableIds() -> hasStableIds
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    long getFeedId() -> b
+    java.lang.String getFeedName() -> c
+    long getPreviousItem(long) -> b
+    long getNextItem(long) -> c
+    void access$0(net.oddsoftware.android.feedscribe.ui.NewsItemsListAdapter,long) -> a
+net.oddsoftware.android.feedscribe.ui.NewsItemsListAdapter$StarClickListener -> net.oddsoftware.android.feedscribe.ui.z:
+    long mId -> b
+    net.oddsoftware.android.feedscribe.ui.NewsItemsListAdapter this$0 -> a
+    void onClick(android.view.View) -> onClick
+net.oddsoftware.android.feedscribe.ui.NewsItemsListAdapter$ViewHolder -> net.oddsoftware.android.feedscribe.ui.aa:
+    android.widget.TextView mTitleTextView -> a
+    android.widget.TextView mDateTextView -> b
+    android.text.style.StyleSpan mBoldSpan -> c
+net.oddsoftware.android.feedscribe.ui.NewsPreferencesActivity -> net.oddsoftware.android.feedscribe.ui.NewsPreferencesActivity:
+    void onCreate(android.os.Bundle) -> onCreate
+    android.app.Dialog onCreateDialog(int) -> onCreateDialog
+    void onStart() -> onStart
+    void onStop() -> onStop
+    void doOPMLExport() -> a
+    void doOPMLImport() -> b
+    void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+net.oddsoftware.android.feedscribe.ui.NewsPreferencesActivity$1 -> net.oddsoftware.android.feedscribe.ui.ab:
+    net.oddsoftware.android.feedscribe.ui.NewsPreferencesActivity this$0 -> a
+    boolean onPreferenceClick(android.preference.Preference) -> onPreferenceClick
+net.oddsoftware.android.feedscribe.ui.NewsPreferencesActivity$2 -> net.oddsoftware.android.feedscribe.ui.ac:
+    net.oddsoftware.android.feedscribe.ui.NewsPreferencesActivity this$0 -> a
+    boolean onPreferenceClick(android.preference.Preference) -> onPreferenceClick
+net.oddsoftware.android.feedscribe.ui.NewsPreferencesActivity$3 -> net.oddsoftware.android.feedscribe.ui.ad:
+    net.oddsoftware.android.feedscribe.ui.NewsPreferencesActivity this$0 -> a
+    boolean onPreferenceClick(android.preference.Preference) -> onPreferenceClick
+net.oddsoftware.android.feedscribe.ui.NewsPreferencesActivity$4 -> net.oddsoftware.android.feedscribe.ui.ae:
+    net.oddsoftware.android.feedscribe.ui.NewsPreferencesActivity this$0 -> a
+    boolean onPreferenceClick(android.preference.Preference) -> onPreferenceClick
+net.oddsoftware.android.feedscribe.ui.NewsPreferencesActivity$5 -> net.oddsoftware.android.feedscribe.ui.af:
+    net.oddsoftware.android.feedscribe.ui.NewsPreferencesActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+net.oddsoftware.android.feedscribe.ui.PlayAudioActivity -> net.oddsoftware.android.feedscribe.ui.PlayAudioActivity:
+    android.os.Handler mHandler -> a
+    java.lang.Runnable mUpdateTask -> b
+    android.widget.SeekBar mSeekBar -> c
+    android.widget.TextView mPositionText -> d
+    android.widget.TextView mDurationText -> e
+    java.lang.String mTitleText -> f
+    void onCreate(android.os.Bundle) -> onCreate
+    void loadAlbumArt(long,java.lang.String) -> a
+    void onTimer() -> a
+    int updateDisplay() -> b
+    void onPause() -> onPause
+    void onResume() -> onResume
+    void onStart() -> onStart
+    void onStop() -> onStop
+    void onBackPressed() -> onBackPressed
+    void access$0(net.oddsoftware.android.feedscribe.ui.PlayAudioActivity) -> a
+    void access$1(net.oddsoftware.android.feedscribe.ui.PlayAudioActivity) -> b
+    void access$2(net.oddsoftware.android.feedscribe.ui.PlayAudioActivity) -> c
+    void access$3(net.oddsoftware.android.feedscribe.ui.PlayAudioActivity,int) -> a
+    void access$4(net.oddsoftware.android.feedscribe.ui.PlayAudioActivity) -> d
+net.oddsoftware.android.feedscribe.ui.PlayAudioActivity$1 -> net.oddsoftware.android.feedscribe.ui.ag:
+    net.oddsoftware.android.feedscribe.ui.PlayAudioActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+net.oddsoftware.android.feedscribe.ui.PlayAudioActivity$2 -> net.oddsoftware.android.feedscribe.ui.ah:
+    net.oddsoftware.android.feedscribe.ui.PlayAudioActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+net.oddsoftware.android.feedscribe.ui.PlayAudioActivity$3 -> net.oddsoftware.android.feedscribe.ui.ai:
+    net.oddsoftware.android.feedscribe.ui.PlayAudioActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+net.oddsoftware.android.feedscribe.ui.PlayAudioActivity$4 -> net.oddsoftware.android.feedscribe.ui.aj:
+    net.oddsoftware.android.feedscribe.ui.PlayAudioActivity this$0 -> a
+    void onStopTrackingTouch(android.widget.SeekBar) -> onStopTrackingTouch
+    void onStartTrackingTouch(android.widget.SeekBar) -> onStartTrackingTouch
+    void onProgressChanged(android.widget.SeekBar,int,boolean) -> onProgressChanged
+net.oddsoftware.android.feedscribe.ui.PlayAudioActivity$5 -> net.oddsoftware.android.feedscribe.ui.ak:
+    net.oddsoftware.android.feedscribe.ui.PlayAudioActivity this$0 -> a
+    void run() -> run
+net.oddsoftware.android.feedscribe.ui.PlayVideoActivity -> net.oddsoftware.android.feedscribe.ui.PlayVideoActivity:
+    long mEnclosureId -> a
+    long mItemId -> b
+    int mSeekTo -> c
+    boolean mPlaying -> d
+    boolean mFullscreen -> e
+    void onCreate(android.os.Bundle) -> onCreate
+    void onSaveInstanceState(android.os.Bundle) -> onSaveInstanceState
+    void onPause() -> onPause
+    void onResume() -> onResume
+    void onStop() -> onStop
+    void onStart() -> onStart
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    void onConfigurationChanged(android.content.res.Configuration) -> onConfigurationChanged
+    void access$0(net.oddsoftware.android.feedscribe.ui.PlayVideoActivity) -> a
+net.oddsoftware.android.feedscribe.ui.PlayVideoActivity$1 -> net.oddsoftware.android.feedscribe.ui.al:
+    net.oddsoftware.android.feedscribe.ui.PlayVideoActivity this$0 -> a
+    void onCompletion(android.media.MediaPlayer) -> onCompletion
+net.oddsoftware.android.feedscribe.ui.PodcastFeedsListAdaptor -> net.oddsoftware.android.feedscribe.ui.am:
+    net.oddsoftware.android.feedscribe.data.FeedManager mFeedManager -> a
+    java.util.HashMap mFeedEnclosures -> b
+    java.util.HashMap mImageMap -> c
+    java.util.ArrayList mFeeds -> d
+    java.lang.String mFeedType -> e
+    android.content.Context mContext -> f
+    void update() -> a
+    long getFeedId(int) -> a
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    int getCount() -> getCount
+    java.lang.Object getItem(int) -> getItem
+    long getItemId(int) -> getItemId
+    int getItemViewType(int) -> getItemViewType
+    boolean hasStableIds() -> hasStableIds
+    java.lang.String getFeedNameById(long) -> a
+net.oddsoftware.android.feedscribe.ui.PodcastFeedsListAdaptor$ViewHolder -> net.oddsoftware.android.feedscribe.ui.an:
+    android.widget.TextView mNameTextView -> a
+    android.widget.TextView mItemCountTextView -> b
+    android.widget.TextView mNoteTextView -> c
+    android.widget.ImageView mImageView -> d
+net.oddsoftware.android.feedscribe.ui.PodcastItemsListAdapter -> net.oddsoftware.android.feedscribe.ui.ao:
+    android.content.Context mContext -> a
+    java.util.ArrayList mFeedItemEnclosures -> b
+    net.oddsoftware.android.feedscribe.data.FeedManager mFeedManager -> c
+    java.lang.String mEnclosureType -> d
+    long mFeedId -> e
+    long mPlayingItemId -> f
+    void setFeedId(long) -> a
+    void update() -> a
+    int getCount() -> getCount
+    java.lang.Object getItem(int) -> getItem
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    int getViewTypeCount() -> getViewTypeCount
+    boolean hasStableIds() -> hasStableIds
+    long getEnclosureId(int) -> a
+    long getFeedItemId(int) -> b
+    long getFeedId() -> b
+    java.lang.String getFeedName() -> c
+    void setPlayingItemId(long) -> b
+    void setItemProgress(long,long) -> a
+net.oddsoftware.android.feedscribe.ui.PodcastItemsListAdapter$ViewHolder -> net.oddsoftware.android.feedscribe.ui.ap:
+    android.widget.TextView mNameTextView -> a
+    android.widget.TextView mDurationTextView -> b
+    android.widget.TextView mNoteTextView -> c
+    android.widget.ImageView mImageView -> d
+    net.oddsoftware.android.feedscribe.ui.PodcastItemsListAdapter this$0 -> e
+net.oddsoftware.android.feedscribe.ui.PodcastsActivity -> net.oddsoftware.android.feedscribe.ui.PodcastsActivity:
+    android.widget.ViewFlipper mViewFlipper -> a
+    android.widget.ListView mPodcastsListView -> b
+    net.oddsoftware.android.feedscribe.ui.PodcastFeedsListAdaptor mPodcastsAdapter -> c
+    android.widget.ListView mItemsListView -> d
+    net.oddsoftware.android.feedscribe.ui.PodcastItemsListAdapter mItemsAdapter -> e
+    android.webkit.WebView mShownotesView -> f
+    java.lang.String mContentType -> g
+    int mOverrideContextMenuPosition -> h
+    java.lang.String KEY_CURRENT_VIEW -> i
+    java.lang.String KEY_CURRENT_FEED -> j
+    java.lang.String KEY_CURRENT_ITEM -> k
+    java.lang.String KEY_FIRST_FEED -> l
+    java.lang.String KEY_FIRST_ITEM -> m
+    int MENU_ITEM_PLAY -> n
+    int MENU_ITEM_ADD_PLAYLIST -> o
+    int MENU_ITEM_DELETE -> p
+    int MENU_ITEM_DOWNLOAD -> q
+    int MENU_ITEM_SHOWNOTES -> r
+    int MENU_ITEM_MARK_READ -> s
+    int MENU_ITEM_MARK_UNREAD -> t
+    int MENU_ITEM_ADD_PLAYLIST_STREAM -> u
+    int MENU_ITEM_STREAM -> v
+    int MENU_ITEM_PLAY_EXTERNAL -> w
+    int MENU_ITEM_DELETE_FILE -> x
+    int MENU_ITEM_ITEMS_MAX -> y
+    int MENU_ITEM_DELETE_FEED -> z
+    int MENU_ITEM_RENAME_FEED -> A
+    int MENU_ITEM_REFRESH_FEED -> B
+    long mSelectedFeedId -> C
+    long mCurrentItem -> D
+    android.os.Handler mHandler -> E
+    java.lang.Runnable mUpdateTask -> F
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    void showNext() -> a
+    void onPause() -> onPause
+    void onResume() -> onResume
+    boolean onContextItemSelected(android.view.MenuItem) -> onContextItemSelected
+    boolean onItemContextItemSelected(android.view.MenuItem) -> a
+    void onCreateContextMenu(android.view.ContextMenu,android.view.View,android.view.ContextMenu$ContextMenuInfo) -> onCreateContextMenu
+    android.app.Dialog onCreateDialog(int) -> onCreateDialog
+    void onPrepareDialog(int,android.app.Dialog) -> onPrepareDialog
+    void onContextMenuClosed(android.view.Menu) -> onContextMenuClosed
+    void playVideo(net.oddsoftware.android.feedscribe.data.FeedItem,net.oddsoftware.android.feedscribe.data.Enclosure) -> a
+    void playAudio(net.oddsoftware.android.feedscribe.data.FeedItem,net.oddsoftware.android.feedscribe.data.Enclosure) -> b
+    void onSaveInstanceState(android.os.Bundle) -> onSaveInstanceState
+    void updateTitle() -> b
+    void onTimer() -> c
+    void onStart() -> onStart
+    void onStop() -> onStop
+    void access$0(net.oddsoftware.android.feedscribe.ui.PodcastsActivity,int) -> a
+    void access$1(net.oddsoftware.android.feedscribe.ui.PodcastsActivity) -> a
+    void access$2(net.oddsoftware.android.feedscribe.ui.PodcastsActivity,int) -> b
+    void access$3(net.oddsoftware.android.feedscribe.ui.PodcastsActivity) -> b
+    void access$4(net.oddsoftware.android.feedscribe.ui.PodcastsActivity,java.lang.String) -> a
+net.oddsoftware.android.feedscribe.ui.PodcastsActivity$1 -> net.oddsoftware.android.feedscribe.ui.aq:
+    net.oddsoftware.android.feedscribe.ui.PodcastsActivity this$0 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+net.oddsoftware.android.feedscribe.ui.PodcastsActivity$2 -> net.oddsoftware.android.feedscribe.ui.ar:
+    net.oddsoftware.android.feedscribe.ui.PodcastsActivity this$0 -> a
+    void run() -> run
+net.oddsoftware.android.feedscribe.ui.PodcastsActivity$3 -> net.oddsoftware.android.feedscribe.ui.as:
+    net.oddsoftware.android.feedscribe.ui.PodcastsActivity this$0 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+net.oddsoftware.android.feedscribe.ui.PodcastsActivity$4 -> net.oddsoftware.android.feedscribe.ui.at:
+    net.oddsoftware.android.feedscribe.ui.PodcastsActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+net.oddsoftware.android.feedscribe.ui.PodcastsActivity$5 -> net.oddsoftware.android.feedscribe.ui.au:
+    net.oddsoftware.android.feedscribe.ui.PodcastsActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+net.oddsoftware.android.feedscribe.ui.PodcastsActivity$6 -> net.oddsoftware.android.feedscribe.ui.av:
+    net.oddsoftware.android.feedscribe.ui.PodcastsActivity this$0 -> a
+    android.view.View val$textEntryView -> b
+    void onClick(android.content.DialogInterface,int) -> onClick
+net.oddsoftware.android.feedscribe.ui.PodcastsActivity$7 -> net.oddsoftware.android.feedscribe.ui.aw:
+    net.oddsoftware.android.feedscribe.ui.PodcastsActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+net.oddsoftware.android.feedscribe.ui.SubscribeActivity -> net.oddsoftware.android.feedscribe.ui.SubscribeActivity:
+    net.oddsoftware.android.utils.WorkerThread mWorker -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void onDestroy() -> onDestroy
+    void onAddClicked(android.view.View) -> onAddClicked
+    void onStart() -> onStart
+    void onStop() -> onStop
+net.oddsoftware.android.feedscribe.ui.SubscribeActivity$1 -> net.oddsoftware.android.feedscribe.ui.ax:
+    boolean ok -> b
+    net.oddsoftware.android.feedscribe.ui.SubscribeActivity this$0 -> a
+    java.lang.String val$uriString -> c
+    net.oddsoftware.android.feedscribe.data.FeedManager val$feedManager -> d
+    void doInBackground() -> a
+    void onPostExecute() -> b
+net.oddsoftware.android.html.CacheItem -> net.oddsoftware.android.html.a:
+    long mId -> a
+    java.lang.String mUrl -> b
+    java.lang.String mFilename -> c
+    java.lang.String mETag -> d
+    long mLastModified -> e
+    long mHitTime -> f
+    java.lang.String mLastUrl -> g
+    long mExpiresAt -> h
+    java.lang.String[] projection -> i
+    net.oddsoftware.android.html.CacheItem getByURL(android.content.ContentResolver,java.lang.String) -> a
+    java.util.ArrayList getAllItems(android.content.ContentResolver) -> a
+    void update(android.content.ContentResolver) -> b
+    void delete(android.content.ContentResolver) -> c
+net.oddsoftware.android.html.CacheItem$CacheItems -> net.oddsoftware.android.html.b:
+    android.net.Uri CONTENT_URI -> a
+net.oddsoftware.android.html.HttpCache -> net.oddsoftware.android.html.c:
+    java.io.File mCacheDirectory -> a
+    android.content.ContentResolver mContentResolver -> b
+    java.io.InputStream getResource(java.lang.String,boolean) -> a
+    java.lang.String getLastUrl(java.lang.String) -> a
+    void download(net.oddsoftware.android.html.CacheItem) -> a
+    org.apache.http.client.methods.HttpUriRequest createHttpRequest(java.lang.String,java.lang.String,long) -> a
+    void seed(java.lang.String) -> b
+    void maintainCache() -> a
+net.oddsoftware.android.html.HttpCacheProvider -> net.oddsoftware.android.html.HttpCacheProvider:
+    android.content.UriMatcher sUriMatcher -> a
+    java.util.HashMap cacheItemsProjectionMap -> b
+    net.oddsoftware.android.html.HttpCacheProvider$DatabaseHelper dbHelper -> c
+    boolean onCreate() -> onCreate
+    int delete(android.net.Uri,java.lang.String,java.lang.String[]) -> delete
+    java.lang.String getType(android.net.Uri) -> getType
+    android.net.Uri insert(android.net.Uri,android.content.ContentValues) -> insert
+    android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String) -> query
+    int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[]) -> update
+net.oddsoftware.android.html.HttpCacheProvider$DatabaseHelper -> net.oddsoftware.android.html.d:
+    void onCreate(android.database.sqlite.SQLiteDatabase) -> onCreate
+    void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int) -> onUpgrade
+net.oddsoftware.android.html.Textify -> net.oddsoftware.android.html.e:
+    java.lang.String mTitle -> a
+    java.lang.String mAuthor -> o
+    java.lang.String mPubDate -> p
+    java.util.HashMap mTagScores -> b
+    java.util.HashMap mAllowedAttributes -> c
+    java.util.HashSet mBlacklistTags -> d
+    java.util.HashMap mConvertTags -> e
+    java.util.regex.Pattern mUnlikelyCandidates -> f
+    java.util.regex.Pattern mOkMaybeItsACandidates -> g
+    java.util.regex.Pattern mDivToPElements -> h
+    java.util.regex.Pattern mPositiveClassNames -> i
+    java.util.regex.Pattern mNegativeClassNames -> j
+    java.util.regex.Pattern mSentencePattern -> k
+    org.htmlcleaner.HtmlCleaner mCleaner -> l
+    org.htmlcleaner.TagNode mArticleRoot -> m
+    boolean mProcessingEnabled -> n
+    boolean mStripUnlikelyCandidates -> q
+    int mBestScore -> r
+    boolean mForcePageWidth -> s
+    java.lang.String mViewport -> t
+    void setProcessingEnabled$1385ff() -> a
+    void setStripUnlikelyCandidates$1385ff() -> b
+    int getArticleScore() -> c
+    void process(java.lang.String) -> a
+    void process(java.io.InputStream) -> a
+    void setTitle(java.lang.String) -> b
+    void setAuthor(java.lang.String) -> c
+    void setPubDate(java.lang.String) -> d
+    java.lang.String getTitle() -> d
+    double getLinkDensity(org.htmlcleaner.TagNode) -> a
+    int countChars(java.lang.StringBuffer) -> a
+    java.lang.String getArticleTitle(org.htmlcleaner.TagNode) -> b
+    int getClassWeight(org.htmlcleaner.TagNode) -> c
+    void addScore(org.htmlcleaner.TagNode,int) -> a
+    org.htmlcleaner.TagNode getArticleRoot(org.htmlcleaner.TagNode) -> d
+    void cleanArticle(org.htmlcleaner.TagNode) -> e
+    void clean(org.htmlcleaner.TagNode,java.lang.String) -> a
+    void cleanConditionally(org.htmlcleaner.TagNode,java.lang.String) -> b
+    int getCharCount(java.lang.StringBuilder,java.lang.String) -> a
+    java.lang.String getProcessedArticle() -> e
+    void preprocess(org.htmlcleaner.TagNode) -> f
+net.oddsoftware.android.html.Textify$1 -> net.oddsoftware.android.html.f:
+    net.oddsoftware.android.html.Textify this$0 -> a
+    boolean visit$5d10ae56(org.htmlcleaner.HtmlNode) -> a
+net.oddsoftware.android.html.Textify$2 -> net.oddsoftware.android.html.g:
+    net.oddsoftware.android.html.Textify this$0 -> a
+    java.util.ArrayList val$contentToTransform -> b
+    java.util.ArrayList val$brsToRemove -> c
+    boolean visit$5d10ae56(org.htmlcleaner.HtmlNode) -> a
+net.oddsoftware.android.utils.LogEntry -> net.oddsoftware.android.utils.a:
+    long mTimestamp -> a
+    int mLevel -> b
+    java.lang.String mMessage -> c
+    java.lang.Throwable mException -> d
+    java.lang.String toString() -> toString
+net.oddsoftware.android.utils.Logger -> net.oddsoftware.android.utils.b:
+    java.lang.String mTag -> a
+    boolean mAndroid -> b
+    int mLevel -> c
+    net.oddsoftware.android.utils.LogEntry[] mEntries -> d
+    int mSlot -> e
+    int mMaxSize -> f
+    void log(int,java.lang.String,java.lang.Throwable) -> a
+    boolean v() -> a
+    void v(java.lang.String) -> a
+    boolean d() -> b
+    void d(java.lang.String) -> b
+    void w(java.lang.String) -> c
+    void w(java.lang.String,java.lang.Throwable) -> a
+    boolean e() -> c
+    void e(java.lang.String) -> d
+    void e(java.lang.String,java.lang.Throwable) -> b
+    void addEntry(net.oddsoftware.android.utils.LogEntry) -> a
+    void getEntries(java.util.Collection) -> a
+net.oddsoftware.android.utils.LoggerFactory -> net.oddsoftware.android.utils.c:
+    java.util.HashMap mLoggers -> a
+    net.oddsoftware.android.utils.Logger getLogger(java.lang.String) -> a
+net.oddsoftware.android.utils.MediaScan -> net.oddsoftware.android.utils.d:
+    java.lang.String mName -> a
+    java.lang.String mContentType -> b
+    android.media.MediaScannerConnection mConnection -> c
+    void ScanFile(android.content.Context,java.lang.String,java.lang.String) -> a
+    void onMediaScannerConnected() -> onMediaScannerConnected
+    void onScanCompleted(java.lang.String,android.net.Uri) -> onScanCompleted
+net.oddsoftware.android.utils.TagParser -> net.oddsoftware.android.utils.e:
+    java.io.File mFile -> a
+    java.lang.String mReason -> b
+    byte[] mImageData -> c
+    java.lang.String mMimeType -> d
+    boolean findImage() -> a
+    boolean findImage(java.io.FileInputStream) -> a
+    boolean readAll(java.io.FileInputStream,short[]) -> a
+    boolean readAll(java.io.FileInputStream,byte[]) -> a
+    java.lang.String readString(java.io.FileInputStream,int) -> a
+    java.lang.String getImageMimeType() -> b
+    byte[] getImageData() -> c
+net.oddsoftware.android.utils.Utilities -> net.oddsoftware.android.utils.f:
+    java.text.DecimalFormat TWO_DECIMAL_PLACES -> a
+    java.text.DateFormat mDateFormat -> b
+    int parseDuration(java.lang.String) -> a
+    java.lang.String formatDuration(int) -> a
+    java.lang.String formatFileSize(long) -> a
+    java.lang.String formatDate(java.util.Date) -> a
+net.oddsoftware.android.utils.WakefulIntentService -> net.oddsoftware.android.utils.WakefulIntentService:
+    android.os.PowerManager$WakeLock lockStatic -> b
+    int mWakeTimeout -> a
+    void doWakefulWork(android.content.Intent) -> a
+    android.os.PowerManager$WakeLock getLock(android.content.Context) -> a
+    void sendWakefulWork(android.content.Context,android.content.Intent) -> a
+    void onStart(android.content.Intent,int) -> onStart
+    void onHandleIntent(android.content.Intent) -> onHandleIntent
+net.oddsoftware.android.utils.WorkerThread -> net.oddsoftware.android.utils.g:
+    java.util.concurrent.LinkedBlockingQueue mBackgroundQueue -> a
+    android.os.Handler mHandler -> b
+    boolean mRunning -> c
+    void run() -> run
+    void addTask(net.oddsoftware.android.utils.WorkerThread$Task) -> a
+    void kill() -> a
+net.oddsoftware.android.utils.WorkerThread$1 -> net.oddsoftware.android.utils.h:
+    net.oddsoftware.android.utils.WorkerThread this$0 -> a
+    net.oddsoftware.android.utils.WorkerThread$Task val$t -> b
+    void run() -> run
+net.oddsoftware.android.utils.WorkerThread$Task -> net.oddsoftware.android.utils.i:
+    void doInBackground() -> a
+    void onPostExecute() -> b
+org.htmlcleaner.BaseToken -> a.a.a:
+    void serialize(org.htmlcleaner.Serializer,java.io.Writer) -> a
+org.htmlcleaner.BrowserCompactXmlSerializer -> a.a.b:
+    void serialize(org.htmlcleaner.TagNode,java.io.Writer) -> a
+org.htmlcleaner.CleanerProperties -> a.a.c:
+    org.htmlcleaner.ITagInfoProvider tagInfoProvider -> a
+    boolean advancedXmlEscape -> b
+    boolean transResCharsToNCR -> c
+    boolean useCdataForScriptAndStyle -> d
+    boolean translateSpecialEntities -> e
+    boolean transSpecialEntitiesToNCR -> f
+    boolean recognizeUnicodeChars -> g
+    boolean omitUnknownTags -> h
+    boolean treatUnknownTagsAsContent -> i
+    boolean omitDeprecatedTags -> j
+    boolean treatDeprecatedTagsAsContent -> k
+    boolean omitComments -> l
+    boolean omitXmlDeclaration -> m
+    boolean omitDoctypeDeclaration -> n
+    boolean omitHtmlEnvelope -> o
+    boolean useEmptyElementTags -> p
+    boolean allowMultiWordAttributes -> q
+    boolean allowHtmlInsideAttributes -> r
+    boolean ignoreQuestAndExclam -> s
+    boolean namespacesAware -> t
+    java.lang.String hyphenReplacementInComment -> u
+    java.lang.String pruneTags -> v
+    java.lang.String booleanAttributeValues -> w
+    void setTransResCharsToNCR$1385ff() -> a
+    void setOmitComments$1385ff() -> b
+    void setOmitDoctypeDeclaration$1385ff() -> c
+    void setUseEmptyElementTags$1385ff() -> d
+    void setPruneTags(java.lang.String) -> a
+org.htmlcleaner.CleanerTransformations -> a.a.d:
+    java.util.Map mappings -> a
+    void addTransformation(org.htmlcleaner.TagTransformation) -> a
+    boolean hasTransformationForTag(java.lang.String) -> a
+    org.htmlcleaner.TagTransformation getTransformation(java.lang.String) -> b
+org.htmlcleaner.CommentNode -> a.a.e:
+    java.lang.StringBuilder content -> a
+    java.lang.String getCommentedContent() -> a
+    java.lang.String toString() -> toString
+    void serialize(org.htmlcleaner.Serializer,java.io.Writer) -> a
+org.htmlcleaner.ContentNode -> a.a.f:
+    java.lang.StringBuilder content -> a
+    java.lang.String toString() -> toString
+    java.lang.StringBuilder getContent() -> a
+    void serialize(org.htmlcleaner.Serializer,java.io.Writer) -> a
+org.htmlcleaner.DefaultTagProvider -> a.a.g:
+    org.htmlcleaner.DefaultTagProvider _instance -> a
+    org.htmlcleaner.DefaultTagProvider getInstance() -> a
+    org.htmlcleaner.TagInfo getTagInfo(java.lang.String) -> a
+org.htmlcleaner.DoctypeToken -> a.a.h:
+    java.lang.String part1 -> a
+    java.lang.String part2 -> b
+    java.lang.String part3 -> c
+    java.lang.String part4 -> d
+    java.lang.String clean(java.lang.String) -> a
+    java.lang.String getContent() -> a
+    java.lang.String toString() -> toString
+    void serialize(org.htmlcleaner.Serializer,java.io.Writer) -> a
+org.htmlcleaner.EndTagToken -> a.a.i:
+    void setAttribute(java.lang.String,java.lang.String) -> a
+    void serialize(org.htmlcleaner.Serializer,java.io.Writer) -> a
+org.htmlcleaner.HtmlCleaner -> a.a.j:
+    java.lang.String DEFAULT_CHARSET -> a
+    org.htmlcleaner.CleanerProperties properties -> b
+    org.htmlcleaner.ITagInfoProvider tagInfoProvider -> c
+    org.htmlcleaner.CleanerTransformations transformations -> d
+    org.htmlcleaner.TagNode clean(java.lang.String) -> a
+    org.htmlcleaner.TagNode clean(java.io.InputStream) -> a
+    org.htmlcleaner.TagNode clean(java.io.Reader) -> a
+    org.htmlcleaner.TagNode createTagNode(java.lang.String,org.htmlcleaner.HtmlCleaner$CleanTimeValues) -> b
+    org.htmlcleaner.TagNode makeTagNodeCopy(org.htmlcleaner.TagNode,org.htmlcleaner.HtmlCleaner$CleanTimeValues) -> a
+    void calculateRootNode(org.htmlcleaner.HtmlCleaner$CleanTimeValues) -> a
+    void addAttributesToTag(org.htmlcleaner.TagNode,java.util.Map) -> a
+    boolean isAllowedInLastOpenTag(org.htmlcleaner.BaseToken,org.htmlcleaner.HtmlCleaner$CleanTimeValues) -> a
+    void saveToLastOpenTag(java.util.List,org.htmlcleaner.BaseToken,org.htmlcleaner.HtmlCleaner$CleanTimeValues) -> a
+    boolean isStartToken(java.lang.Object) -> a
+    void makeTree(java.util.List,java.util.ListIterator,org.htmlcleaner.HtmlCleaner$CleanTimeValues) -> a
+    void createDocumentNodes(java.util.List,org.htmlcleaner.HtmlCleaner$CleanTimeValues) -> a
+    java.util.List closeSnippet(java.util.List,org.htmlcleaner.HtmlCleaner$TagPos,java.lang.Object,org.htmlcleaner.HtmlCleaner$CleanTimeValues) -> a
+    void closeAll(java.util.List,org.htmlcleaner.HtmlCleaner$CleanTimeValues) -> b
+    void addPossibleHeadCandidate(org.htmlcleaner.TagInfo,org.htmlcleaner.TagNode,org.htmlcleaner.HtmlCleaner$CleanTimeValues) -> a
+    org.htmlcleaner.CleanerProperties getProperties() -> a
+    void setTransformations(org.htmlcleaner.CleanerTransformations) -> a
+    org.htmlcleaner.ITagInfoProvider access$0(org.htmlcleaner.HtmlCleaner) -> a
+    org.htmlcleaner.TagNode access$1$552569db(java.lang.String,org.htmlcleaner.HtmlCleaner$CleanTimeValues) -> a
+org.htmlcleaner.HtmlCleaner$1 -> a.a.k:
+    org.htmlcleaner.HtmlCleaner this$0 -> a
+    org.htmlcleaner.HtmlCleaner$CleanTimeValues val$cleanTimeValues -> b
+    void makeTree(java.util.List) -> a
+    org.htmlcleaner.TagNode createTagNode(java.lang.String) -> a
+org.htmlcleaner.HtmlCleaner$CleanTimeValues -> a.a.l:
+    org.htmlcleaner.HtmlCleaner$OpenTags _openTags -> b
+    boolean _headOpened -> c
+    boolean _bodyOpened -> d
+    java.util.Set _headTags -> e
+    java.util.Set allTags -> f
+    org.htmlcleaner.TagNode htmlNode -> g
+    org.htmlcleaner.TagNode bodyNode -> h
+    org.htmlcleaner.TagNode headNode -> i
+    org.htmlcleaner.TagNode rootNode -> j
+    java.util.Set pruneTagSet -> k
+    java.util.Set pruneNodeSet -> l
+    org.htmlcleaner.HtmlCleaner this$0 -> a
+    void access$1(org.htmlcleaner.HtmlCleaner$CleanTimeValues,org.htmlcleaner.HtmlCleaner$OpenTags) -> a
+    void access$2(org.htmlcleaner.HtmlCleaner$CleanTimeValues,boolean) -> a
+    void access$3(org.htmlcleaner.HtmlCleaner$CleanTimeValues,boolean) -> b
+    java.util.Set access$4(org.htmlcleaner.HtmlCleaner$CleanTimeValues) -> a
+    java.util.Set access$5(org.htmlcleaner.HtmlCleaner$CleanTimeValues) -> b
+    void access$6(org.htmlcleaner.HtmlCleaner$CleanTimeValues,org.htmlcleaner.TagNode) -> a
+    void access$7(org.htmlcleaner.HtmlCleaner$CleanTimeValues,org.htmlcleaner.TagNode) -> b
+    void access$8(org.htmlcleaner.HtmlCleaner$CleanTimeValues,org.htmlcleaner.TagNode) -> c
+    void access$9(org.htmlcleaner.HtmlCleaner$CleanTimeValues,org.htmlcleaner.TagNode) -> d
+    org.htmlcleaner.TagNode access$10(org.htmlcleaner.HtmlCleaner$CleanTimeValues) -> c
+    org.htmlcleaner.TagNode access$11(org.htmlcleaner.HtmlCleaner$CleanTimeValues) -> d
+    org.htmlcleaner.TagNode access$12(org.htmlcleaner.HtmlCleaner$CleanTimeValues) -> e
+    java.util.Set access$13(org.htmlcleaner.HtmlCleaner$CleanTimeValues) -> f
+    org.htmlcleaner.TagNode access$14(org.htmlcleaner.HtmlCleaner$CleanTimeValues) -> g
+    java.util.Set access$15(org.htmlcleaner.HtmlCleaner$CleanTimeValues) -> h
+    org.htmlcleaner.HtmlCleaner$OpenTags access$16(org.htmlcleaner.HtmlCleaner$CleanTimeValues) -> i
+    boolean access$17(org.htmlcleaner.HtmlCleaner$CleanTimeValues) -> j
+    boolean access$18(org.htmlcleaner.HtmlCleaner$CleanTimeValues) -> k
+org.htmlcleaner.HtmlCleaner$OpenTags -> a.a.m:
+    java.util.List list -> b
+    org.htmlcleaner.HtmlCleaner$TagPos last -> c
+    java.util.Set set -> d
+    org.htmlcleaner.HtmlCleaner this$0 -> a
+    boolean isEmpty() -> a
+    org.htmlcleaner.HtmlCleaner$TagPos findTag(java.lang.String) -> a
+    boolean access$1(org.htmlcleaner.HtmlCleaner$OpenTags,java.lang.String) -> a
+    org.htmlcleaner.HtmlCleaner$TagPos access$2(org.htmlcleaner.HtmlCleaner$OpenTags,java.lang.String) -> b
+    java.util.List access$3(org.htmlcleaner.HtmlCleaner$OpenTags) -> a
+    org.htmlcleaner.HtmlCleaner$TagPos access$4(org.htmlcleaner.HtmlCleaner$OpenTags) -> b
+    org.htmlcleaner.HtmlCleaner$TagPos access$5(org.htmlcleaner.HtmlCleaner$OpenTags) -> c
+    boolean access$6(org.htmlcleaner.HtmlCleaner$OpenTags) -> d
+    boolean access$7(org.htmlcleaner.HtmlCleaner$OpenTags,java.util.Set) -> a
+    boolean access$8(org.htmlcleaner.HtmlCleaner$OpenTags,java.lang.String) -> c
+    void access$9(org.htmlcleaner.HtmlCleaner$OpenTags,java.lang.String,int) -> a
+    void access$10(org.htmlcleaner.HtmlCleaner$OpenTags,java.lang.String) -> d
+    org.htmlcleaner.HtmlCleaner$TagPos access$11(org.htmlcleaner.HtmlCleaner$OpenTags) -> e
+org.htmlcleaner.HtmlCleaner$TagPos -> a.a.n:
+    int position -> b
+    java.lang.String name -> c
+    org.htmlcleaner.TagInfo info -> d
+    org.htmlcleaner.HtmlCleaner this$0 -> a
+    java.lang.String access$0(org.htmlcleaner.HtmlCleaner$TagPos) -> a
+    org.htmlcleaner.TagInfo access$1(org.htmlcleaner.HtmlCleaner$TagPos) -> b
+    int access$2(org.htmlcleaner.HtmlCleaner$TagPos) -> c
+org.htmlcleaner.HtmlCleanerException -> a.a.o:
+org.htmlcleaner.HtmlNode -> a.a.p:
+org.htmlcleaner.HtmlTokenizer -> a.a.q:
+    java.io.Reader _reader -> a
+    char[] _working -> b
+    int _pos -> c
+    int _len -> d
+    char[] _saved -> e
+    int _savedLen -> f
+    org.htmlcleaner.DoctypeToken _docType -> g
+    org.htmlcleaner.TagToken _currentTagToken -> h
+    java.util.List _tokenList -> i
+    boolean _asExpected -> j
+    boolean _isScriptContext -> k
+    org.htmlcleaner.CleanerProperties props -> l
+    boolean isOmitUnknownTags -> m
+    boolean isTreatUnknownTagsAsContent -> n
+    boolean isOmitDeprecatedTags -> o
+    boolean isTreatDeprecatedTagsAsContent -> p
+    boolean isNamespacesAware -> q
+    boolean isOmitComments -> r
+    boolean isAllowMultiWordAttributes -> s
+    boolean isAllowHtmlInsideAttributes -> t
+    org.htmlcleaner.CleanerTransformations transformations -> u
+    org.htmlcleaner.ITagInfoProvider tagInfoProvider -> v
+    java.lang.StringBuilder commonStr -> w
+    void addToken(org.htmlcleaner.BaseToken) -> a
+    void makeTree(java.util.List) -> a
+    org.htmlcleaner.TagNode createTagNode(java.lang.String) -> a
+    void readIfNeeded(int) -> a
+    java.util.List getTokenList() -> a
+    void go() -> d
+    void go(int) -> b
+    boolean startsWith(java.lang.String) -> b
+    boolean startsWithSimple(java.lang.String) -> c
+    boolean isWhitespaceSafe() -> e
+    boolean isChar(int,char) -> a
+    boolean isCharSimple(char) -> a
+    boolean isCharEquals(char) -> b
+    boolean isIdentifierStartChar(int) -> c
+    boolean isValidXmlCharSafe() -> f
+    boolean isAllRead() -> g
+    void save(char) -> c
+    void saveCurrent() -> h
+    void saveCurrentSafe() -> i
+    void skipWhitespaces() -> j
+    boolean addSavedAsContent() -> k
+    void start() -> b
+    boolean isReservedTag(java.lang.String) -> d
+    void tagEnd() -> l
+    java.lang.String identifier() -> m
+    void tagAttributes() -> n
+    java.lang.String attributeValue() -> o
+    boolean content() -> p
+    void ignoreUntil(char) -> d
+    void comment() -> q
+    org.htmlcleaner.DoctypeToken getDocType() -> c
+org.htmlcleaner.ITagInfoProvider -> a.a.r:
+    org.htmlcleaner.TagInfo getTagInfo(java.lang.String) -> a
+org.htmlcleaner.Serializer -> a.a.s:
+    org.htmlcleaner.CleanerProperties props -> a
+    void write$3e3c4b5(org.htmlcleaner.TagNode,java.io.Writer,java.lang.String) -> a
+    void serialize(org.htmlcleaner.TagNode,java.io.Writer) -> a
+org.htmlcleaner.SpecialEntity -> a.a.t:
+    java.util.Map entities -> a
+    int maxEntityLength -> b
+    java.lang.String key -> c
+    int intCode -> d
+    void addEntity(java.lang.String,int) -> a
+    org.htmlcleaner.SpecialEntity getEntity(java.lang.String) -> a
+    int getMaxEntityLength() -> a
+    char getCharacter() -> b
+    java.lang.String getDecimalNCR() -> c
+org.htmlcleaner.TagInfo -> a.a.u:
+    java.lang.String name -> a
+    int contentType -> b
+    java.util.Set mustCloseTags -> c
+    java.util.Set higherTags -> d
+    java.util.Set childTags -> e
+    java.util.Set permittedTags -> f
+    java.util.Set copyTags -> g
+    java.util.Set continueAfterTags -> h
+    int belongsTo -> i
+    java.lang.String requiredParent -> j
+    java.lang.String fatalTag -> k
+    boolean deprecated -> l
+    boolean unique -> m
+    boolean ignorePermitted -> n
+    void defineFatalTags(java.lang.String) -> a
+    void defineRequiredEnclosingTags(java.lang.String) -> b
+    void defineForbiddenTags(java.lang.String) -> c
+    void defineAllowedChildrenTags(java.lang.String) -> d
+    void defineHigherLevelTags(java.lang.String) -> e
+    void defineCloseBeforeCopyInsideTags(java.lang.String) -> f
+    void defineCloseInsideCopyAfterTags(java.lang.String) -> g
+    void defineCloseBeforeTags(java.lang.String) -> h
+    java.util.Set getPermittedTags() -> a
+    java.lang.String getRequiredParent() -> b
+    java.lang.String getFatalTag() -> c
+    boolean isDeprecated() -> d
+    boolean isUnique() -> e
+    boolean isIgnorePermitted() -> f
+    boolean isEmptyTag() -> g
+    boolean allowsBody() -> h
+    boolean isHigher(java.lang.String) -> i
+    boolean isCopy(java.lang.String) -> j
+    boolean hasCopyTags() -> i
+    boolean isContinueAfter(java.lang.String) -> k
+    boolean hasPermittedTags() -> j
+    boolean isHeadTag() -> k
+    boolean isHeadAndBodyTag() -> l
+    boolean isMustCloseTag(org.htmlcleaner.TagInfo) -> a
+    boolean allowsItem(org.htmlcleaner.BaseToken) -> a
+    boolean allowsAnything() -> m
+org.htmlcleaner.TagNode -> a.a.v:
+    org.htmlcleaner.TagNode parent -> b
+    java.util.Map attributes -> c
+    java.util.List children -> d
+    org.htmlcleaner.DoctypeToken docType -> e
+    java.util.Map nsDeclarations -> f
+    java.util.List itemsToMove -> g
+    boolean isFormed -> h
+    boolean setName(java.lang.String) -> a
+    java.lang.String getAttributeByName(java.lang.String) -> b
+    java.util.Map getAttributes() -> a
+    void setAttribute(java.lang.String,java.lang.String) -> a
+    void addNamespaceDeclaration(java.lang.String,java.lang.String) -> b
+    java.util.Map getNamespaceDeclarations() -> b
+    java.util.List getChildren() -> c
+    java.util.List getChildTagList() -> d
+    java.lang.StringBuffer getText() -> e
+    void getText(java.lang.StringBuilder) -> a
+    int getTextLength() -> f
+    org.htmlcleaner.TagNode getParent() -> g
+    org.htmlcleaner.DoctypeToken getDocType() -> h
+    void setDocType(org.htmlcleaner.DoctypeToken) -> a
+    void addChild(java.lang.Object) -> a
+    void addChildren(java.util.List) -> a
+    org.htmlcleaner.TagNode findElement(org.htmlcleaner.TagNode$ITagNodeCondition,boolean) -> a
+    java.util.List getElementList(org.htmlcleaner.TagNode$ITagNodeCondition,boolean) -> b
+    org.htmlcleaner.TagNode[] getElements$62805a64(org.htmlcleaner.TagNode$ITagNodeCondition) -> a
+    java.util.List getAllElementsList$30a3ae68() -> i
+    org.htmlcleaner.TagNode[] getAllElements$79417f16() -> j
+    org.htmlcleaner.TagNode findElementByName(java.lang.String,boolean) -> a
+    java.util.List getElementListByName(java.lang.String,boolean) -> b
+    org.htmlcleaner.TagNode[] getElementsByName$4f781d20(java.lang.String) -> c
+    boolean removeFromTree() -> k
+    boolean removeChild(java.lang.Object) -> b
+    void addItemForMoving(org.htmlcleaner.BaseToken) -> a
+    java.util.List getItemsToMove() -> l
+    void setItemsToMove$61fb9e66() -> m
+    boolean isFormed() -> n
+    void setFormed$1385ff() -> o
+    void transformAttributes(org.htmlcleaner.TagTransformation) -> a
+    void traverse(org.htmlcleaner.TagNodeVisitor) -> a
+    boolean traverseInternally(org.htmlcleaner.TagNodeVisitor) -> b
+    void collectNamespacePrefixesOnPath(java.util.Set) -> a
+    void serialize(org.htmlcleaner.Serializer,java.io.Writer) -> a
+    org.htmlcleaner.TagNode makeCopy() -> p
+org.htmlcleaner.TagNode$ITagNodeCondition -> a.a.w:
+    boolean satisfy(org.htmlcleaner.TagNode) -> a
+org.htmlcleaner.TagNode$TagAllCondition -> a.a.x:
+    org.htmlcleaner.TagNode this$0 -> a
+    boolean satisfy(org.htmlcleaner.TagNode) -> a
+org.htmlcleaner.TagNode$TagNodeNameCondition -> a.a.y:
+    java.lang.String name -> b
+    org.htmlcleaner.TagNode this$0 -> a
+    boolean satisfy(org.htmlcleaner.TagNode) -> a
+org.htmlcleaner.TagNodeVisitor -> a.a.z:
+    boolean visit$5d10ae56(org.htmlcleaner.HtmlNode) -> a
+org.htmlcleaner.TagToken -> a.a.aa:
+    java.lang.String name -> a
+    java.lang.String getName() -> q
+    java.lang.String toString() -> toString
+    void setAttribute(java.lang.String,java.lang.String) -> a
+org.htmlcleaner.TagTransformation -> a.a.ab:
+    java.lang.String sourceTag -> a
+    java.lang.String destTag -> b
+    boolean preserveSourceAttributes -> c
+    java.util.Map attributeTransformations -> d
+    boolean hasAttributeTransformations() -> a
+    java.lang.String getSourceTag() -> b
+    java.lang.String getDestTag() -> c
+    boolean isPreserveSourceAttributes() -> d
+    java.util.Map getAttributeTransformations() -> e
+org.htmlcleaner.Utils -> a.a.ac:
+    java.lang.String VAR_START -> a
+    java.lang.String VAR_END -> b
+    java.util.Map RESERVED_XML_CHARS -> c
+    boolean isValidXmlChar(char) -> a
+    boolean isReservedXmlChar(char) -> c
+    boolean isValidInt(java.lang.String,int) -> a
+    java.lang.String escapeXml$5f7b1514(java.lang.String,org.htmlcleaner.CleanerProperties) -> a
+    boolean isWhitespaceString(java.lang.Object) -> a
+    boolean isIdentifierHelperChar(char) -> b
+    boolean isValidXmlIdentifier(java.lang.String) -> a
+    boolean isEmptyString(java.lang.Object) -> b
+    java.lang.String evaluateTemplate(java.lang.String,java.util.Map) -> a
+    java.lang.String getXmlNSPrefix(java.lang.String) -> b
+    java.lang.String getXmlName(java.lang.String) -> c
+org.htmlcleaner.XPather -> a.a.ad:
+    java.lang.String[] tokenArray -> a
+    java.lang.Object[] evaluateAgainstNode(org.htmlcleaner.TagNode) -> a
+    java.util.Collection evaluateAgainst(java.util.Collection,int,int,boolean,int,int,boolean,java.util.Collection) -> a
+    java.lang.String flatten(int,int) -> a
+    boolean isValidInteger(java.lang.String) -> a
+    boolean isValidDouble(java.lang.String) -> b
+    boolean isIdentifier(java.lang.String) -> c
+    java.util.Collection evaluateFunction(java.util.Collection,int,int,int,int,boolean) -> a
+    boolean isToken(java.lang.String,int) -> a
+    int findClosingIndex(int,int) -> b
+    java.util.Collection singleton(java.lang.Object) -> a
+    java.util.Collection getElementsByName(java.util.Collection,int,int,boolean,boolean) -> a
+    boolean evaluateLogic(java.util.Collection,java.util.Collection,java.lang.String) -> a
+    java.lang.String toText(java.lang.Object) -> b
+org.htmlcleaner.XPatherException -> a.a.ae:
+org.htmlcleaner.XmlSerializer -> a.a.af:
+    java.lang.String escapeXml(java.lang.String) -> a
+    boolean dontEscape(org.htmlcleaner.TagNode) -> a
+    boolean isMinimizedTagSyntax(org.htmlcleaner.TagNode) -> b
+    void serializeOpenTag$1a51a15(org.htmlcleaner.TagNode,java.io.Writer) -> b
+    void serializeEndTag$1a51a15(org.htmlcleaner.TagNode,java.io.Writer) -> c
