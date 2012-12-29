@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="syncTimeEntries">
+        <item>Off</item>
+        <item>Every Hour</item>
+        <item>Every 3 Hours</item>
+        <item>Every 6 Hours</item>
+        <item>Every 12 Hours</item>
+        <item>Every Day</item>
+    </string-array>
+    <string-array name="syncTimeValues">
+        <item>0</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>720</item>
+        <item>1440</item>
+    </string-array>
+        
+    <string-array name="keepTimeEntries">
+	    <item>1 Day</item>
+        <item>2 Days</item>
+        <item>1 Week</item>
+        <item>2 Weeks</item>
+    </string-array>
+    <string-array name="keepTimeValues">
+        <item>1</item>
+        <item>2</item>
+        <item>7</item>
+        <item>14</item>
+    </string-array>
+</resources>

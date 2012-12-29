@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item
+        android:id="@+id/mark_all_read"
+        android:title="@string/menu_mark_all_read"
+        android:icon="@drawable/ic_menu_keep_unread"
+    />
+    
+    <item
+        android:id="@+id/delete_all_read"
+        android:title="@string/menu_delete_all_read"
+        android:icon="@android:drawable/ic_menu_delete"
+    />
+    
+    <item
+        android:id="@+id/refresh_feed"
+        android:title="@string/menu_refresh_feed"
+        android:icon="@drawable/ic_menu_refresh"
+    />
+    
+</menu>

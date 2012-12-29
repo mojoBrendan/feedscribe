@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/pref_feed_settings"
+        >
+        <CheckBoxPreference
+            android:title="@string/pref_feed_update_automatic_title"
+            android:summary="@string/pref_feed_update_automatic_summary"
+            android:defaultValue="true"
+            android:key="tmp_feed_update_automatic"
+        />
+        <CheckBoxPreference
+            android:title="@string/pref_article_display_full_title"
+            android:summary="@string/pref_article_display_full_summary"
+            android:defaultValue="false"
+            android:key="tmp_feed_display_full"
+        />
+        <CheckBoxPreference
+            android:title="@string/pref_cache_article_title"
+            android:summary="@string/pref_cache_article_summary"
+            android:defaultValue="true"
+            android:key="tmp_feed_cache_article"
+        />
+        <CheckBoxPreference
+            android:title="@string/pref_cache_images_title"
+            android:summary="@string/pref_cache_images_summary"
+            android:defaultValue="false"
+            android:key="tmp_feed_cache_images"
+        />
+        <CheckBoxPreference
+            android:title="@string/pref_article_textview_title"
+            android:summary="@string/pref_article_textview_summary"
+            android:defaultValue="false"
+            android:key="tmp_feed_article_textview"
+        />
+    </PreferenceCategory>
+</PreferenceScreen>

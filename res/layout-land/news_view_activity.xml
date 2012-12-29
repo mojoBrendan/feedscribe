@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/net.oddsoftware.android.cricket"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    
+    <LinearLayout
+        android:id="@+id/buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_alignParentRight="true"
+        android:gravity="fill_vertical"
+        >
+        
+        <ImageButton
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:src="@drawable/up_arrow_normal"
+             android:onClick="onPrev"
+             android:layout_weight="1"
+        />
+        
+        <ImageButton
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:src="@drawable/down_arrow_normal"
+             android:onClick="onNext"
+             android:layout_weight="1"
+        />
+    </LinearLayout>
+       
+    <!-- 
+    <com.admob.android.ads.AdView
+        android:id="@+id/ad"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@id/buttons"
+        app:backgroundColor="#000000"
+        app:primaryTextColor="#FFFFFF"
+        app:secondaryTextColor="#CCCCCC"
+        app:refreshInterval="30"
+        app:keywords="News Cricket Sports"
+    />
+    -->
+    
+    <WebView
+        android:id="@+id/web_view"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@id/buttons"
+    />
+            <!--  android:layout_above="@id/ad" -->
+    
+
+
+</RelativeLayout>

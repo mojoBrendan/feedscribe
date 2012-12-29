@@ -1,0 +1,46 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item
+        android:id="@+id/add_star"
+        android:title="@string/menu_add_star"
+        android:icon="@drawable/ic_menu_add_star"
+    />
+    
+    <item
+        android:id="@+id/remove_star"
+        android:title="@string/menu_remove_star"
+        android:icon="@drawable/ic_menu_add_star"
+    />
+    
+    <item
+        android:id="@+id/keep_unread"
+        android:title="@string/menu_keep_unread"
+        android:icon="@drawable/ic_menu_keep_unread"
+    />
+    
+    <item
+        android:id="@+id/open_original"
+        android:title="@string/open_original"
+        android:icon="@android:drawable/ic_menu_view"
+    />
+    
+    <item
+        android:id="@+id/share_original"
+        android:title="@string/share_original"
+        android:icon="@android:drawable/ic_menu_share"
+    />
+    
+    <item
+        android:id="@+id/delete"
+        android:title="@string/menu_delete"
+        android:icon="@android:drawable/ic_menu_delete"
+    />
+    
+    
+    <item
+        android:id="@+id/refresh_article"
+        android:icon="@drawable/ic_menu_refresh"
+        android:title="@string/menu_refresh_article"
+    />
+    
+</menu>

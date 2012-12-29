@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FeedScribe</string>
+    <string name="search_hint">Search news</string>
+    
+    <string name="add_item_activity_label">Add to FeedScribe</string>
+    <string name="subscribe_activity_label">Subscribe in FeedScribe</string>
+    
+    <string name="menu_sync">Update</string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="menu_refresh_article">Reload Article</string>
+    <string name="menu_preferences">Settings</string>
+    <string name="menu_info">About</string>
+    <string name="menu_add">Add</string>
+    
+    
+    <string name="menu_play">Play</string>
+    <string name="menu_play_external">Play With...</string>
+    <string name="menu_stream">Stream</string>
+    <string name="menu_add_playlist">Add to Playlist</string>
+    <string name="menu_add_playlist_stream">Add to Playlist (Stream)</string>
+    <string name="menu_cancel_download">Cancel</string>
+    <string name="menu_delete">Delete</string>
+    <string name="menu_delete_download">Delete Downloaded File</string>
+    <string name="menu_feed_settings">Feed Settings...</string>
+    <string name="menu_download">Download</string>
+    <string name="menu_download_size">Download - %1$s</string>
+    <string name="menu_mark_read">Mark As Old</string>
+    <string name="menu_mark_unread">Mark As New</string>
+    <string name="menu_shownotes">Show Notes</string>
+    <string name="menu_toggle_fullscreen">Toggle Fullscreen</string>
+    <string name="menu_add_star">Add Star</string>
+    <string name="menu_remove_star">Remove Star</string>
+    <string name="menu_keep_unread">Keep Unread</string>
+    <string name="menu_mark_all_read">Mark All As Read</string>
+    <string name="menu_delete_all_read">Delete All Read</string>
+    <string name="menu_refresh_feed">Refresh Feed</string>
+    <string name="menu_rename_feed">Rename Feed...</string>
+    <string name="menu_delete_feed">Delete Feed...</string>
+    
+    <string name="open_original">Open Original</string>
+    <string name="share_original">Share</string>
+    <string name="preferences_title">FeedScribe: Preferences</string>
+    <string name="version">0.8.3</string>
+    <string name="pref_info">Info</string>
+    <string name="pref_keep_time_title">Article Keep Time</string>
+    <string name="pref_keep_time_summary">Tap to change how long articles are kept</string>
+    <string name="pref_notifications_title">Notifications</string>
+    <string name="pref_notifications_summary">Check to receive notifications</string>
+    <string name="pref_options">Options</string>
+    <string name="pref_regions_title">Countries</string>
+    <string name="pref_regions_summary">Tap to change country settings</string>
+    <string name="pref_sync_time_title">Auto-Update</string>
+    <string name="pref_sync_time_summary">Tap to change how often articles are updated</string>
+    <string name="pref_contact_title">Contact</string>
+    <string name="pref_contact_summary">Have any questions or suggestions?</string>
+    <string name="pref_credits_title">Credits</string>
+    <string name="pref_credits_summary">Tap to view credits</string>
+    <string name="pref_tracking_title">Statistics</string>
+    <string name="pref_tracking_summary">Collect anonymous usage statistics</string>
+    <string name="pref_textify_on_title">Textify Article View</string>
+    <string name="pref_textify_on_summary">Enable optimised article view</string>
+    <string name="pref_zoom_controls_title">Show Zoom Buttons</string>
+    <string name="pref_zoom_controls_summary">Show article zoom buttons</string>
+    
+    <string name="pref_data">Data</string>
+    <string name="pref_export_opml_title">Export Subscriptions</string>
+    <string name="pref_export_opml_summary">Export subscriptions in OPML format to SD card</string>
+    <string name="pref_import_opml_title">Import Subscriptions</string>
+    <string name="pref_import_opml_summary">Import subscriptions in OPML</string>
+    
+    <string name="pref_view_log_title">View Log</string>
+    <string name="pref_view_log_summary">View Log</string>
+    
+    <string name="pref_feed_settings">Feed Settings</string>
+    <string name="pref_article_textview_title">Textify Article View</string>
+    <string name="pref_article_textview_summary">Enable optimised article view</string>
+    <string name="pref_cache_article_title">Cache Articles</string>
+    <string name="pref_cache_article_summary">Cache articles for offline reading</string>
+    <string name="pref_cache_images_title">Cache Images</string>
+    <string name="pref_cache_images_summary">Cache images for offline display</string>
+    <string name="pref_article_display_full_title">Display Full Article</string>
+    <string name="pref_article_display_full_summary">Download and display the linked article rather than the summary</string>
+    <string name="pref_feed_update_automatic_title">Update Automatically</string>
+    <string name="pref_feed_update_automatic_summary">Update this feed automatically</string>
+    
+    <string name="feed_add">Enter URL</string>
+    <string name="btn_close">Close</string>
+    <string name="btn_changelog">Changelog</string>
+    <string name="btn_subscribe">Add</string>
+    <string name="btn_read_now">Read Now</string>
+    <string name="btn_read_later">Read Later</string>
+	<string name="btn_rename">Rename</string>
+	<string name="btn_cancel">Cancel</string>
+    
+    <string name="refreshing">Updating</string>
+    <string name="star_added">Star Added</string>
+    <string name="star_removed">Star Removed</string>
+    <string name="item_deleted">Article Deleted</string>
+    <string name="kept_unread">Kept Unread</string>
+    
+    <string name="feed_note">%1$d new episodes, %2$d unplayed downloads</string>
+    <string name="news_feed_note">%1$d unread items, %2$d items total</string>
+    
+    <string name="notification_syncing_ticker">Updating</string>
+    <string name="notification_syncing_title">FeedScribe</string>
+    <string name="notification_syncing_text">Update in progress</string>
+    
+    <string name="notification_new_items_ticker">%d new articles</string>
+    <string name="notification_new_items_title">FeedScribe</string>
+    <string name="notification_new_items_text">%d new articles</string>
+    
+    <string name="notification_now_playing">Now Playing</string>
+    
+    <string name="contact_subject">FeedScribe Feedback</string>
+    <string name="contact_email">feedback@oddsoftware.net</string>
+    <string name="contact_text"></string>
+    
+    <string name="dialog_confirm_delete_feed">Are you sure you want to delete this feed?</string>
+    <string name="dialog_yes">Yes</string>
+    <string name="dialog_no">No</string>
+    <string name="dialog_rename_feed">Rename feed</string>
+    <string name="dialog_rename">Rename</string>
+    <string name="dialog_cancel">Cancel</string>
+    
+    <string name="error_email">No e-mail application found</string>
+    <string name="error_share">No messaging application found</string>
+    <string name="error_view_url">No Web application found</string>
+    <string name="error_play_external">No application found</string>
+    <string name="error_network">Network Unavailable</string>
+    <string name="error_add_feed">Error adding feed</string>
+    <string name="error_add_item">Error adding link</string>
+    
+    <string name="add_item_success">Link added</string>
+    <string name="add_feed_success">Feed added</string>
+    
+    <string name="msg_opml_import_success">Import Complete - %d feeds added</string>
+    <string name="msg_opml_import_failure">Import Failed</string>
+    
+    <string name="msg_opml_export_success">Export Complete</string>
+    <string name="msg_opml_export_failure">Export Failed</string>
+    
+	<string name="msg_rename">What would you like to call this subscription?</string>
+    
+    <string name="about_text">FeedScribe 0.8.3</string>
+    <string name="about_title">About</string>
+    
+    <string name="subscribe_hint"><b>Hints</b>\nFind
+  podcasts using your web browser, and click on the RSS link.
+  This will bring up a list of actions, including FeedScribe.
+  Choosing FeedScribe will automatically fill in the URL for you.
+ \n\n
+ If you are having trouble finding content. Try some of these sites:\n
+ www.videopodcasts.tv\n
+ edition.cnn.com/services/podcasting\n
+ </string>
+    
+    <string name="info_title">Information</string>
+    <string name="info_text"><b>Welcome to the FeedScribe Beta</b>
+ \nThis is the first version of what we hope will become
+ one of the best newsreading and podcasting applications for
+ android.
+ \n
+ \nGet started by clicking the menu button, and adding some feeds.
+ \n
+ \nOnly a few features are implemented so far, but playing audio and
+ video podcasts, as well as offline news reading are very usable.
+ \n
+ \nPlease take time to leave your comments, either via the market,
+ or the settings screen. With your feedback we hope to create an app
+ that you will enjoy using.
+ \n
+ \nSome of the things we are planning include:
+ \n* Playlists
+ \n* Podcast directory searching
+ \n* Scheduled downloading
+ \n* Google Reader Integration
+ \n
+ 
+ \n<b>New In 0.8.0</b>
+ \n* Display embedded ID3 images while playing podcasts
+ \n* Display podcast feed logos in feed lists
+ \n* Remember scroll position in news articles
+ \n* Allow individual feeds to be manually refreshed
+ \n
+ \n<b>New In 0.7.5</b>
+ \n* Fix crash bug when audio playback is stopped
+ \n* Fix crash bug when parsing malformed XML
+ \n
+ \n<b>New In 0.7.4</b>
+ \n* Allow feeds to be renamed
+ \n
+ \n<b>New In 0.7.3</b>
+ \n* Allow podcasts to play in background
+ \n* Add option to delete downloaded files
+ \n* Fix deleting feeds and items
+ \n
+ \n<b>New In 0.6.0</b>
+ \n* Add OPML import and export
+ \n* Add auto-resume of failed downloads
+ \n* Add external player option for media
+ \n* Fix playing files with special characters
+ \n* Fix play/pause button not changing
+ \n* Reduce memory usage during background feed updates
+ \n
+ \n<b>New In 0.5.0</b>
+ \n* Add dedicated audio player 
+ \n* Fix potential crash when there are no subscriptions
+ \n
+ \n<b>New In 0.4.0</b>
+ \n* Add Offline full article support 
+ \n* Add Basic atom feed support
+ \n* Add Per-feed article settings
+ \n* Improve Textify article extraction
+ \n* Add zoom controls to article view
+ \n* Add progress bar when loading pages
+ \n* Fix automatic marking of videos as old
+ \n* Add basic favourites support
+ \n
+ \n<b>New In 0.3.0</b>
+ \n* Text feed support with article text optimiser
+ \n* Bookmarking from browser - select share or send in your browser
+ \n* Fullscreen video toggle
+ \n
+ \n<b>New In 0.2.0</b>
+ \n* Schedule updates on phone boot
+ \n* Download while screen is off
+ \n* Crash fix
+ \n* Support for blip.tv
+    </string>
+    
+    <string name="credits_title">Credits</string>
+    <string name="credits_text">
+This software is Copyright &#xA9; 2011 Odd Software.\n\n
+Odd Software reserves the right to anonymously track and report user activity inside of this application.
+This functionality can be disabled in the settings.\n\n
+All content is Copyright &#xA9; their respective owners.\n\n
+<small>
+This software contains some components Copyright &#xA9; 2006-2011, HtmlCleaner team.\n
+All rights reserved.\n
+ Redistribution and use of this software in source and binary forms, with or without modification, are permitted
+ provided that the following conditions are met:\n
+* Redistributions of source code must retain the above copyright notice,
+this list of conditions and the following disclaimer.\n
+* Redistributions in binary form must reproduce the above copyright notice,
+this list of conditions and the following disclaimer in the documentation
+and/or other materials provided with the distribution.\n
+* The name of HtmlCleaner may not be used to endorse or promote products
+derived from this software without specific prior written permission.\n
+    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS 
+    "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT 
+    LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR 
+    A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT 
+    OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, 
+    SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT 
+    LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, 
+    DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY 
+    THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT 
+    (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE 
+    OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\n
+</small>
+    </string>
+
+    <!-- items for file browser widget -->
+    <string name="location">Location</string>
+    <string name="cant_read_folder">folder can\'t be read!</string>
+    <string name="nnew">New</string>
+    <string name="select">Select</string>
+    <string name="file_name">File name:</string>
+    <string name="cancel">Cancel</string>
+    <string name="create">Create</string>
+    <string name="no_data">No Data</string>
+	<color name="gray">#ffff0000</color>
+</resources>
