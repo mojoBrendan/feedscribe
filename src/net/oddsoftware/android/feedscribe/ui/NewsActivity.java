@@ -3,8 +3,6 @@ package net.oddsoftware.android.feedscribe.ui;
 import java.io.IOException;
 import java.io.InputStream;
 
-import com.flurry.android.FlurryAgent;
-
 import net.oddsoftware.android.utils.WorkerThread;
 import net.oddsoftware.android.utils.WorkerThread.Task;
 import net.oddsoftware.android.feedscribe.Globals;
@@ -254,20 +252,6 @@ public class NewsActivity extends Activity
                 mViewFlipper.setDisplayedChild( subView );
             }
         }
-    }
-
-    @Override
-    protected void onStart()
-    {
-        super.onStart();
-        if( Globals.TRACKING ) FlurryAgent.onStartSession(this, Globals.FLURRY_KEY);
-    }
-
-    @Override
-    protected void onStop()
-    {
-        super.onStop();
-        if( Globals.TRACKING ) FlurryAgent.onEndSession(this);
     }
 
     protected void setPageLoadProgress(int newProgress)
@@ -850,8 +834,6 @@ public class NewsActivity extends Activity
         {
             case R.id.open_original:
             {
-                if(Globals.TRACKING) FlurryAgent.onEvent("newsActivity/openOriginal");
-                
                 Uri uri = Uri.parse( mItemURL );
                 
                 try
@@ -866,8 +848,6 @@ public class NewsActivity extends Activity
             }
             case R.id.share_original:
             {
-                if(Globals.TRACKING) FlurryAgent.onEvent("newsActivity/shareOriginal");
-                
                 Intent intent = new Intent(Intent.ACTION_SEND);
                 
                 intent.setType("text/plain");
@@ -886,8 +866,6 @@ public class NewsActivity extends Activity
             }
             case R.id.add_star:
             {
-                if(Globals.TRACKING) FlurryAgent.onEvent("newsActivity/addStar");
-                
                 FeedItem feedItem = FeedManager.getInstance(this).getItemById(mItemId);
                 if( feedItem != null )
                 {
@@ -900,8 +878,6 @@ public class NewsActivity extends Activity
             }
             case R.id.remove_star:
             {
-                if(Globals.TRACKING) FlurryAgent.onEvent("newsActivity/removeStar");
-                
                 FeedItem feedItem = FeedManager.getInstance(this).getItemById(mItemId);
                 if( feedItem != null )
                 {
@@ -917,8 +893,6 @@ public class NewsActivity extends Activity
                 // in news view
                 if( mViewFlipper.getDisplayedChild() == 2 )
                 {
-                    if(Globals.TRACKING) FlurryAgent.onEvent("newsActivity/delete");
-                
                     FeedItem feedItem = FeedManager.getInstance(this).getItemById(mItemId);
                     if( feedItem != null )
                     {
@@ -933,8 +907,6 @@ public class NewsActivity extends Activity
             }
             case R.id.keep_unread:
             {
-                if(Globals.TRACKING) FlurryAgent.onEvent("newsActivity/keepUnread");
-                
                 FeedItem feedItem = FeedManager.getInstance(this).getItemById(mItemId);
                 if( feedItem != null )
                 {
@@ -947,8 +919,6 @@ public class NewsActivity extends Activity
             }
             case R.id.refresh_article:
             {
-                if(Globals.TRACKING) FlurryAgent.onEvent("newsActivity/refreshArticle");
-                
                 mForceRefresh = true;
                 mProcessedData = null;
                 showNewsItem(mItemId, 0);
@@ -957,8 +927,6 @@ public class NewsActivity extends Activity
             }
             case R.id.mark_all_read:
             {
-                if(Globals.TRACKING) FlurryAgent.onEvent("newsActivity/markAllRead");
-                
                 FeedManager feedManager = FeedManager.getInstance(this);
                 long feedId = mNewsItemsListAdapter.getFeedId();
                 if( feedId > 0 )
@@ -970,8 +938,6 @@ public class NewsActivity extends Activity
             }
             case R.id.delete_all_read:
             {
-                if(Globals.TRACKING) FlurryAgent.onEvent("newsActivity/deleteAllRead");
-                
                 FeedManager feedManager = FeedManager.getInstance(this);
                 long feedId = mNewsItemsListAdapter.getFeedId();
                 if( feedId > 0 )

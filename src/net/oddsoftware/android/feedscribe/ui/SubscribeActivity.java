@@ -2,11 +2,8 @@ package net.oddsoftware.android.feedscribe.ui;
 
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.util.HashMap;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
-import com.flurry.android.FlurryAgent;
 
 import net.oddsoftware.android.feedscribe.Globals;
 import net.oddsoftware.android.feedscribe.R;
@@ -95,14 +92,6 @@ public class SubscribeActivity extends Activity {
     {
         final FeedManager feedManager = FeedManager.getInstance(this);
         
-        if( Globals.TRACKING )
-        {
-            HashMap<String, String> args = new HashMap<String, String>();
-            args.put("url", uriString);
-            FlurryAgent.onEvent("subscribeActivty.addBegin", args);
-        }
-        
-        
         ((ProgressBar) findViewById(R.id.progressBar)).setVisibility(View.VISIBLE);
         findViewById(R.id.subscribeButton).setEnabled(false);
         
@@ -139,14 +128,6 @@ public class SubscribeActivity extends Activity {
                 ((ProgressBar) findViewById(R.id.progressBar)).setVisibility(View.INVISIBLE);
                 findViewById(R.id.subscribeButton).setEnabled(true);
                 
-                if( Globals.TRACKING )
-                {
-                    HashMap<String, String> args = new HashMap<String, String>();
-                    args.put("url", uriString);
-                    args.put("success", "" + ok);
-                    FlurryAgent.onEvent("subscribeActivty.addComplete", args);
-                }
-                
                 if( ok )
                 {
                     Toast.makeText(SubscribeActivity.this, R.string.add_feed_success, Toast.LENGTH_LONG).show();
@@ -160,21 +141,4 @@ public class SubscribeActivity extends Activity {
             }
         });
     }
-    
-    
-    @Override
-    protected void onStart()
-    {
-        if( Globals.TRACKING ) FlurryAgent.onStartSession(this, Globals.FLURRY_KEY);
-        super.onStart();
-    }
-    
-    @Override
-    protected void onStop()
-    {
-        if( Globals.TRACKING ) FlurryAgent.onEndSession(this);
-        super.onStop();
-    }
-
-
 }

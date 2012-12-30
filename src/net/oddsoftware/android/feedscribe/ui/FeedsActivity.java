@@ -1,7 +1,5 @@
 package net.oddsoftware.android.feedscribe.ui;
 
-import com.flurry.android.FlurryAgent;
-
 import net.oddsoftware.android.feedscribe.Globals;
 import net.oddsoftware.android.feedscribe.R;
 import net.oddsoftware.android.feedscribe.data.FeedConfig;
@@ -90,12 +88,6 @@ public class FeedsActivity extends TabActivity
             
             processIntent( getIntent() );
         }
-        
-        if( Globals.TRACKING )
-        {
-            FlurryAgent.setVersionName(getResources().getString(R.string.version));
-        }
-        
     }
     
     private void processIntent( Intent intent )
@@ -146,25 +138,21 @@ public class FeedsActivity extends TabActivity
     {
         if( item.getItemId() == R.id.refresh )
         {
-            if( Globals.TRACKING ) FlurryAgent.onEvent("feedsActivity.refresh");
             FeedService.updateFeeds(this, true);
             return true;
         }
         else if( item.getItemId() == R.id.preferences )
         {
-            if( Globals.TRACKING ) FlurryAgent.onEvent("feedsActivity.preferences");
             startActivity( new Intent( this, NewsPreferencesActivity.class ) );
             return true;
         }
         else if( item.getItemId() == R.id.info )
         {
-            if( Globals.TRACKING ) FlurryAgent.onEvent("feedsActivity.info");
             showDialog( DIALOG_INFO );
             return true;
         }
         else if( item.getItemId() == R.id.add )
         {
-            if( Globals.TRACKING ) FlurryAgent.onEvent("feedsActivity.subscribe");
             startActivity( new Intent( this, SubscribeActivity.class ) );
             return true;
         }
@@ -187,23 +175,6 @@ public class FeedsActivity extends TabActivity
         FeedConfig.getInstance(this).clearNewItemCount();
         super.onResume();
     }
-
-    @Override
-    protected void onStart()
-    {
-        if( Globals.TRACKING ) FlurryAgent.onStartSession(this, Globals.FLURRY_KEY);
-        FlurryAgent.setLogEnabled(Globals.LOGGING);
-        super.onStart();
-    }
-    
-    @Override
-    protected void onStop()
-    {
-        if( Globals.TRACKING ) FlurryAgent.onEndSession(this);
-        super.onStop();
-    }
-
-
 
     @Override
     protected Dialog onCreateDialog(int id)

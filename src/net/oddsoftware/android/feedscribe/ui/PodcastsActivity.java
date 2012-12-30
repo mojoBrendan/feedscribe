@@ -2,8 +2,6 @@ package net.oddsoftware.android.feedscribe.ui;
 
 import java.io.File;
 
-import com.flurry.android.FlurryAgent;
-
 import net.oddsoftware.android.feedscribe.AudioPlayer;
 import net.oddsoftware.android.feedscribe.Globals;
 import net.oddsoftware.android.feedscribe.R;
@@ -374,8 +372,6 @@ public class PodcastsActivity extends Activity {
         }
         else if( menuItem.getItemId() == MENU_ITEM_PLAY_EXTERNAL && enclosure != null )
         {
-            if(Globals.TRACKING) FlurryAgent.onEvent("podcastsActivity/playExternal");
-            
             Uri uri = null;
             if( enclosure.mDownloadTime > 0 )
             {
@@ -782,21 +778,6 @@ public class PodcastsActivity extends Activity {
         }
     }
     
-    @Override
-    protected void onStart()
-    {
-        super.onStart();
-        if( Globals.TRACKING ) FlurryAgent.onStartSession(this, Globals.FLURRY_KEY);
-    }
-
-
-    @Override
-    protected void onStop()
-    {
-        super.onStop();
-        if( Globals.TRACKING ) FlurryAgent.onEndSession(this);
-    }
-
 
     private int updateDisplay()
     {

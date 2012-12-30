@@ -4,8 +4,6 @@ import java.util.Date;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import com.flurry.android.FlurryAgent;
-
 import net.oddsoftware.android.feedscribe.Globals;
 import net.oddsoftware.android.feedscribe.R;
 import net.oddsoftware.android.feedscribe.data.Feed;
@@ -51,9 +49,7 @@ public class AddItemActivity extends Activity
                     textEdit.setText( m.group() );
                 }
             }
-        }
-        
-        if( Globals.TRACKING ) FlurryAgent.onEvent("addItemActivity.onCreate");
+        }        
     }
     
     @Override
@@ -66,7 +62,6 @@ public class AddItemActivity extends Activity
     {
         long itemId = addItem();
         
-        if( Globals.TRACKING ) FlurryAgent.onEvent("addItemActivity.readNow");
         if( Globals.LOGGING ) Log.d(Globals.LOG_TAG, "AddItemActivity - read now " + itemId);
         
         if( itemId > 0 )
@@ -90,7 +85,6 @@ public class AddItemActivity extends Activity
     {
         long itemId = addItem();
         
-        if( Globals.TRACKING ) FlurryAgent.onEvent("addItemActivity.readLater");
         if( Globals.LOGGING ) Log.d(Globals.LOG_TAG, "AddItemActivity - read later " + itemId);
         
         if( itemId > 0)
@@ -141,21 +135,4 @@ public class AddItemActivity extends Activity
         
         return item.mId;
     }
-    
-    
-    @Override
-    protected void onStart()
-    {
-        if( Globals.TRACKING ) FlurryAgent.onStartSession(this, Globals.FLURRY_KEY);
-        super.onStart();
-    }
-    
-    @Override
-    protected void onStop()
-    {
-        if( Globals.TRACKING ) FlurryAgent.onEndSession(this);
-        super.onStop();
-    }
-
-
 }

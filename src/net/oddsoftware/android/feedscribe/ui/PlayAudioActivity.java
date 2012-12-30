@@ -2,8 +2,6 @@ package net.oddsoftware.android.feedscribe.ui;
 
 import java.io.File;
 
-import com.flurry.android.FlurryAgent;
-
 import net.oddsoftware.android.feedscribe.AudioPlayer;
 import net.oddsoftware.android.feedscribe.Globals;
 import net.oddsoftware.android.feedscribe.R;
@@ -418,8 +416,6 @@ public class PlayAudioActivity extends Activity
         notificationManager.cancel(Globals.NOTIFICATION_PLAYING);
         
         super.onStart();
-        
-        if( Globals.TRACKING ) FlurryAgent.onStartSession(this, Globals.FLURRY_KEY);
     }
 
     @Override
@@ -446,14 +442,5 @@ public class PlayAudioActivity extends Activity
             notificationManager.notify(Globals.NOTIFICATION_PLAYING, notification);
         }
         super.onStop();
-        
-        if( Globals.TRACKING ) FlurryAgent.onEndSession(this);
     }
-    
-    @Override
-    public void onBackPressed()
-    {
-        super.onBackPressed();
-    }
-
 }

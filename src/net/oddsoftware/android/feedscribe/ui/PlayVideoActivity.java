@@ -2,8 +2,6 @@ package net.oddsoftware.android.feedscribe.ui;
 
 import java.io.File;
 
-import com.flurry.android.FlurryAgent;
-
 import net.oddsoftware.android.feedscribe.Globals;
 import net.oddsoftware.android.feedscribe.R;
 import net.oddsoftware.android.feedscribe.data.Enclosure;
@@ -200,20 +198,6 @@ public class PlayVideoActivity extends Activity {
         }
     }
     
-    
-    @Override
-    protected void onStop()
-    {
-        if( Globals.TRACKING ) FlurryAgent.onEndSession(this);
-        super.onStop();
-    }
-
-    @Override
-    protected void onStart()
-    {
-        if( Globals.TRACKING ) FlurryAgent.onStartSession(this, Globals.FLURRY_KEY);
-        super.onStart();
-    }
     
 
     @Override

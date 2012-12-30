@@ -5,8 +5,6 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 
-import com.flurry.android.FlurryAgent;
-
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -142,26 +140,10 @@ public class NewsPreferencesActivity extends PreferenceActivity
     }
     
 
-    @Override
-    protected void onStart()
-    {
-        if( Globals.TRACKING ) FlurryAgent.onStartSession(this, Globals.FLURRY_KEY);
-        super.onStart();
-    }
-
-    @Override
-    protected void onStop()
-    {
-        if( Globals.TRACKING ) FlurryAgent.onEndSession(this);
-        super.onStop();
-    }
-    
     protected void doOPMLExport()
     {
         try
         {
-            if( Globals.TRACKING ) FlurryAgent.onEvent("newsPreferences.exportOpml");
-            
             FeedManager feedManager = FeedManager.getInstance(this);
             String opml = feedManager.exportOPML();
             
@@ -184,8 +166,6 @@ public class NewsPreferencesActivity extends PreferenceActivity
     
     protected void doOPMLImport()
     {
-        if( Globals.TRACKING ) FlurryAgent.onEvent("newsPreferences.importOpml");
-        
         Intent intent = new Intent(this, FileDialog.class);
         intent.putExtra(FileDialog.START_PATH, Environment.getExternalStorageDirectory().toString() );
         

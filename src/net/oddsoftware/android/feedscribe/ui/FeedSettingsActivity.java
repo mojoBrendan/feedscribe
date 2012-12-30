@@ -1,7 +1,5 @@
 package net.oddsoftware.android.feedscribe.ui;
 
-import com.flurry.android.FlurryAgent;
-
 import net.oddsoftware.android.feedscribe.Globals;
 import net.oddsoftware.android.feedscribe.R;
 import net.oddsoftware.android.feedscribe.data.FeedManager;
@@ -54,27 +52,6 @@ public class FeedSettingsActivity extends PreferenceActivity implements OnShared
         addPreferencesFromResource(R.xml.feed_preferences);
     }
     
-    @Override
-    protected void onStart()
-    {
-        if( Globals.TRACKING ) FlurryAgent.onStartSession(this, Globals.FLURRY_KEY);
-        super.onStart();
-    }
-
-    @Override
-    protected void onStop()
-    {
-        if( Globals.TRACKING ) FlurryAgent.onEndSession(this);
-        super.onStop();
-    }
-
-    @Override
-    protected void onPause()
-    {
-        super.onPause();
-        
-    }
-
     @Override
     public void onSharedPreferenceChanged(SharedPreferences sharedPreferences, String key)
     {

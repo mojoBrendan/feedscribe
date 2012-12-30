@@ -1,7 +1,5 @@
 package net.oddsoftware.android.feedscribe.ui;
 
-import com.flurry.android.FlurryAgent;
-
 import net.oddsoftware.android.feedscribe.Globals;
 import net.oddsoftware.android.feedscribe.R;
 import net.oddsoftware.android.feedscribe.data.Download;
@@ -74,25 +72,6 @@ public class DownloadsActivity extends ListActivity
         mHandler.removeCallbacks(mUpdateTask);
         super.onPause();
     }
-    
-    
-
-   @Override
-    protected void onStart()
-    {
-        if( Globals.TRACKING ) FlurryAgent.onStartSession(this, Globals.FLURRY_KEY);
-        super.onStart();
-    }
-   
-    @Override
-    protected void onStop()
-    {
-        if( Globals.TRACKING ) FlurryAgent.onEndSession(this);
-        super.onStop();
-    }
-
- 
-    
     
     private void updateTitle()
     {

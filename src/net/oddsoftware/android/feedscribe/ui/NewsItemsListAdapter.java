@@ -2,8 +2,6 @@ package net.oddsoftware.android.feedscribe.ui;
 
 import java.util.ArrayList;
 
-import com.flurry.android.FlurryAgent;
-
 import android.content.Context;
 import android.text.Spannable;
 import android.text.SpannableString;
@@ -137,12 +135,10 @@ public class NewsItemsListAdapter extends BaseAdapter
         {
             if( (item.mFlags & FeedItem.FLAG_STARRED) == 0)
             {
-                if(Globals.TRACKING) FlurryAgent.onEvent("newsActivity/addStarList");
                 item.mFlags |= FeedItem.FLAG_STARRED;
             }
             else
             {
-                if(Globals.TRACKING) FlurryAgent.onEvent("newsActivity/removeStarList");
                 item.mFlags &= ~(FeedItem.FLAG_STARRED);
             }
             
