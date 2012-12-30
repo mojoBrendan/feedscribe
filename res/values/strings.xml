@@ -56,8 +56,6 @@
     <string name="pref_contact_summary">Have any questions or suggestions?</string>
     <string name="pref_credits_title">Credits</string>
     <string name="pref_credits_summary">Tap to view credits</string>
-    <string name="pref_tracking_title">Statistics</string>
-    <string name="pref_tracking_summary">Collect anonymous usage statistics</string>
     <string name="pref_textify_on_title">Textify Article View</string>
     <string name="pref_textify_on_summary">Enable optimised article view</string>
     <string name="pref_zoom_controls_title">Show Zoom Buttons</string>

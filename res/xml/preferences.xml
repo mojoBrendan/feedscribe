@@ -29,12 +29,6 @@
             android:key="show_zoom_controls"
             android:defaultValue="true"
         />
-        <CheckBoxPreference
-            android:title="@string/pref_tracking_title"
-            android:summary="@string/pref_tracking_summary"
-            android:key="tracking"
-            android:defaultValue="true"
-        />
     </PreferenceCategory>
     <PreferenceCategory
         android:title="@string/pref_data"

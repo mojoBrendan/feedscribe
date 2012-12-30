@@ -1371,9 +1371,7 @@ public class FeedManager {
     public void loadConfig()
     {
         mPreviousPackageVersion = mFeedConfig.getPreviousPackageVersion(mPreviousPackageVersion);
-        Globals.TRACKING = mFeedConfig.getTracking();
     }
-    
 
     
     public void setFeedUpdateListener(FeedUpdateListener listener)

@@ -47,19 +47,6 @@ public class FeedConfig {
         return defaultVersion;
     }
     
-    public boolean getTracking()
-    {
-        try
-        {
-            return mSharedPreferences.getBoolean("tracking", true);
-        }
-        catch(ClassCastException exc)
-        {
-            if (Globals.LOGGING) Log.e(Globals.LOG_TAG, "error loading tracking from config", exc);
-        }
-        return true;
-    }
-    
     public long getKeepHours()
     {
         try
