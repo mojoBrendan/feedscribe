@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.oddsoftware.android.feedscribe"
+    android:versionCode="18"
+    android:versionName="0.8.3"
+    >
+    
+    <uses-configuration android:reqTouchScreen="notouch" android:reqFiveWayNav="true" />
+    <uses-configuration android:reqTouchScreen="finger" />
+    <uses-configuration android:reqTouchScreen="stylus" />
+    
+    <supports-screens 
+        android:smallScreens="true"
+        android:normalScreens="true"
+        android:largeScreens="true"
+        android:anyDensity="true"
+    />
+    
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    
+    <!-- seems to work without this notification 
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    -->
+    
+
+    <uses-sdk android:minSdkVersion="7" android:targetSdkVersion="8" />
+    
+    <application
+        android:icon="@drawable/ic_launcher_feedscribe" 
+        android:label="@string/app_name" 
+        android:theme="@android:style/Theme.Light"
+        >
+        <activity
+            android:name=".ui.FeedsActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            
+            <!-- - no search yet 
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+            <meta-data android:name="android.app.searchable" android:resource="@xml/searchable" />
+            -->
+        </activity>
+
+	    <activity
+	       android:name=".ui.PlayVideoActivity"
+	       android:configChanges="keyboardHidden|orientation"
+	    />
+        <activity
+            android:name=".ui.PlayAudioActivity"
+	        android:configChanges="keyboardHidden|orientation"
+	        android:launchMode="singleTask"
+        />
+        <activity android:name=".ui.PodcastsActivity" />
+        <activity android:name=".ui.DownloadsActivity" />
+        <activity android:name=".ui.NewsActivity" />
+        <activity android:name=".ui.FeedSettingsActivity" />
+        <activity android:name=".ui.FileDialog" />
+
+        <activity android:name=".ui.LogListActivity" />
+        
+        <activity android:name=".ui.NewsPreferencesActivity" />
+        
+        <activity android:name=".ui.ReceiveArticleActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <!--   <category android:name="android.intent.category.DEFAULT" /> -->
+                <!--  <data android:scheme="http" android:host="*" /> -->
+            </intent-filter>
+        </activity>
+        
+	    <activity
+	       android:name=".ui.SubscribeActivity"
+	       android:label="@string/subscribe_activity_label"
+	       >
+           <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="http" android:host="*" android:pathPattern=".*\.xml" />
+                <data android:scheme="http" android:host="*" android:pathPattern=".*\.rss" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="http" />
+                <data android:host="feeds.feedburner.com" />
+                <data android:host="feedproxy.google.com" />
+                <data android:host="feeds2.feedburner.com" />
+                <data android:host="feedsproxy.google.com" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:mimeType="text/xml" android:scheme="http" />
+                <data android:mimeType="application/rss+xml" android:scheme="http" />
+                <data android:mimeType="application/atom+xml" android:scheme="http" />
+            </intent-filter>
+        </activity>
+        
+        <activity 
+            android:name=".ui.AddItemActivity"
+            android:label="@string/add_item_activity_label"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+        </activity>
+	       
+	       
+	    
+	    <!-- The application's publisher ID assigned by AdMob -->
+	    <meta-data android:value="a14d6461a37126a" android:name="ADMOB_PUBLISHER_ID" />
+	    <!-- AdMobActivity definition -->
+        <activity
+	        android:name="com.google.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout"
+        />
+	    
+	    <service android:enabled="true" android:name=".service.FeedService" />
+	    
+	    <receiver android:process=":remote" android:name=".service.ScheduleReceiver">
+	        <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        
+        <!-- 
+        <provider 
+            android:name=".data.PlaylistProvider"
+            android:authorities="net.oddsoftware.android.feedscribe"
+            android:exported="false"
+        />
+        -->
+        
+        <provider
+            android:name="net.oddsoftware.android.html.HttpCacheProvider"
+            android:authorities="net.oddsoftware.android.feedscribe.html.HttpCacheProvider"
+            android:exported="false"
+        />
+	    
+	</application>
+    
+
+</manifest> 
+
