@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res/net.oddsoftware.android.cricket"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     >
@@ -31,20 +30,6 @@
              android:layout_weight="1"
         />
     </LinearLayout>
-       
-    <!-- 
-    <com.admob.android.ads.AdView
-        android:id="@+id/ad"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_above="@id/buttons"
-        app:backgroundColor="#000000"
-        app:primaryTextColor="#FFFFFF"
-        app:secondaryTextColor="#CCCCCC"
-        app:refreshInterval="30"
-        app:keywords="News Cricket Sports"
-    />
-    -->
     
     <WebView
         android:id="@+id/web_view"
