@@ -18,6 +18,7 @@
              android:layout_height="wrap_content"
              android:layout_width="wrap_content"
              android:src="@drawable/up_arrow_normal"
+             android:contentDescription="@string/btn_previous"
              android:onClick="onPrev"
              android:layout_weight="1"
         />
@@ -26,6 +27,7 @@
              android:layout_height="wrap_content"
              android:layout_width="wrap_content"
              android:src="@drawable/down_arrow_normal"
+             android:contentDescription="@string/btn_next"
              android:onClick="onNext"
              android:layout_weight="1"
         />
