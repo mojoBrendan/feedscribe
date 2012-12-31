@@ -17,6 +17,7 @@
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <EditText
+        android:inputType="textCapWords"
         android:id="@+id/txt_name"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
