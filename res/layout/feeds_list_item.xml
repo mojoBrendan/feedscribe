@@ -9,7 +9,8 @@
         >
         <ImageView 
             android:id="@+id/imageView1" 
-            android:src="@drawable/ic_default_feed" 
+            android:src="@drawable/ic_default_feed"
+            android:contentDescription="@string/img_feed_icon"
             android:layout_height="40sp" 
             android:layout_width="40sp"
             android:scaleType="fitCenter" 

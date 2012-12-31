@@ -85,13 +85,15 @@
     <string name="btn_subscribe">Add</string>
     <string name="btn_read_now">Read Now</string>
     <string name="btn_read_later">Read Later</string>
-	<string name="btn_rename">Rename</string>
-	<string name="btn_cancel">Cancel</string>
     <string name="btn_pause">Pause</string>
     <string name="btn_rewind">Rewind</string>
     <string name="btn_fast_forward">Fast Forward</string>
+    <string name="btn_next">Next</string>
+    <string name="btn_previous">Previous</string>
 
     <string name="img_thumbnail">Thumbnail</string>
+    <string name="img_file_icon">File Icon</string>
+    <string name="img_feed_icon">Feed Icon</string>
 
     <string name="refreshing">Updating</string>
     <string name="star_added">Star Added</string>
