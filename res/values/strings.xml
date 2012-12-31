@@ -40,7 +40,6 @@
     <string name="open_original">Open Original</string>
     <string name="share_original">Share</string>
     <string name="preferences_title">FeedScribe: Preferences</string>
-    <string name="version">0.8.3</string>
     <string name="pref_info">Info</string>
     <string name="pref_keep_time_title">Article Keep Time</string>
     <string name="pref_keep_time_summary">Tap to change how long articles are kept</string>
