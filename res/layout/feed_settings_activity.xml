@@ -1,6 +1,6 @@
 
     <ScrollView android:id="@+id/scrollView1" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
-        <TableLayout android:layout_width="fill_parent" android:id="@+id/tableLayout1" android:layout_height="fill_parent" >
+        <TableLayout android:layout_width="fill_parent" android:id="@+id/tableLayout1" android:layout_height="wrap_content" >
             <TableRow>
                 <TextView
                     android:text="Update Automatically"
@@ -19,7 +19,7 @@
                     android:layout_height="wrap_content"
                 />
             </TableRow>
-            <View android:layout_height="1px" android:background="#FF909090" />
+            <View android:layout_height="1dp" android:background="#FF909090" />
             <TableRow>
                 <TextView
                     android:text="Display Full Article"
@@ -38,7 +38,7 @@
                     android:layout_height="wrap_content"
                 />
             </TableRow>
-            <View android:layout_height="1px" android:background="#FF909090" />
+            <View android:layout_height="1dp" android:background="#FF909090" />
             <TableRow>
                 <TextView
                     android:text="Cache Article"
@@ -57,7 +57,7 @@
                     android:layout_height="wrap_content"
                 />
             </TableRow>
-            <View android:layout_height="1px" android:background="#FF909090" />
+            <View android:layout_height="1dp" android:background="#FF909090" />
             <TableRow>
                 <TextView
                     android:text="Cache Images"
@@ -76,7 +76,7 @@
                     android:layout_height="wrap_content"
                 />
             </TableRow>
-            <View android:layout_height="1px" android:background="#FF909090" />
+            <View android:layout_height="1dp" android:background="#FF909090" />
             <TableRow>
                 <TextView
                     android:text="Textify Article"
