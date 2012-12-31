@@ -232,6 +232,7 @@ public class AudioPlayer
                 mediaPlayer.setDataSource(mContext, Uri.parse(thing));
                 mCurrentPath = null;
             }
+            mediaPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC);
             mediaPlayer.prepare();
             mediaPlayer.setWakeMode(mContext, PowerManager.PARTIAL_WAKE_LOCK);
             mediaPlayer.start();
