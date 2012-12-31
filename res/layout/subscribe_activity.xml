@@ -1,7 +1,7 @@
 
     <RelativeLayout android:id="@+id/relativeLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
         <TextView android:layout_height="wrap_content" android:text="@string/feed_add" android:id="@+id/textView1" android:layout_width="wrap_content"></TextView>
-        <EditText android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/subscribeURLEditText" android:layout_width="fill_parent" android:layout_below="@+id/textView1" android:inputType="textUri" android:imeOptions="actionGo"></EditText>
+        <EditText android:layout_height="wrap_content" android:id="@+id/subscribeURLEditText" android:layout_width="fill_parent" android:layout_below="@+id/textView1" android:inputType="textUri" android:imeOptions="actionGo"></EditText>
         <Button android:layout_height="wrap_content" android:text="@string/btn_subscribe" android:onClick="onAddClicked" android:layout_width="wrap_content" android:id="@+id/subscribeButton" android:layout_below="@+id/subscribeURLEditText" android:layout_alignParentRight="true"></Button>
         <ProgressBar android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_centerInParent="true" android:layout_alignParentBottom="false" android:id="@+id/progressBar" android:visibility="invisible" android:layout_below="@+id/subscribeButton"></ProgressBar>
         <TextView android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/progressBar" android:layout_alignParentLeft="true" android:text="@string/subscribe_hint"/>
