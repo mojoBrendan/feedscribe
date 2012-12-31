@@ -1,7 +1,7 @@
 
     <RelativeLayout android:id="@+id/relativeLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
         <TextView android:layout_height="wrap_content" android:text="@string/feed_add" android:id="@+id/textView1" android:layout_width="wrap_content" />
-        <EditText android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/addItemEditText" android:layout_width="fill_parent" android:layout_below="@+id/textView1" android:inputType="textUri" />
+        <EditText android:layout_height="wrap_content" android:id="@+id/addItemEditText" android:layout_width="fill_parent" android:layout_below="@+id/textView1" android:inputType="textUri" />
         <Button android:layout_height="wrap_content" android:text="@string/btn_read_later" android:onClick="onReadLaterClicked" android:layout_width="wrap_content" android:id="@+id/readNowButton" android:layout_below="@+id/addItemEditText" android:layout_centerHorizontal="true" />
         <Button android:layout_height="wrap_content" android:text="@string/btn_read_now" android:onClick="onReadNowClicked" android:layout_width="wrap_content" android:id="@+id/readLaterButton" android:layout_below="@+id/readNowButton"  android:layout_centerHorizontal="true" />
     </RelativeLayout>
