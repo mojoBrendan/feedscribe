@@ -6,7 +6,6 @@
     <string name="add_item_activity_label">Add to FeedScribe</string>
     <string name="subscribe_activity_label">Subscribe in FeedScribe</string>
     
-    <string name="menu_sync">Update</string>
     <string name="menu_refresh">Refresh</string>
     <string name="menu_refresh_article">Reload Article</string>
     <string name="menu_preferences">Settings</string>
@@ -48,8 +47,6 @@
     <string name="pref_notifications_title">Notifications</string>
     <string name="pref_notifications_summary">Check to receive notifications</string>
     <string name="pref_options">Options</string>
-    <string name="pref_regions_title">Countries</string>
-    <string name="pref_regions_summary">Tap to change country settings</string>
     <string name="pref_sync_time_title">Auto-Update</string>
     <string name="pref_sync_time_summary">Tap to change how often articles are updated</string>
     <string name="pref_contact_title">Contact</string>
@@ -90,7 +87,12 @@
     <string name="btn_read_later">Read Later</string>
 	<string name="btn_rename">Rename</string>
 	<string name="btn_cancel">Cancel</string>
-    
+    <string name="btn_pause">Pause</string>
+    <string name="btn_rewind">Rewind</string>
+    <string name="btn_fast_forward">Fast Forward</string>
+
+    <string name="img_thumbnail">Thumbnail</string>
+
     <string name="refreshing">Updating</string>
     <string name="star_added">Star Added</string>
     <string name="star_removed">Star Removed</string>
