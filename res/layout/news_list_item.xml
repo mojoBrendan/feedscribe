@@ -14,7 +14,7 @@
         android:id="@+id/DateText"
         android:layout_width="70sp"
         android:layout_height="fill_parent"
-        android:text="12:42"
+        android:text=""
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:gravity="bottom|left"
         android:clickable="true"
@@ -24,7 +24,7 @@
         android:id="@+id/TitleText"
         android:layout_width="0dp"
         android:layout_height="fill_parent"
-        android:text="Title Goes Here and is long"
+        android:text=""
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_weight="1"
     />
