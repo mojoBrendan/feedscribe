@@ -15,14 +15,14 @@
     
     
     <string name="menu_play">Play</string>
-    <string name="menu_play_external">Play With...</string>
+    <string name="menu_play_external">Play With&#8230;</string>
     <string name="menu_stream">Stream</string>
     <string name="menu_add_playlist">Add to Playlist</string>
     <string name="menu_add_playlist_stream">Add to Playlist (Stream)</string>
     <string name="menu_cancel_download">Cancel</string>
     <string name="menu_delete">Delete</string>
     <string name="menu_delete_download">Delete Downloaded File</string>
-    <string name="menu_feed_settings">Feed Settings...</string>
+    <string name="menu_feed_settings">Feed Settings&#8230;</string>
     <string name="menu_download">Download</string>
     <string name="menu_download_size">Download - %1$s</string>
     <string name="menu_mark_read">Mark As Old</string>
@@ -35,8 +35,8 @@
     <string name="menu_mark_all_read">Mark All As Read</string>
     <string name="menu_delete_all_read">Delete All Read</string>
     <string name="menu_refresh_feed">Refresh Feed</string>
-    <string name="menu_rename_feed">Rename Feed...</string>
-    <string name="menu_delete_feed">Delete Feed...</string>
+    <string name="menu_rename_feed">Rename Feed&#8230;</string>
+    <string name="menu_delete_feed">Delete Feed&#8230;</string>
     
     <string name="open_original">Open Original</string>
     <string name="share_original">Share</string>
