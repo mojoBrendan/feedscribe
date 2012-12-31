@@ -222,9 +222,9 @@ public class FeedService extends WakefulIntentService implements FeedUpdateListe
     
     private void showNewItemsNotification(int newItems)
     {
-        String tickerText = getResources().getString(R.string.notification_new_items_ticker, new Integer(newItems));
+        String tickerText = getResources().getString(R.string.notification_new_items_ticker, Integer.valueOf(newItems));
         String titleText = getResources().getString(R.string.notification_new_items_title);
-        String text = getResources().getString(R.string.notification_new_items_text, new Integer(newItems));
+        String text = getResources().getString(R.string.notification_new_items_text, Integer.valueOf(newItems));
         
         Intent intent = new Intent(this, FeedsActivity.class);
         intent.setFlags( Intent.FLAG_ACTIVITY_CLEAR_TOP );
