@@ -2169,7 +2169,7 @@ public class FeedManager {
                         
                         if( name != null && url != null )
                         {
-                            url = url.toLowerCase();
+                            url = url.toLowerCase(Locale.US);
                             
                             mLog.w("checking for existing feed name " + name + " url " + url);
                             
