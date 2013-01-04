@@ -174,15 +174,17 @@ public class PlayAudioActivity extends Activity
             
             player.setItem(itemId, enclosureId);
             
+            int seekTo = (int) getIntent().getLongExtra(EXTRA_SEEK_TO, 0);
+            
             if( path != null )
             {
-                started = player.playPath( path );
+                started = player.playPath( path, seekTo );
                 
                 loadAlbumArt( itemId, path );
             }
             else if( url != null )
             {
-                started = player.playUrl( url );
+                started = player.playUrl( url, seekTo );
                 
                 loadAlbumArt( itemId, null );
             }
@@ -197,12 +199,6 @@ public class PlayAudioActivity extends Activity
             mDurationText.setText( Utilities.formatDuration((duration + 500)/1000) );
             
             ((ImageButton) findViewById(R.id.btn_pause)).setImageResource(android.R.drawable.ic_media_pause);
-        }
-        
-        long seekTo = getIntent().getLongExtra(EXTRA_SEEK_TO, 0);
-        if( seekTo > 0)
-        {
-            player.seekTo((int) seekTo);
         }
     }
     

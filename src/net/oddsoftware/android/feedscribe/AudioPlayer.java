@@ -184,7 +184,7 @@ public class AudioPlayer
         MediaPlayer mediaPlayer = getMediaPlayer();
         int pos = mediaPlayer.getCurrentPosition();
         pos += i;
-        mediaPlayer.seekTo(pos);
+        seekTo(pos);
     }
 
     public void pause()
@@ -204,18 +204,18 @@ public class AudioPlayer
         }
     }
 
-    public boolean playPath(String path)
+    public boolean playPath(String path, int position)
     {
-        return playThing(path, true);
+        return playThing(path, true, position);
     }
     
-    public boolean playUrl(String url)
+    public boolean playUrl(String url, int position)
     {
-        return playThing(url, false);
+        return playThing(url, false, position);
     }
     
 
-    private boolean playThing(String thing, boolean isLocal)
+    private boolean playThing(String thing, boolean isLocal, int position)
     {
         try
         {
@@ -234,9 +234,12 @@ public class AudioPlayer
             }
             mediaPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC);
             mediaPlayer.prepare();
+            if (position > 0)
+                mediaPlayer.seekTo(position);
+
             mediaPlayer.setWakeMode(mContext, PowerManager.PARTIAL_WAKE_LOCK);
             mediaPlayer.start();
-            
+
             playbackStarted();
             
             mPaused = false;
