@@ -343,14 +343,20 @@ public class PlayAudioActivity extends Activity
             
             return remaining;
         }
-        else
+        else  // Player paused
         {
+            int position = player.getCurrentPosition();
+            mSeekBar.setProgress( position );
+            
             if( mPositionText.getVisibility() == View.VISIBLE )
             {
                 mPositionText.setVisibility(View.INVISIBLE);
             }
             else
             {
+                int seconds = position / 1000;
+                
+                mPositionText.setText( Utilities.formatDuration(seconds) );
                 mPositionText.setVisibility(View.VISIBLE);
             }
             
@@ -400,7 +406,7 @@ public class PlayAudioActivity extends Activity
         mHandler.removeCallbacks(mUpdateTask);
         
         AudioPlayer player = AudioPlayer.getInstance(this);
-        if( player.isPlaying() )
+        if( player.hasStarted() )
         {
             player.savePosition();
         }
