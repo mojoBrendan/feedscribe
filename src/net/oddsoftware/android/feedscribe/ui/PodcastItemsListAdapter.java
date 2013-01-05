@@ -67,7 +67,7 @@ public class PodcastItemsListAdapter extends BaseAdapter
     public void update()
     {
         mFeedItemEnclosures = mFeedManager.getFeedItemEnclosureInfo(mFeedId, mEnclosureType );
-        notifyDataSetInvalidated();
+        notifyDataSetChanged();
     }
 
     @Override
