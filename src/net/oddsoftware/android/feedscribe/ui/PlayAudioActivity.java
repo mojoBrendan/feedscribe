@@ -173,7 +173,7 @@ public class PlayAudioActivity extends Activity
             long enclosureId = getIntent().getLongExtra(EXTRA_ENCLOSURE_ID, 0);
             
             player.setItem(itemId, enclosureId);
-            
+
             int seekTo = (int) getIntent().getLongExtra(EXTRA_SEEK_TO, 0);
             
             if( path != null )
