@@ -184,7 +184,7 @@ public class AudioPlayer
         MediaPlayer mediaPlayer = getMediaPlayer();
         int pos = mediaPlayer.getCurrentPosition();
         pos += i;
-        seekTo(pos);
+        mediaPlayer.seekTo(pos);
     }
 
     public void pause()
@@ -234,8 +234,9 @@ public class AudioPlayer
             }
             mediaPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC);
             mediaPlayer.prepare();
-            if (position > 0)
+            if (position > 0) {
                 mediaPlayer.seekTo(position);
+            }
 
             mediaPlayer.setWakeMode(mContext, PowerManager.PARTIAL_WAKE_LOCK);
             mediaPlayer.start();
