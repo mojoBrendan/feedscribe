@@ -324,46 +324,42 @@ public class PlayAudioActivity extends Activity
             
             return -1;
         }
-        else if( ! player.isPaused() )
-        {
-            int position = player.getCurrentPosition();
+
+        // started playing, update display
+        int position = player.getCurrentPosition();
+        int seconds = position / 1000;
             
-            //int seconds = (position + 500) / 1000;
-            int seconds = position / 1000;
-            
-            mSeekBar.setProgress( position );
-            mPositionText.setText( Utilities.formatDuration(seconds) );
-            
-            int remaining = 1000 - (position % 1000);
-            
-            mPositionText.setVisibility(View.VISIBLE);
-            
-            
-            ((ImageButton) findViewById(R.id.btn_pause)).setImageResource(android.R.drawable.ic_media_pause);
-            
-            return remaining;
-        }
-        else  // Player paused
-        {
-            int position = player.getCurrentPosition();
-            mSeekBar.setProgress( position );
-            
-            if( mPositionText.getVisibility() == View.VISIBLE )
-            {
-                mPositionText.setVisibility(View.INVISIBLE);
-            }
-            else
-            {
-                int seconds = position / 1000;
-                
-                mPositionText.setText( Utilities.formatDuration(seconds) );
-                mPositionText.setVisibility(View.VISIBLE);
+        mSeekBar.setProgress( position );
+        mPositionText.setText( Utilities.formatDuration(seconds) );
+
+        int nextTime = 500;
+        int positionVisible = mPositionText.getVisibility();
+        int pauseIcon;
+
+        if( player.isPaused() ) {
+            // flash text
+            if( positionVisible == View.VISIBLE ) {
+                positionVisible = View.INVISIBLE;
+            } else {
+                positionVisible = View.VISIBLE;
             }
             
-            ((ImageButton) findViewById(R.id.btn_pause)).setImageResource(android.R.drawable.ic_media_play);
+            pauseIcon = android.R.drawable.ic_media_play;
             
-            return 500;
+            // update 2x/second to flash position text
+            nextTime = 500;
+        } else {
+            positionVisible = View.VISIBLE;
+            pauseIcon = android.R.drawable.ic_media_pause;
+
+            // update on the next whole second of playback
+            nextTime = 1000 - (position % 1000);
         }
+
+        mPositionText.setVisibility(positionVisible);
+        ((ImageButton) findViewById(R.id.btn_pause)).setImageResource(pauseIcon);
+
+        return nextTime;
     }
     
     private void updateData(long itemId)
