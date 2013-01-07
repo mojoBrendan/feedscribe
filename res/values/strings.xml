@@ -157,27 +157,29 @@
  </string>
     
     <string name="info_title">Information</string>
-    <string name="info_text"><b>Welcome to the FeedScribe Beta</b>
- \nThis is the first version of what we hope will become
- one of the best newsreading and podcasting applications for
- android.
+    <string name="info_text"><b>Welcome to FeedScribe</b>
+ \nFeedscribe is an all-in-one podcast, vodcast, video podcast, RSS and Atom feed reader.
+ \n
+ \n* download and play audio and video podcasts
+ \n* news reading
+ \n* textify feature for offline webpages
+ \n* OPML import and export
  \n
  \nGet started by clicking the menu button, and adding some feeds.
  \n
- \nOnly a few features are implemented so far, but playing audio and
- video podcasts, as well as offline news reading are very usable.
+ \nPlease take time to leave your comments, either via the market, or the settings screen. With your feedback we hope to create an app  that you will enjoy using.
  \n
- \nPlease take time to leave your comments, either via the market,
- or the settings screen. With your feedback we hope to create an app
- that you will enjoy using.
- \n
- \nSome of the things we are planning include:
+ \nSome upcoming the things we are planning include:
  \n* Playlists
  \n* Podcast directory searching
  \n* Scheduled downloading
- \n* Google Reader Integration
+ \n* Automatic deletion
+ \n* Google Reader Import
  \n
- 
+ \n<b>New In 0.9.0</b>
+ \n* Remove analytics
+ \n* Feed parser improvements
+ \n
  \n<b>New In 0.8.0</b>
  \n* Display embedded ID3 images while playing podcasts
  \n* Display podcast feed logos in feed lists
@@ -232,11 +234,22 @@
     
     <string name="credits_title">Credits</string>
     <string name="credits_text">
-This software is Copyright &#xA9; 2011 Odd Software.\n\n
-Odd Software reserves the right to anonymously track and report user activity inside of this application.
-This functionality can be disabled in the settings.\n\n
+This software is Copyright &#xA9; 2013 Odd Software.\n\n
 All content is Copyright &#xA9; their respective owners.\n\n
-<small>
+<b>Contributers</b>\n
+Brendan McCarthy &lt;brendan@oddsoftware.net&gt;\n
+Michael Butscher &lt;mbutscher@gmx.de&gt;\n
+<b>License</b>
+<small>\n
+Feedscribe is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License version 3
+as published by the Free Software Foundation.\n
+\n
+Feedscribe is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.\n
+\n
 This software contains some components Copyright &#xA9; 2006-2011, HtmlCleaner team.\n
 All rights reserved.\n
  Redistribution and use of this software in source and binary forms, with or without modification, are permitted
